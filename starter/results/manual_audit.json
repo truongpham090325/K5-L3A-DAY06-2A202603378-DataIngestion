@@ -1,0 +1,57 @@
+{
+  "note": "Audit thủ công do chính tác giả (Phạm Quang Trường) thực hiện độc lập với điểm số truy xuất. Nguy cơ thiên lệch đã ghi nhận; không dùng LLM judge. Cách chọn mẫu: coherence theo 10 vị trí cố định = đầu 10 trang nội dung (trang vật lý 10..19); grounding trên 5 câu test; metadata trên 5 câu test x top-3 (15 bản ghi).",
+  "generated_at": "2026-11-13",
+
+  "coherence": {
+    "method": "Chọn 10 vị trí cố định trước khi xem điểm = câu đầu của 10 trang nội dung đầu (trang vật lý 10..19). Chấm chunk bao phủ vị trí đó thang 0-2 (0 = cắt giữa ý/thiếu chủ thể; 1 = hiểu một phần, thiếu ngữ cảnh; 2 = tự hiểu được, giữ trọn ý).",
+    "positions": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19],
+    "A": {
+      "scores": {"10": 1, "11": 1, "12": 1, "13": 1, "14": 1, "15": 1, "16": 1, "17": 1, "18": 1, "19": 1},
+      "mean": 1.0,
+      "reason": "Cửa sổ 500 ký tự cắt tại biên cố định nên thường cắt giữa câu/chữ: tr.10 cắt giữa từ 'công nghiệp ph...', tr.15/17 bắt đầu giữa danh sách, tr.19 bắt đầu giữa câu. Đa số hiểu một phần, thiếu ngữ cảnh ở biên."
+    },
+    "B": {
+      "scores": {"10": 2, "11": 2, "12": 2, "13": 2, "14": 2, "15": 2, "16": 2, "17": 2, "18": 2, "19": 1},
+      "mean": 1.9,
+      "reason": "Bám theo đoạn/heading nên 9/10 vị trí tự hiểu được; tr.19 bắt đầu giữa câu do chính PDF ngắt trang giữa câu (thuộc tính nguồn, không phải lỗi chunk). Lưu ý: sinh chunk heading rất ngắn (tr.10=14 ký tự, tr.13=40 ký tự)."
+    },
+    "C": {
+      "scores": {"10": 2, "11": 2, "12": 2, "13": 2, "14": 2, "15": 2, "16": 2, "17": 2, "18": 2, "19": 1},
+      "mean": 1.9,
+      "reason": "C = B về chunking nên giống hệt B."
+    }
+  },
+
+  "metadata": {
+    "method": "Trên 5 câu test x top-3 = 15 bản ghi, kiểm tra source, page, section đúng/đủ so với nguồn (section phải khớp khoảng trang đã định nghĩa trong manifest).",
+    "results": {
+      "A": {"correct": 15, "total": 15},
+      "B": {"correct": 15, "total": 15},
+      "C": {"correct": 15, "total": 15}
+    },
+    "reason": "source luôn = data/KTPM_N11.pdf; page = trang vật lý đúng; section gán theo khoảng trang nên luôn khớp (kiểm chứng được)."
+  },
+
+  "filter_compliance": {
+    "method": "Với 3 câu có filter (q20 chuong_1, q21 chuong_2, q22 chuong_3), kiểm tra top-3 có tuân thủ filter hay không.",
+    "results": {
+      "A": {"compliant": 2, "total": 3, "detail": {"q20": false, "q21": true, "q22": true}, "reason": "A không lọc nên q20 lọt chunk chuong_2."},
+      "B": {"compliant": 1, "total": 3, "detail": {"q20": false, "q21": true, "q22": false}, "reason": "B không lọc nên q20 lọt mo_dau, q22 lọt mo_dau."},
+      "C": {"compliant": 3, "total": 3, "detail": {"q20": true, "q21": true, "q22": true}, "reason": "C áp filter section nên top-3 luôn nằm đúng chương."}
+    }
+  },
+
+  "grounding": {
+    "method": "5 câu test, chấm top-3 thang 0-2 (0 = không có bằng chứng; 1 = có nhưng thiếu điều kiện/ngữ cảnh; 2 = đủ để trả lời và truy nguồn).",
+    "A": {"scores": {"q15": 2, "q16": 0, "q17": 2, "q18": 2, "q19": 0}, "mean": 1.2, "counts": {"0": 2, "1": 0, "2": 3}},
+    "B": {"scores": {"q15": 2, "q16": 0, "q17": 2, "q18": 2, "q19": 2}, "mean": 1.6, "counts": {"0": 1, "1": 0, "2": 4}},
+    "C": {"scores": {"q15": 2, "q16": 0, "q17": 2, "q18": 2, "q19": 2}, "mean": 1.6, "counts": {"0": 1, "1": 0, "2": 4}},
+    "reasons": {
+      "q15": "Evidence 'Nếu nhập sai chỉ được nhập lại tối đa 5 lần' nằm trong top-3 (cả 3 chiến lược).",
+      "q16": "Tên riêng 'Phạm Quang Trường' không có tín hiệu ngữ nghĩa nên không truy xuất được (cả 3 chiến lược = 0).",
+      "q17": "Evidence 'Tỉ lệ test case đạt (passed): 81.25%' trong top-3 (A xếp hạng 3; B/C xếp hạng 2).",
+      "q18": "Evidence 'Tỉ lệ test case không đạt (failed): 18.75%' trong top-3 (cả 3 chiến lược).",
+      "q19": "A = 0 do chunk cố định tách mất danh sách ngôn ngữ; B/C = 2 do chunk theo đoạn giữ nguyên danh sách ngôn ngữ."
+    }
+  }
+}

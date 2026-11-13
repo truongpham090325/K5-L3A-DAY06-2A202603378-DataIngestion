@@ -68,6 +68,7 @@ top-3 rồi ghi trace + chỉ số.
 | Code pipeline | `starter/src/` (`ingestion`, `chunking`, `embeddings`, `store`, `evaluation`, `run`) |
 | Trace top-3 (chạy thật) | `starter/results/traces.json` |
 | Chỉ số gộp + thống kê (chạy thật) | `starter/results/summary.json` |
+| Nhãn audit thủ công (coherence/grounding/metadata/filter) | `starter/results/manual_audit.json` |
 | Dữ liệu vector Chroma (local) | `starter/chroma_data/` (đã gitignore) |
 | Nhật ký thí nghiệm A/B/C | `artifacts/experiment_log.csv` |
 | Báo cáo cá nhân | `report/individual/2A202603378_PhamQuangTruong.md` |

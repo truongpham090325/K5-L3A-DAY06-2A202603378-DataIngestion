@@ -16,14 +16,15 @@
   Đọc bằng `pypdf` với `extraction_mode="layout"` (khử gần hết khoảng trắng thừa do Word→PDF), sau đó `NFC` + gộp khoảng trắng, giữ dòng để chunk theo đoạn. Không trang nào rỗng; không cần OCR (text gốc, không scan). Một số khoảng trắng thừa trong từ còn sót lại được xử lý khi so khớp evidence bằng *de-spaced matching* (`evaluation._despace`). Hạn chế: các trang 28..32 và 37..41 chủ yếu là hình/bảng nên ít ký tự (33–419 ký tự/trang), vẫn giữ vì chứa chú thích có ý nghĩa.
 
 - **Embedding model / vector store / metric / chi phí (đã chạy):**
-  - **Embedding: local Sentence Transformers `paraphrase-multilingual-MiniLM-L12-v2`, 384 chiều.** Lý do dùng local thay vì OpenAI: tài khoản OpenAI hết credit (lỗi HTTP 429 "You have no credits remaining") — đã ghi nhận và dùng phương án dự phòng theo `RULES.md`. Model là embedding thật, không phải vector mock; query/document dùng chung encoder (model đối xứng), chuẩn hóa L2.
-  - **Vector store: Chroma (persistent local, cosine `hnsw:space=cosine`), lưu tại `starter/chroma_data/`.** Lý do dùng Chroma thay pgvector: môi trường chạy không có Docker/PostgreSQL (`docker` không khả dụng). Search exact cosine; metadata filter qua `where`.
+  - **Embedding: local Sentence Transformers `paraphrase-multilingual-MiniLM-L12-v2`, 384 chiều** (sentence-transformers 6.3.0, torch 2.15.0+cpu). Lý do dùng local thay vì OpenAI: tài khoản OpenAI hết credit (lỗi HTTP 429 "You have no credits remaining") — đã ghi nhận và dùng phương án dự phòng theo `RULES.md`. Model là embedding thật, không phải vector mock; query/document dùng chung encoder (model đối xứng), chuẩn hóa L2.
+  - **Vector store: Chroma 1.5.9 (persistent local, cosine `hnsw:space=cosine`), lưu tại `starter/chroma_data/`.** Lý do dùng Chroma thay pgvector: môi trường chạy không có Docker/PostgreSQL (`docker` không khả dụng). Search exact cosine; metadata filter qua `where`.
   - Chi phí API: **$0** (model local, không gọi API trả phí). Nếu dùng OpenAI `text-embedding-3-small` thì ước tính ~$0.0002 (token ≈ ký tự/4, giá $0.02/1M).
   - Mã vẫn hỗ trợ cả hai backend qua biến môi trường `EMBEDDING_BACKEND` (`openai`/`local`) và `STORE_BACKEND` (`pgvector`/`chroma`).
 
 - **Metadata bắt buộc và trường lọc bổ sung:**
   - Bắt buộc: `document_id` (=`ktpm_e2e_selenium`), `source` (=`data/KTPM_N11.pdf`), `page` (trang vật lý PDF, 1-based).
   - Trường lọc bổ sung: **`section`** (`string`), 5 giá trị `mo_dau`, `chuong_1`, `chuong_2`, `chuong_3`, `ket_luan`; gán theo khoảng trang (kiểm chứng được). Lý do chọn: 3 chương phân biệt rõ, cho phép lọc truy vấn theo chương.
+  - **Tính hữu dụng (không chỉ "đủ trường"):** `section` giúp *lọc phạm vi truy vấn* (khi câu hỏi chỉ quan tâm một chương) và *truy vết* (biết ngay chunk thuộc chương nào) — thực tế C lọc đúng 3/3 câu filter, loại bỏ chunk ngoài chương. **Hạn chế:** `section` chỉ có 5 giá trị (mức chương) nên *không* phân biệt được các mục con trong cùng một chương (vd nhiều test case khác nhau đều là `chuong_3`); muốn lọc mịn hơn cần thêm trường như `module_name`.
 
 ---
 
@@ -74,7 +75,11 @@ Thống kê chunk (thật): **A** 120 chunk, 46 923 ký tự (min 33, max 500, m
 - **Filter tuân thủ** (3 câu có filter): C đạt **3/3** (áp filter nên top-3 nằm đúng chương); A=2/3, B=1/3 vì không lọc nên lọt chunk ngoài chương (vd B `q20` trả về trang 11 thuộc `mo_dau`). Với câu không filter, C chạy không filter (đúng GUIDE).
 - **Grounding** (5 câu test, thang 0–2): A yếu hơn (q19 thiếu bằng chứng ngôn ngữ Selenium vì chunk cố định tách nhầm phần; q16 không có bằng chứng). B/C tốt hơn: 4/5 câu đủ bằng chứng; q16 vẫn 0 vì tên riêng không có tín hiệu ngữ nghĩa.
 
-**Đường dẫn trace và nhãn:** trace top-3 đầy đủ tại `starter/results/traces.json` (câu, ID chunk, text, score, metadata, cờ hit, filter-compliance); chỉ số gộp tại `starter/results/summary.json`. Cách chọn mẫu: coherence theo 10 trang đầu đã sắp xếp; metadata/grounding trên 5 câu test.
+**Đường dẫn trace và nhãn:** trace top-3 đầy đủ tại `starter/results/traces.json` (câu, ID chunk, text, score, metadata, cờ hit, filter-compliance); chỉ số gộp tại `starter/results/summary.json`; nhãn thủ công chi tiết (coherence từng vị trí, grounding từng câu, filter từng câu) tại `starter/results/manual_audit.json`. Cách chọn mẫu: coherence theo 10 trang đầu đã sắp xếp; metadata/grounding trên 5 câu test.
+
+**Nạp lại không trùng:** `upsert` xóa theo `(strategy, document_id)` rồi chèn lại nên idempotent — pipeline đã chạy lại 3 lần, số chunk luôn ổn định (A=120, B=C=103) và kết quả Hit@1/Hit@3 giữ nguyên, không nhân đôi. Khi tài liệu đổi (chunk boundary thay đổi), chunk cũ được xóa tự động.
+
+**Đối chiếu 5 tiêu chí (BENCHMARK.md):** ① Retrieval accuracy → bảng Hit@1/Hit@3 dev+test; ② Chunk coherence → nhãn 10 vị trí (1.0/1.9/1.9); ③ Metadata usefulness → 15/15 + filter tuân thủ + giải thích hữu dụng & hạn chế; ④ Grounding quality → nhãn 5 câu test (1.2/1.6/1.6); ⑤ Data strategy impact → so sánh A–B và B–C kèm đánh đổi.
 
 ---
 
