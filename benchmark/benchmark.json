@@ -1,0 +1,234 @@
+{
+  "meta": {
+    "corpus_source_id": "ktpm_e2e_selenium",
+    "description": "Bộ câu hỏi cho lab Day 06 — tài liệu kỹ thuật về kiểm thử phần mềm End-to-End và Selenium (website IVY moda).",
+    "split_rule": "Tách dev/test trước khi chạy thử. Filter dựa trên metadata 'section' (chương), giá trị do người dùng/ngữ cảnh cung cấp trước khi truy xuất.",
+    "note_evidence": "evidence_quote được kiểm chứng tồn tại ở trang nguồn sau chuẩn hóa (so khớp de-spaced). gold_page là trang vật lý PDF (1-based).",
+    "generated_at": "2026-11-13"
+  },
+  "questions": [
+    {
+      "id": "q01",
+      "split": "dev",
+      "type": "truc_tiep",
+      "question": "Kiểm thử phần mềm được định nghĩa như thế nào?",
+      "expected_answer": "Là một phương pháp để kiểm tra xem sản phẩm phần mềm thực tế có phù hợp với các yêu cầu mong đợi hay không và để đảm bảo rằng không có khiếm khuyết",
+      "gold_source_id": "ktpm_e2e_selenium",
+      "gold_page": 13,
+      "evidence_quote": "Kiểm thử phần mềm là một phương pháp để kiểm tra xem sản phẩm phần mềm thực tế có phù hợp với các yêu cầu mong đợi hay không và để đảm bảo rằng không có khiếm khuyết"
+    },
+    {
+      "id": "q02",
+      "split": "dev",
+      "type": "truc_tiep",
+      "question": "Quy trình kiểm thử phần mềm gồm bao nhiêu giai đoạn?",
+      "expected_answer": "6 giai đoạn",
+      "gold_source_id": "ktpm_e2e_selenium",
+      "gold_page": 13,
+      "evidence_quote": "Quy trình kiểm thử phần mềm gồm 6 giai đoạn"
+    },
+    {
+      "id": "q03",
+      "split": "dev",
+      "type": "dien_dat_lai",
+      "question": "Ai là người chịu trách nhiệm tiến hành kiểm thử đơn vị?",
+      "expected_answer": "Lập trình viên cùng nhóm của mình",
+      "gold_source_id": "ktpm_e2e_selenium",
+      "gold_page": 16,
+      "evidence_quote": "Người tiến hành kiểm thử đơn vị: lập trình viên cùng nhóm của mình"
+    },
+    {
+      "id": "q04",
+      "split": "dev",
+      "type": "truc_tiep",
+      "question": "Kỹ thuật chủ yếu được dùng trong kiểm thử đơn vị là gì?",
+      "expected_answer": "Kỹ thuật kiểm thử hộp trắng",
+      "gold_source_id": "ktpm_e2e_selenium",
+      "gold_page": 16,
+      "evidence_quote": "Kỹ thuật kiểm thử đơn vị: chủ yếu là hộp trắng"
+    },
+    {
+      "id": "q05",
+      "split": "dev",
+      "type": "truc_tiep",
+      "question": "Kiểm thử tích hợp có bao nhiêu cách tích hợp?",
+      "expected_answer": "Hai cách (tích hợp từng bước và tích hợp đồng thời)",
+      "gold_source_id": "ktpm_e2e_selenium",
+      "gold_page": 16,
+      "evidence_quote": "Có hai cách tích hợp"
+    },
+    {
+      "id": "q06",
+      "split": "dev",
+      "type": "truc_tiep",
+      "question": "Kiểm thử hệ thống sử dụng phương pháp kiểm thử nào?",
+      "expected_answer": "Phương pháp kiểm thử hộp đen",
+      "gold_source_id": "ktpm_e2e_selenium",
+      "gold_page": 17,
+      "evidence_quote": "Phương pháp: kiểm thử hộp đen"
+    },
+    {
+      "id": "q07",
+      "split": "dev",
+      "type": "dieu_kien_ngoai_le",
+      "question": "Kiểm thử alpha được người dùng thực hiện với loại số liệu nào?",
+      "expected_answer": "Số liệu giả lập, trong môi trường phát triển",
+      "gold_source_id": "ktpm_e2e_selenium",
+      "gold_page": 18,
+      "evidence_quote": "Người dùng thực hiện với số liệu giả lập"
+    },
+    {
+      "id": "q08",
+      "split": "dev",
+      "type": "dien_dat_lai",
+      "question": "Phương pháp kiểm thử hộp trắng nhằm kiểm tra điều gì?",
+      "expected_answer": "Kiểm tra thuật toán, cấu trúc code bên trong của sản phẩm",
+      "gold_source_id": "ktpm_e2e_selenium",
+      "gold_page": 18,
+      "evidence_quote": "Kiểm thử hộp trắng (White box testing) là phương pháp kiểm thử phần mềm nhằm kiểm tra thuật toán, cấu trúc code bên trong của sản phẩm"
+    },
+    {
+      "id": "q09",
+      "split": "dev",
+      "type": "truc_tiep",
+      "question": "Kiểm thử hộp đen được thực hiện mà không biết điều gì?",
+      "expected_answer": "Không biết cấu tạo bên trong của phần mềm",
+      "gold_source_id": "ktpm_e2e_selenium",
+      "gold_page": 20,
+      "evidence_quote": "kiểm thử phần mềm được thực hiện mà không biết được cấu tạo bên trong của phần mềm"
+    },
+    {
+      "id": "q10",
+      "split": "dev",
+      "type": "truc_tiep",
+      "question": "End-To-End Testing được định nghĩa như thế nào?",
+      "expected_answer": "Là loại kiểm thử phần mềm đảm bảo tính hoạt động chính xác của hệ thống trong môi trường thực tế, từ đầu vào đến đầu ra người dùng",
+      "gold_source_id": "ktpm_e2e_selenium",
+      "gold_page": 22,
+      "evidence_quote": "End-To-End Testing là một loại kiểm thử phần mềm được thực hiện để đảm bảo tính hoạt động chính xác của một hệ thống hoặc ứng dụng trong môi trường thực tế, từ đầu vào người dùng đến đầu ra người dùng"
+    },
+    {
+      "id": "q11",
+      "split": "dev",
+      "type": "truc_tiep",
+      "question": "Khung thiết kế thử nghiệm End-To-End từ đầu đến cuối bao gồm bao nhiêu phần?",
+      "expected_answer": "Ba phần",
+      "gold_source_id": "ktpm_e2e_selenium",
+      "gold_page": 24,
+      "evidence_quote": "Khung thiết kế thử nghiệm từ đầu đến cuối bao gồm ba phần"
+    },
+    {
+      "id": "q12",
+      "split": "dev",
+      "type": "truc_tiep",
+      "question": "Selenium là công cụ gì?",
+      "expected_answer": "Bộ công cụ kiểm thử tự động mã nguồn mở dành cho các ứng dụng web",
+      "gold_source_id": "ktpm_e2e_selenium",
+      "gold_page": 25,
+      "evidence_quote": "Selenium là một bộ công cụ kiểm thử tự động open source (open source test automation tool), dành cho các ứng dụng web"
+    },
+    {
+      "id": "q13",
+      "split": "dev",
+      "type": "truc_tiep",
+      "question": "Phiên bản mới nhất của công cụ Selenium là phiên bản nào?",
+      "expected_answer": "Selenium 4",
+      "gold_source_id": "ktpm_e2e_selenium",
+      "gold_page": 26,
+      "evidence_quote": "Hiện tại, phiên bản mới nhất của công cụ này là Selenium 4"
+    },
+    {
+      "id": "q14",
+      "split": "dev",
+      "type": "truc_tiep",
+      "question": "Website thời trang IVY moda được thành lập vào thời điểm nào?",
+      "expected_answer": "Tháng 10/2005",
+      "gold_source_id": "ktpm_e2e_selenium",
+      "gold_page": 33,
+      "evidence_quote": "IVY moda được thành lập vào tháng 10/2005"
+    },
+    {
+      "id": "q15",
+      "split": "test",
+      "type": "dieu_kien_ngoai_le",
+      "question": "Trong use case đăng nhập, khi nhập sai tài khoản thì khách hàng chỉ được nhập lại tối đa bao nhiêu lần?",
+      "expected_answer": "Tối đa 5 lần",
+      "gold_source_id": "ktpm_e2e_selenium",
+      "gold_page": 43,
+      "evidence_quote": "Nếu nhập sai chỉ được nhập lại tối đa 5 lần"
+    },
+    {
+      "id": "q16",
+      "split": "test",
+      "type": "truc_tiep",
+      "question": "Ai là người tạo test case kiểm thử chức năng \"Tìm kiếm sản phẩm\"?",
+      "expected_answer": "Phạm Quang Trường",
+      "gold_source_id": "ktpm_e2e_selenium",
+      "gold_page": 56,
+      "evidence_quote": "Người tạo: Phạm Quang Trường"
+    },
+    {
+      "id": "q17",
+      "split": "test",
+      "type": "truc_tiep",
+      "question": "Tỉ lệ test case đạt (passed) trong test report là bao nhiêu?",
+      "expected_answer": "81.25%",
+      "gold_source_id": "ktpm_e2e_selenium",
+      "gold_page": 68,
+      "evidence_quote": "Tỉ lệ test case đạt (passed): 81.25%"
+    },
+    {
+      "id": "q18",
+      "split": "test",
+      "type": "truc_tiep",
+      "question": "Tỉ lệ test case không đạt (failed) trong test report là bao nhiêu?",
+      "expected_answer": "18.75%",
+      "gold_source_id": "ktpm_e2e_selenium",
+      "gold_page": 69,
+      "evidence_quote": "Tỉ lệ test case không đạt (failed): 18.75%"
+    },
+    {
+      "id": "q19",
+      "split": "test",
+      "type": "dien_dat_lai",
+      "question": "Công cụ Selenium cho phép viết test script bằng những ngôn ngữ lập trình nào?",
+      "expected_answer": "Java, PHP, C#, Ruby, Python, Perl",
+      "gold_source_id": "ktpm_e2e_selenium",
+      "gold_page": 25,
+      "evidence_quote": "viết các testscript bằng các ngôn ngữ lập trình khác nhau như Java, PHP, C#, Ruby hay Python hay thậm chí là Perl"
+    },
+    {
+      "id": "q20",
+      "split": "dev",
+      "type": "metadata_filter",
+      "question": "Trong Chương 1, giai đoạn đầu tiên của quy trình kiểm thử phần mềm là gì?",
+      "expected_answer": "Phân tích yêu cầu (Requirement Analysis)",
+      "gold_source_id": "ktpm_e2e_selenium",
+      "gold_page": 14,
+      "evidence_quote": "Phân tích yêu cầu (Requirement Analysis)",
+      "filter": {"section": "chuong_1"}
+    },
+    {
+      "id": "q21",
+      "split": "dev",
+      "type": "metadata_filter",
+      "question": "Trong Chương 2, Selenium WebDriver có yêu cầu phải cài đặt server hay không?",
+      "expected_answer": "Không yêu cầu cài đặt server",
+      "gold_source_id": "ktpm_e2e_selenium",
+      "gold_page": 26,
+      "evidence_quote": "Selenium WebDriver không yêu cầu cài đặt server",
+      "filter": {"section": "chuong_2"}
+    },
+    {
+      "id": "q22",
+      "split": "test",
+      "type": "metadata_filter",
+      "question": "Trong Chương 3, website IVY moda thuộc sở hữu của ai?",
+      "expected_answer": "Doanh nhân Vũ Anh",
+      "gold_source_id": "ktpm_e2e_selenium",
+      "gold_page": 33,
+      "evidence_quote": "thuộc sở hữu của doanh nhân Vũ Anh",
+      "filter": {"section": "chuong_3"}
+    }
+  ]
+}

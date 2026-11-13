@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed_size,500,50,"document_id,source,page,section",none,text-embedding-3-small,"Fixed-size 500/50 giữ ngữ cảnh đều nhưng có thể cắt ngang ý (coherence thấp); không lọc",,,,,"baseline; chỉ đổi chunking so với B"
+B,by_paragraph,700,,"document_id,source,page,section",none,text-embedding-3-small,"Chunk theo đoạn/heading giữ trọn ý tốt hơn A; không lọc",,,,,"khác A ở chunking; khác C chỉ ở filter"
+C,by_paragraph,700,,"document_id,source,page,section",section,text-embedding-3-small,"Lọc theo section thu hẹp phạm vi, kỳ vọng tăng hit khi câu có filter; chỉ áp dụng khi câu hỏi cung cấp filter",,,,,"giống B về chunking; chỉ thêm metadata filter"

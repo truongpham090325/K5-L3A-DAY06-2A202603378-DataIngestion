@@ -1,0 +1,446 @@
+{
+  "source_id": "ktpm_e2e_selenium",
+  "title": "Tìm hiểu kỹ thuật kiểm thử End-to-End và ứng dụng công cụ Selenium cho website thời trang IVY moda",
+  "document_type": "technical_documentation",
+  "language": "vi",
+  "source_path": "data/KTPM_N11.pdf",
+  "source_format": "pdf",
+  "license_or_permission": "Đồ án/báo cáo kỹ thuật của chính học viên (nhóm); sử dụng cho mục đích học tập cá nhân trong bài lab.",
+  "accessed_at": "2026-11-13",
+  "snapshot": null,
+  "page_numbering": "Trang vật lý PDF đánh số từ 1; số trang in trong tài liệu = trang vật lý - 1.",
+  "counting_rule": "Chỉ tính trang có nội dung hữu ích (trang vật lý 10..70, tức 61 trang). Loại bỏ trang bìa/lời cảm ơn/mục lục/danh mục bảng-hình (trang 1..9) và trang tài liệu tham khảo (trang 71). Các trang 28..32, 37..41 chủ yếu là hình/ảnh-bảng nên có ít ký tự; vẫn giữ vì chứa chú thích hình/bảng có ý nghĩa.",
+  "content_page_range": [
+    10,
+    70
+  ],
+  "total_content_pages": 61,
+  "total_normalized_chars": 43973,
+  "filter_field": {
+    "name": "section",
+    "type": "string",
+    "source": "Cấu trúc chương của tài liệu, gán theo khoảng trang (kiểm chứng được).",
+    "values": {
+      "mo_dau": "PHẦN I. MỞ ĐẦU (trang 10..12)",
+      "chuong_1": "Chương 1. Tổng quan về kiểm thử phần mềm (trang 13..21)",
+      "chuong_2": "Chương 2. Tìm hiểu kỹ thuật kiểm thử End-to-End (trang 22..32)",
+      "chuong_3": "Chương 3. Kết quả thực nghiệm (trang 33..69)",
+      "ket_luan": "Kết luận (trang 70)"
+    },
+    "reason": "Trường lọc cho phép giới hạn truy vấn theo chương, hữu ích vì 3 chương có nội dung phân biệt rõ."
+  },
+  "sections": [
+    {
+      "section": "mo_dau",
+      "label": "PHẦN I. MỞ ĐẦU",
+      "first_page": 10,
+      "last_page": 12
+    },
+    {
+      "section": "chuong_1",
+      "label": "Chương 1. Tổng quan về kiểm thử phần mềm",
+      "first_page": 13,
+      "last_page": 21
+    },
+    {
+      "section": "chuong_2",
+      "label": "Chương 2. Tìm hiểu kỹ thuật kiểm thử End-to-End",
+      "first_page": 22,
+      "last_page": 32
+    },
+    {
+      "section": "chuong_3",
+      "label": "Chương 3. Kết quả thực nghiệm",
+      "first_page": 33,
+      "last_page": 69
+    },
+    {
+      "section": "ket_luan",
+      "label": "Kết luận",
+      "first_page": 70,
+      "last_page": 70
+    }
+  ],
+  "pages": [
+    {
+      "page": 10,
+      "section": "mo_dau",
+      "normalized_chars": 1795,
+      "content": true
+    },
+    {
+      "page": 11,
+      "section": "mo_dau",
+      "normalized_chars": 1322,
+      "content": true
+    },
+    {
+      "page": 12,
+      "section": "mo_dau",
+      "normalized_chars": 500,
+      "content": true
+    },
+    {
+      "page": 13,
+      "section": "chuong_1",
+      "normalized_chars": 1210,
+      "content": true
+    },
+    {
+      "page": 14,
+      "section": "chuong_1",
+      "normalized_chars": 928,
+      "content": true
+    },
+    {
+      "page": 15,
+      "section": "chuong_1",
+      "normalized_chars": 745,
+      "content": true
+    },
+    {
+      "page": 16,
+      "section": "chuong_1",
+      "normalized_chars": 1288,
+      "content": true
+    },
+    {
+      "page": 17,
+      "section": "chuong_1",
+      "normalized_chars": 1246,
+      "content": true
+    },
+    {
+      "page": 18,
+      "section": "chuong_1",
+      "normalized_chars": 947,
+      "content": true
+    },
+    {
+      "page": 19,
+      "section": "chuong_1",
+      "normalized_chars": 1169,
+      "content": true
+    },
+    {
+      "page": 20,
+      "section": "chuong_1",
+      "normalized_chars": 1091,
+      "content": true
+    },
+    {
+      "page": 21,
+      "section": "chuong_1",
+      "normalized_chars": 648,
+      "content": true
+    },
+    {
+      "page": 22,
+      "section": "chuong_2",
+      "normalized_chars": 1714,
+      "content": true
+    },
+    {
+      "page": 23,
+      "section": "chuong_2",
+      "normalized_chars": 1362,
+      "content": true
+    },
+    {
+      "page": 24,
+      "section": "chuong_2",
+      "normalized_chars": 698,
+      "content": true
+    },
+    {
+      "page": 25,
+      "section": "chuong_2",
+      "normalized_chars": 1568,
+      "content": true
+    },
+    {
+      "page": 26,
+      "section": "chuong_2",
+      "normalized_chars": 1612,
+      "content": true
+    },
+    {
+      "page": 27,
+      "section": "chuong_2",
+      "normalized_chars": 419,
+      "content": true
+    },
+    {
+      "page": 28,
+      "section": "chuong_2",
+      "normalized_chars": 78,
+      "content": true
+    },
+    {
+      "page": 29,
+      "section": "chuong_2",
+      "normalized_chars": 238,
+      "content": true
+    },
+    {
+      "page": 30,
+      "section": "chuong_2",
+      "normalized_chars": 306,
+      "content": true
+    },
+    {
+      "page": 31,
+      "section": "chuong_2",
+      "normalized_chars": 334,
+      "content": true
+    },
+    {
+      "page": 32,
+      "section": "chuong_2",
+      "normalized_chars": 39,
+      "content": true
+    },
+    {
+      "page": 33,
+      "section": "chuong_3",
+      "normalized_chars": 863,
+      "content": true
+    },
+    {
+      "page": 34,
+      "section": "chuong_3",
+      "normalized_chars": 1662,
+      "content": true
+    },
+    {
+      "page": 35,
+      "section": "chuong_3",
+      "normalized_chars": 379,
+      "content": true
+    },
+    {
+      "page": 36,
+      "section": "chuong_3",
+      "normalized_chars": 1171,
+      "content": true
+    },
+    {
+      "page": 37,
+      "section": "chuong_3",
+      "normalized_chars": 148,
+      "content": true
+    },
+    {
+      "page": 38,
+      "section": "chuong_3",
+      "normalized_chars": 43,
+      "content": true
+    },
+    {
+      "page": 39,
+      "section": "chuong_3",
+      "normalized_chars": 75,
+      "content": true
+    },
+    {
+      "page": 40,
+      "section": "chuong_3",
+      "normalized_chars": 33,
+      "content": true
+    },
+    {
+      "page": 41,
+      "section": "chuong_3",
+      "normalized_chars": 64,
+      "content": true
+    },
+    {
+      "page": 42,
+      "section": "chuong_3",
+      "normalized_chars": 277,
+      "content": true
+    },
+    {
+      "page": 43,
+      "section": "chuong_3",
+      "normalized_chars": 1501,
+      "content": true
+    },
+    {
+      "page": 44,
+      "section": "chuong_3",
+      "normalized_chars": 1049,
+      "content": true
+    },
+    {
+      "page": 45,
+      "section": "chuong_3",
+      "normalized_chars": 918,
+      "content": true
+    },
+    {
+      "page": 46,
+      "section": "chuong_3",
+      "normalized_chars": 1063,
+      "content": true
+    },
+    {
+      "page": 47,
+      "section": "chuong_3",
+      "normalized_chars": 854,
+      "content": true
+    },
+    {
+      "page": 48,
+      "section": "chuong_3",
+      "normalized_chars": 916,
+      "content": true
+    },
+    {
+      "page": 49,
+      "section": "chuong_3",
+      "normalized_chars": 1111,
+      "content": true
+    },
+    {
+      "page": 50,
+      "section": "chuong_3",
+      "normalized_chars": 671,
+      "content": true
+    },
+    {
+      "page": 51,
+      "section": "chuong_3",
+      "normalized_chars": 650,
+      "content": true
+    },
+    {
+      "page": 52,
+      "section": "chuong_3",
+      "normalized_chars": 459,
+      "content": true
+    },
+    {
+      "page": 53,
+      "section": "chuong_3",
+      "normalized_chars": 477,
+      "content": true
+    },
+    {
+      "page": 54,
+      "section": "chuong_3",
+      "normalized_chars": 660,
+      "content": true
+    },
+    {
+      "page": 55,
+      "section": "chuong_3",
+      "normalized_chars": 768,
+      "content": true
+    },
+    {
+      "page": 56,
+      "section": "chuong_3",
+      "normalized_chars": 730,
+      "content": true
+    },
+    {
+      "page": 57,
+      "section": "chuong_3",
+      "normalized_chars": 659,
+      "content": true
+    },
+    {
+      "page": 58,
+      "section": "chuong_3",
+      "normalized_chars": 749,
+      "content": true
+    },
+    {
+      "page": 59,
+      "section": "chuong_3",
+      "normalized_chars": 705,
+      "content": true
+    },
+    {
+      "page": 60,
+      "section": "chuong_3",
+      "normalized_chars": 468,
+      "content": true
+    },
+    {
+      "page": 61,
+      "section": "chuong_3",
+      "normalized_chars": 285,
+      "content": true
+    },
+    {
+      "page": 62,
+      "section": "chuong_3",
+      "normalized_chars": 242,
+      "content": true
+    },
+    {
+      "page": 63,
+      "section": "chuong_3",
+      "normalized_chars": 264,
+      "content": true
+    },
+    {
+      "page": 64,
+      "section": "chuong_3",
+      "normalized_chars": 248,
+      "content": true
+    },
+    {
+      "page": 65,
+      "section": "chuong_3",
+      "normalized_chars": 290,
+      "content": true
+    },
+    {
+      "page": 66,
+      "section": "chuong_3",
+      "normalized_chars": 294,
+      "content": true
+    },
+    {
+      "page": 67,
+      "section": "chuong_3",
+      "normalized_chars": 336,
+      "content": true
+    },
+    {
+      "page": 68,
+      "section": "chuong_3",
+      "normalized_chars": 270,
+      "content": true
+    },
+    {
+      "page": 69,
+      "section": "chuong_3",
+      "normalized_chars": 138,
+      "content": true
+    },
+    {
+      "page": 70,
+      "section": "ket_luan",
+      "normalized_chars": 1226,
+      "content": true
+    }
+  ],
+  "excluded": {
+    "front_matter": [
+      1,
+      9
+    ],
+    "references": [
+      71,
+      71
+    ]
+  },
+  "notes": [
+    "Trích xuất bằng pypdf extraction_mode='layout' rồi chuẩn hóa NFC + gộp khoảng trắng.",
+    "Vẫn còn một số khoảng trắng thừa trong từ do PDF xuất từ Word; được xử lý khi so khớp evidence bằng de-spaced matching, không ảnh hưởng embedding."
+  ]
+}
