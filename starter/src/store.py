@@ -169,3 +169,120 @@ class PgVectorStore:
             }
             for r in rows
         ]
+
+
+class ChromaStore:
+    """Chroma local vector store (persistent on disk, no Docker/server).
+
+    Exposes the same interface as ``PgVectorStore`` (``create_schema``,
+    ``upsert``, ``search``) so the pipeline can run on a machine without
+    PostgreSQL. Uses cosine space; metadata filter via Chroma's ``where``.
+    """
+
+    def __init__(
+        self,
+        persist_dir: str,
+        dimensions: int,
+        collection_name: str = "chunks",
+    ) -> None:
+        import chromadb
+
+        if dimensions <= 0:
+            raise ValueError("dimensions must be positive")
+        self.dimensions = dimensions
+        self._client = chromadb.PersistentClient(path=persist_dir)
+        self._collection = self._client.get_or_create_collection(
+            name=collection_name,
+            metadata={"hnsw:space": "cosine"},
+        )
+
+    def create_schema(self) -> None:
+        # Chroma auto-creates the collection on init; nothing to do here.
+        return None
+
+    def upsert(self, strategy: str, chunks: list[Chunk], vectors: list[list[float]]) -> None:
+        if len(chunks) != len(vectors):
+            raise ValueError("chunks and vectors must have the same length")
+        for vec in vectors:
+            if len(vec) != self.dimensions:
+                raise ValueError(
+                    f"vector dimension {len(vec)} != store dimension {self.dimensions}"
+                )
+        if not chunks:
+            return
+
+        # Remove obsolete chunks for this strategy+document before re-adding,
+        # so re-ingesting changed documents never leaves stale rows.
+        for document_id in {c.document_id for c in chunks}:
+            self._collection.delete(
+                where={
+                    "$and": [
+                        {"strategy": strategy},
+                        {"document_id": document_id},
+                    ]
+                }
+            )
+
+        self._collection.upsert(
+            ids=[f"{strategy}::{c.chunk_id}" for c in chunks],
+            embeddings=vectors,
+            documents=[c.text for c in chunks],
+            metadatas=[
+                {
+                    "strategy": strategy,
+                    "document_id": c.document_id,
+                    "source": c.source,
+                    "page": int(c.page),
+                    "section": c.metadata.get("section") or "",
+                }
+                for c in chunks
+            ],
+        )
+
+    def search(
+        self,
+        strategy: str,
+        query_vector: list[float],
+        top_k: int = 3,
+        filters: dict[str, Any] | None = None,
+    ) -> list[dict[str, Any]]:
+        if len(query_vector) != self.dimensions:
+            raise ValueError(
+                f"query vector dimension {len(query_vector)} != store dimension {self.dimensions}"
+            )
+        if top_k <= 0:
+            raise ValueError("top_k must be positive")
+
+        where_parts: list[dict[str, Any]] = [{"strategy": strategy}]
+        for key, value in (filters or {}).items():
+            if key not in _FILTER_COLUMNS:
+                raise ValueError(f"unsupported filter field {key!r}")
+            where_parts.append({key: value})
+        where: dict[str, Any] = (
+            where_parts[0] if len(where_parts) == 1 else {"$and": where_parts}
+        )
+
+        result = self._collection.query(
+            query_embeddings=[query_vector], n_results=top_k, where=where
+        )
+        ids = result["ids"][0]
+        distances = result["distances"][0]
+        metadatas = result["metadatas"][0]
+        documents = result["documents"][0]
+
+        hits: list[dict[str, Any]] = []
+        for i in range(len(ids)):
+            meta = metadatas[i] or {}
+            hits.append(
+                {
+                    "chunk_id": ids[i].split("::", 1)[-1],
+                    "document_id": meta.get("document_id"),
+                    "source": meta.get("source"),
+                    "page": meta.get("page"),
+                    "section": meta.get("section"),
+                    "text": documents[i],
+                    # Chroma cosine distance -> similarity (1 = identical).
+                    "score": float(1.0 - distances[i]),
+                }
+            )
+        return hits

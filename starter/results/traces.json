@@ -1,0 +1,2960 @@
+[
+  {
+    "question_id": "q01",
+    "question": "Kiểm thử phần mềm được định nghĩa như thế nào?",
+    "expected_answer": "Là một phương pháp để kiểm tra xem sản phẩm phần mềm thực tế có phù hợp với các yêu cầu mong đợi hay không và để đảm bảo rằng không có khiếm khuyết",
+    "split": "dev",
+    "filter": {},
+    "gold_page": 13,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p13-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 13,
+        "section": "chuong_1",
+        "score": 0.8677413463592529,
+        "text": "CHƯƠNG 1. TỔNG QUAN VỀ KIỂM THỬ PHẦN MỀM 1.1 Khái niệm về kiểm thử phần mềm 1.1.1. Khái niệm Kiểm thử phần mềm là một phương pháp để kiểm tra xem sản phẩm phần mềm thực tế có phù hợp với các yêu cầu mong đợi hay không và để đảm bảo rằng không có khiếm khuyết. Nó liên quan đến việc thực thi các thành phần phần mềm hệ thống bằng cách sử dụng thủ công hoặc tự động để đánh giá một hoặc nhiều thuộc tính quan trọng. 1.1.2. Vai trò - Đảm bảo chất lượng phần mềm và mang tính sống còn trong các dự án sản",
+        "hit": true
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p10-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 10,
+        "section": "mo_dau",
+        "score": 0.7571128606796265,
+        "text": "t làm việc để có thể cạnh tranh. Vì vậy kiểm thử phần mềm đang ngày càng đóng vai trò quan trọng trong ngành công nghiệp phần mềm không chỉ ở Việt Nam mà trên thế giới. Kiểm thử phần mềm là một khâu rất quan trọng trong quá trình phát triển phần mềm. Kiểm thử phần mềm để kiểm tra phần mềm có đúng với đặc tả và thiết kế hệ thống không, có đáp ứng yêu cầu người dùng không, có lỗi lập trình không, có hoạt động hiệu quả không, … Như vậy, kiểm thử phần mềm là để đáp ứng yêu cầu người dùng, phát hiện ",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p22-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 22,
+        "section": "chuong_2",
+        "score": 0.7141498327255249,
+        "text": "CHƯƠNG 2. TÌM HIỂU KỸ THUẬT KIỂM THỬ END-TO-END 2.1. Khái niệm End-To-End Testing là một loại kiểm thử phần mềm được thực hiện để đảm bảo tính ho ạt động chính xác c ủa một hệ thống hoặc ứng dụng trong môi trường thực tế, từ đầu vào người dùng đến đầu ra người dùng. Phương pháp này nh ằm mô phỏng một quy trình hoàn chỉnh của hệ thống từ đầu đến cuối, kiểm tra tích hợp giữa các thành phần và xác nhận rằng hệ thống hoạt động như dự định. 2.2. Tại sao phải kiểm thử End-To-End End-To-End Testing xác",
+        "hit": false
+      }
+    ],
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": null,
+    "strategy": "A"
+  },
+  {
+    "question_id": "q02",
+    "question": "Quy trình kiểm thử phần mềm gồm bao nhiêu giai đoạn?",
+    "expected_answer": "6 giai đoạn",
+    "split": "dev",
+    "filter": {},
+    "gold_page": 13,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p13-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 13,
+        "section": "chuong_1",
+        "score": 0.7245945930480957,
+        "text": "CHƯƠNG 1. TỔNG QUAN VỀ KIỂM THỬ PHẦN MỀM 1.1 Khái niệm về kiểm thử phần mềm 1.1.1. Khái niệm Kiểm thử phần mềm là một phương pháp để kiểm tra xem sản phẩm phần mềm thực tế có phù hợp với các yêu cầu mong đợi hay không và để đảm bảo rằng không có khiếm khuyết. Nó liên quan đến việc thực thi các thành phần phần mềm hệ thống bằng cách sử dụng thủ công hoặc tự động để đánh giá một hoặc nhiều thuộc tính quan trọng. 1.1.2. Vai trò - Đảm bảo chất lượng phần mềm và mang tính sống còn trong các dự án sản",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p19-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 19,
+        "section": "chuong_1",
+        "score": 0.6774077415466309,
+        "text": "ược bao phủ. - Kiểm thử có thể được thực hiện sớm trong quy trình phát tri ển phần mềm ngay cả khi GUI (Graphical User Interface - Giao diện đồ họa người dùng) không khả dụng. Nhược điểm: - Đòi hỏi nguồn lực chuyên nghi ệp có kiến thức và tay ngh ề cao về lập trình. - Tốn khá nhiều thời gian để kiểm tra được chi tiết cấu trúc, thuật toán bên trong sản phẩm. Các ứng dụng có cấu trúc hệ thống càng lớn càng cần rất nhiều thời gian để kiểm tra đầy đủ. - Kiểm thử diễn ra khi sản phẩm chưa được hoàn t",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p10-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 10,
+        "section": "mo_dau",
+        "score": 0.6718617677688599,
+        "text": "t làm việc để có thể cạnh tranh. Vì vậy kiểm thử phần mềm đang ngày càng đóng vai trò quan trọng trong ngành công nghiệp phần mềm không chỉ ở Việt Nam mà trên thế giới. Kiểm thử phần mềm là một khâu rất quan trọng trong quá trình phát triển phần mềm. Kiểm thử phần mềm để kiểm tra phần mềm có đúng với đặc tả và thiết kế hệ thống không, có đáp ứng yêu cầu người dùng không, có lỗi lập trình không, có hoạt động hiệu quả không, … Như vậy, kiểm thử phần mềm là để đáp ứng yêu cầu người dùng, phát hiện ",
+        "hit": false
+      }
+    ],
+    "hit@1": false,
+    "evidence_hit@3": false,
+    "filter_compliant_top3": null,
+    "strategy": "A"
+  },
+  {
+    "question_id": "q03",
+    "question": "Ai là người chịu trách nhiệm tiến hành kiểm thử đơn vị?",
+    "expected_answer": "Lập trình viên cùng nhóm của mình",
+    "split": "dev",
+    "filter": {},
+    "gold_page": 16,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p14-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 14,
+        "section": "chuong_1",
+        "score": 0.6355882883071899,
+        "text": "anager), team leader, khách hàng 1.2.2. Lập kế hoạch kiểm thử(Test planning) - Xác định phạm vi, hướng tiếp cận, quy trình, tài nguyên, và l ịch trình kiểm thử. - Lập kế hoạch cho các module, công cụ và môi trường, phân công và sắp xếp thứ tự kiểm thử. 1.2.3. Thiết kế kiểm thử (Test Case Development) - Thấu hiểu yêu cầu - Thiết kế các kịch bản kiểm thử chi tiết. - Chuẩn bị dữ liệu kiểm thử và viết các script kiểm thử nếu cần. - Review test case để bổ sung và tránh rủi ro 13",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p15-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 15,
+        "section": "chuong_1",
+        "score": 0.6278983950614929,
+        "text": " thử - Tổng kết kết quả kiểm thử và báo cáo về số lượng case pass/fail, pending, N/A, lỗi tìm thấy và các tiêu chí hoàn thành. - Đánh giá và rút ra bài h ọc kinh nghiệm từ quá trình kiểm thử. - Xuất bản các tài liệu báo cáo cuối cùng. 1.3. Các cấp độ kiểm thử phần mềm Hình 1.2: Mô hình chữ V 14",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p32-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 32,
+        "section": "chuong_2",
+        "score": 0.598946750164032,
+        "text": "Hình 2.11 Kiểm tra kết quả Test case 31",
+        "hit": false
+      }
+    ],
+    "hit@1": false,
+    "evidence_hit@3": false,
+    "filter_compliant_top3": null,
+    "strategy": "A"
+  },
+  {
+    "question_id": "q04",
+    "question": "Kỹ thuật chủ yếu được dùng trong kiểm thử đơn vị là gì?",
+    "expected_answer": "Kỹ thuật kiểm thử hộp trắng",
+    "split": "dev",
+    "filter": {},
+    "gold_page": 16,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p70-c2",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 70,
+        "section": "ket_luan",
+        "score": 0.6799443960189819,
+        "text": "ở rộng kiểm thử End-To-End với quy mô lớn như các trang web lớn. - Tìm hiểu và lựa chọn các công cụ kiểm thử khác để so sánh và tìm ra công c ụ tốt nhất để phục vụ cho mục đích của cá nhân hay doanh nghiệp. - Nghiên cứu và áp dụng các phương pháp kiểm thử tự động nhằm tăng hiệu suất và độ chính xác của quá trình kiểm thử. 69",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p49-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 49,
+        "section": "chuong_3",
+        "score": 0.6675047874450684,
+        "text": " và các thành phần chức năng được kiểm thử và không được kiểm thử. + Liệt kê những yêu cầu cho việc kiểm thử (Test Requirements). + Những chiến lược kiểm thử nên được sử dụng. + Ước lượng những yêu cầu về tài nguyên và chi phí cho việc kiểm thử. + Những tài liệu được lập sau khi hoàn thành việc kiểm thử. - Phạm vi: Tài liệu kế hoạch kiểm thử này được áp dụng cho việc kiểm thử chức năng trang web. 3.5.3.Thiết kế test case kiểm thử chức năng một số use case. 3.5.3.1.Kiểm thử chức năng đăng nhập Bả",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p17-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 17,
+        "section": "chuong_1",
+        "score": 0.6562068462371826,
+        "text": "ng trọng tâm là đánh giá về hoạt động, thao tác, sự tin cậy và các yêu cầu khác liên quan đến chất lượng của toàn hệ thống + Mức kiểm thử này đặc biệt thích hợp cho việc phát hiện lỗi giao tiếp với phần mềm hoặc phần cứng bên ngoài, chẳng hạn các lỗi \"tắc nghẽn\" (deadlock) hoặc chiếm dụng bộ nhớ + Đòi hỏi nhiều thời gian, công sức, thiết bị… Mục đích: kiểm thử thiết kế và toàn bộ hệ thống (sau khi tích hợp) có thỏa mãn yêu cầu đặt ra hay không tìm. Phương pháp: kiểm thử hộp đen Người thực hiện: ",
+        "hit": false
+      }
+    ],
+    "hit@1": false,
+    "evidence_hit@3": false,
+    "filter_compliant_top3": null,
+    "strategy": "A"
+  },
+  {
+    "question_id": "q05",
+    "question": "Kiểm thử tích hợp có bao nhiêu cách tích hợp?",
+    "expected_answer": "Hai cách (tích hợp từng bước và tích hợp đồng thời)",
+    "split": "dev",
+    "filter": {},
+    "gold_page": 16,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p70-c2",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 70,
+        "section": "ket_luan",
+        "score": 0.730486273765564,
+        "text": "ở rộng kiểm thử End-To-End với quy mô lớn như các trang web lớn. - Tìm hiểu và lựa chọn các công cụ kiểm thử khác để so sánh và tìm ra công c ụ tốt nhất để phục vụ cho mục đích của cá nhân hay doanh nghiệp. - Nghiên cứu và áp dụng các phương pháp kiểm thử tự động nhằm tăng hiệu suất và độ chính xác của quá trình kiểm thử. 69",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p49-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 49,
+        "section": "chuong_3",
+        "score": 0.7043591737747192,
+        "text": " và các thành phần chức năng được kiểm thử và không được kiểm thử. + Liệt kê những yêu cầu cho việc kiểm thử (Test Requirements). + Những chiến lược kiểm thử nên được sử dụng. + Ước lượng những yêu cầu về tài nguyên và chi phí cho việc kiểm thử. + Những tài liệu được lập sau khi hoàn thành việc kiểm thử. - Phạm vi: Tài liệu kế hoạch kiểm thử này được áp dụng cho việc kiểm thử chức năng trang web. 3.5.3.Thiết kế test case kiểm thử chức năng một số use case. 3.5.3.1.Kiểm thử chức năng đăng nhập Bả",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p15-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 15,
+        "section": "chuong_1",
+        "score": 0.686649739742279,
+        "text": " thử - Tổng kết kết quả kiểm thử và báo cáo về số lượng case pass/fail, pending, N/A, lỗi tìm thấy và các tiêu chí hoàn thành. - Đánh giá và rút ra bài h ọc kinh nghiệm từ quá trình kiểm thử. - Xuất bản các tài liệu báo cáo cuối cùng. 1.3. Các cấp độ kiểm thử phần mềm Hình 1.2: Mô hình chữ V 14",
+        "hit": false
+      }
+    ],
+    "hit@1": false,
+    "evidence_hit@3": false,
+    "filter_compliant_top3": null,
+    "strategy": "A"
+  },
+  {
+    "question_id": "q06",
+    "question": "Kiểm thử hệ thống sử dụng phương pháp kiểm thử nào?",
+    "expected_answer": "Phương pháp kiểm thử hộp đen",
+    "split": "dev",
+    "filter": {},
+    "gold_page": 17,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p16-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 16,
+        "section": "chuong_1",
+        "score": 0.8060966730117798,
+        "text": "ng kiểm thử đơn vị: - Kiểm thử giao diện (các tham số vào/ra qua giao diện) - Kiểm thử vào/ra (các file, bộ đệm và các lệnh đóng mở) - Kiểm thử cấu trúc dữ liệu cục bộ (khai báo và sử dụng biến) - Kiểm thử xử lý (các phép toán và tính đúng đắn của kết quả) - Kiểm thử điều kiện logic - Kiểm thử sai tiềm ẩn (về ngoại lệ, mô tả) - Kiểm thử các giá trị biên 1.3.2.Kiểm thử tích hợp Kiểm thử tích hợp nhằm nhận được một bộ phận chức năng hay một hệ con tốt Là một kỹ thuật có tính hệ thống để xây dựng c",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p49-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 49,
+        "section": "chuong_3",
+        "score": 0.7928358316421509,
+        "text": " và các thành phần chức năng được kiểm thử và không được kiểm thử. + Liệt kê những yêu cầu cho việc kiểm thử (Test Requirements). + Những chiến lược kiểm thử nên được sử dụng. + Ước lượng những yêu cầu về tài nguyên và chi phí cho việc kiểm thử. + Những tài liệu được lập sau khi hoàn thành việc kiểm thử. - Phạm vi: Tài liệu kế hoạch kiểm thử này được áp dụng cho việc kiểm thử chức năng trang web. 3.5.3.Thiết kế test case kiểm thử chức năng một số use case. 3.5.3.1.Kiểm thử chức năng đăng nhập Bả",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p70-c2",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 70,
+        "section": "ket_luan",
+        "score": 0.7803966999053955,
+        "text": "ở rộng kiểm thử End-To-End với quy mô lớn như các trang web lớn. - Tìm hiểu và lựa chọn các công cụ kiểm thử khác để so sánh và tìm ra công c ụ tốt nhất để phục vụ cho mục đích của cá nhân hay doanh nghiệp. - Nghiên cứu và áp dụng các phương pháp kiểm thử tự động nhằm tăng hiệu suất và độ chính xác của quá trình kiểm thử. 69",
+        "hit": false
+      }
+    ],
+    "hit@1": false,
+    "evidence_hit@3": false,
+    "filter_compliant_top3": null,
+    "strategy": "A"
+  },
+  {
+    "question_id": "q07",
+    "question": "Kiểm thử alpha được người dùng thực hiện với loại số liệu nào?",
+    "expected_answer": "Số liệu giả lập, trong môi trường phát triển",
+    "split": "dev",
+    "filter": {},
+    "gold_page": 18,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p18-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 18,
+        "section": "chuong_1",
+        "score": 0.6287409067153931,
+        "text": "1.3.4.Kiểm thử chấp nhận Kiểm thử chấp nhận (Acceptance Testing): v ận hành hệ thống trong môi trường của người sử dụng Kiểm thử alpha (Alpha Testing): - Người dùng thực hiện với số liệu giả lập - Trong môi trường phát triển Kiểm thử beta (Beta Testing): - Người dùng thực hiện với số liệu thực - Trong môi trường ứng dụng thực 1.4. Các phương pháp kiểm thử 1.4.1. Kiểm thử hộp trắng 1.4.1.1. Tổng quan về kiểm thử hộp trắng Kiểm thử hộp trắng (White box testing) là phương pháp kiểm thử phần mềm nhằ",
+        "hit": true
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p32-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 32,
+        "section": "chuong_2",
+        "score": 0.6279752850532532,
+        "text": "Hình 2.11 Kiểm tra kết quả Test case 31",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p15-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 15,
+        "section": "chuong_1",
+        "score": 0.595162034034729,
+        "text": " thử - Tổng kết kết quả kiểm thử và báo cáo về số lượng case pass/fail, pending, N/A, lỗi tìm thấy và các tiêu chí hoàn thành. - Đánh giá và rút ra bài h ọc kinh nghiệm từ quá trình kiểm thử. - Xuất bản các tài liệu báo cáo cuối cùng. 1.3. Các cấp độ kiểm thử phần mềm Hình 1.2: Mô hình chữ V 14",
+        "hit": false
+      }
+    ],
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": null,
+    "strategy": "A"
+  },
+  {
+    "question_id": "q08",
+    "question": "Phương pháp kiểm thử hộp trắng nhằm kiểm tra điều gì?",
+    "expected_answer": "Kiểm tra thuật toán, cấu trúc code bên trong của sản phẩm",
+    "split": "dev",
+    "filter": {},
+    "gold_page": 18,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p18-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 18,
+        "section": "chuong_1",
+        "score": 0.7937809228897095,
+        "text": " box testing) là phương pháp kiểm thử phần mềm nhằm kiểm tra thuật toán, cấu trúc code bên trong của sản phẩm. Hộp trắng tượng trưng cho khả năng nhìn xuyên qua lớp vỏ bên ngoài của phần mềm để thấy được hoạt động bên trong của chúng. Hình 1.3: White box Mục đích của White box testing là đảm bảo tất cả các câu lệnh và điều kiện sẽ được thực hiện đúng, kết quả đầu ra như mong đợi. Tester sẽ xác minh luồng hoạt động cho ứng dụng bằng cách kiểm tra một loạt đầu vào (Input) đã được xác định từ 17",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p18-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 18,
+        "section": "chuong_1",
+        "score": 0.7153598666191101,
+        "text": "1.3.4.Kiểm thử chấp nhận Kiểm thử chấp nhận (Acceptance Testing): v ận hành hệ thống trong môi trường của người sử dụng Kiểm thử alpha (Alpha Testing): - Người dùng thực hiện với số liệu giả lập - Trong môi trường phát triển Kiểm thử beta (Beta Testing): - Người dùng thực hiện với số liệu thực - Trong môi trường ứng dụng thực 1.4. Các phương pháp kiểm thử 1.4.1. Kiểm thử hộp trắng 1.4.1.1. Tổng quan về kiểm thử hộp trắng Kiểm thử hộp trắng (White box testing) là phương pháp kiểm thử phần mềm nhằ",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p19-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 19,
+        "section": "chuong_1",
+        "score": 0.698614239692688,
+        "text": "trước có dẫn đến đầu ra (Output) như dự kiến không? Nếu Output không khớp với kỳ vọng, có nghĩa là s ản phẩm đang bị lỗi. Các kỹ thuật kiểm thử hộp trắng phổ biến: - Kiểm thử đường cơ bản - Đồ thị dòng - Kiểm thử luồng điều khiển - Kiểm thử luồng dữ liệu - Kiểm thử đột biến 1.4.1.2. Ưu nhược điểm Ưu điểm: - Tối ưu hóa mã bằng cách tìm lỗi ẩn. - Tự động hóa dễ dàng các trường hợp kiểm thử - Kiểm tra kỹ lưỡng hơn vì tất cả các đường dẫn mã thường được bao phủ. - Kiểm thử có thể được thực hiện sớm ",
+        "hit": false
+      }
+    ],
+    "hit@1": false,
+    "evidence_hit@3": false,
+    "filter_compliant_top3": null,
+    "strategy": "A"
+  },
+  {
+    "question_id": "q09",
+    "question": "Kiểm thử hộp đen được thực hiện mà không biết điều gì?",
+    "expected_answer": "Không biết cấu tạo bên trong của phần mềm",
+    "split": "dev",
+    "filter": {},
+    "gold_page": 20,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p20-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 20,
+        "section": "chuong_1",
+        "score": 0.7740374803543091,
+        "text": "1.4.2. Kiểm thử hộp đen 1.4.2.1. Tổng quan về kiểm thử hộp đen Kiểm thử hộp đen (Black – Box Testing) hay còn gọi là một phương pháp kiểm thử phần mềm được thực hiện mà không biết được cấu tạo bên trong của phần mềm. Ngoài ra kiểm thử hộp đen còn được hiểu là kiểm thử hướng dữ liệu (data – driven) hay kiểm thử hướng vào ra (input/output driven). Người kiểm thử nên xây dựng các nhóm giá trị đầu vào mà sẽ thực thi đầy đủ tất cả các yêu cầu chức năng của chương trình. Cách tiếp cận của các tester đ",
+        "hit": true
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p21-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 21,
+        "section": "chuong_1",
+        "score": 0.7130029201507568,
+        "text": "Hình 1.4: Black box Testing Các kỹ thuật kiểm thử hộp đen phổ biến: - Phân hoạch tương đương - Phân tích giá trị biên - Sử dụng bảng quyết định 1.4.2.2. Ưu nhược điểm Ưu điểm: - Phù hợp với hệ thống với chức năng lớn, có sự phân mã rõ ràng. - Người thực hiện không cần hiểu quá nhiều về code cũng như ngôn ngữ lập trình. - Tester tiếp cận hệ thống như một chiếc hộp đen, không cần biết bên trong nó ho ạt động như thế nào. Nhược điểm: - Thông thường phương pháp này chỉ có thể thực hiện được 1 phần k",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p20-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 20,
+        "section": "chuong_1",
+        "score": 0.6751668453216553,
+        "text": "g của chương trình. Cách tiếp cận của các tester đối với hệ thống là không dùng bất kỳ một kiến thức về cấu trúc lập trình bên trong hệ thống, xem hệ thống là một cấu trúc hoàn chỉnh, không thể can thiệp vào bên trong. Tuy nhiên, kiểm thử hộp đen không phải là một kỹ thuật thay thế cho kỹ thuật kiểm thử hộp trắng mà là một phương pháp bổ sung giúp phát hiện các loại lỗi khác nhau của phương pháp kiểm thử hộp trắng. Kiểm thử hộp đen nhằm tìm ra các loại sai: - Chức năng thiếu hoặc không đúng đắn.",
+        "hit": false
+      }
+    ],
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": null,
+    "strategy": "A"
+  },
+  {
+    "question_id": "q10",
+    "question": "End-To-End Testing được định nghĩa như thế nào?",
+    "expected_answer": "Là loại kiểm thử phần mềm đảm bảo tính hoạt động chính xác của hệ thống trong môi trường thực tế, từ đầu vào đến đầu ra người dùng",
+    "split": "dev",
+    "filter": {},
+    "gold_page": 22,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p22-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 22,
+        "section": "chuong_2",
+        "score": 0.8856217861175537,
+        "text": "CHƯƠNG 2. TÌM HIỂU KỸ THUẬT KIỂM THỬ END-TO-END 2.1. Khái niệm End-To-End Testing là một loại kiểm thử phần mềm được thực hiện để đảm bảo tính ho ạt động chính xác c ủa một hệ thống hoặc ứng dụng trong môi trường thực tế, từ đầu vào người dùng đến đầu ra người dùng. Phương pháp này nh ằm mô phỏng một quy trình hoàn chỉnh của hệ thống từ đầu đến cuối, kiểm tra tích hợp giữa các thành phần và xác nhận rằng hệ thống hoạt động như dự định. 2.2. Tại sao phải kiểm thử End-To-End End-To-End Testing xác",
+        "hit": true
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p23-c2",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 23,
+        "section": "chuong_2",
+        "score": 0.7952631711959839,
+        "text": "y về sản phẩm và dịch vụ. 2.3. Quá trình kiểm thử End-To-End Dưới đây cái nhìn tổng quan về quy trình kiểm thử End-To-End. Hình 2.1: Quy trình kiểm thử End-To-End Các hoạt động chính liên quan đ ến Kiểm thử đầu cuối là: - Nghiên cứu các yêu cầu thử nghiệm từ đầu đến cuối. - Thiết lập môi trường thử nghiệm và yêu cầu phần cứng/phần mềm. - Mô tả tất cả các hệ thống và các quy trình hệ thống con của nó. - Mô tả vai trò và trách nhiệm cho tất cả các hệ thống. 22",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p11-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 11,
+        "section": "mo_dau",
+        "score": 0.7897067666053772,
+        "text": "ỹ thuật kiểm thử End-To-End - Phạm vi nghiên cứu: +Khái niệm cơ bản về kiểm thử, phương pháp ki ểm thử hộp trắng, kiểm thử hộp đen. + Khái niệm về kiểm thử End-To-End. + Quá trình kiểm thử, các hoạt động chính liên quan đến kiểm thử End-To- End + Cách thực hiện kiểm thử, khung thiết kế kiểm thử End-To-End. 4.Bố cục đề tài (Nội dung đề tài được chia làm 3 chương) Chương 1. Tổng quan về đề tài: Tổng quan về kiểm thử phần mềm, quy trình kiểm thử phần mềm, các cấp độ kiểm thử và các phương pháp của ",
+        "hit": false
+      }
+    ],
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": null,
+    "strategy": "A"
+  },
+  {
+    "question_id": "q11",
+    "question": "Khung thiết kế thử nghiệm End-To-End từ đầu đến cuối bao gồm bao nhiêu phần?",
+    "expected_answer": "Ba phần",
+    "split": "dev",
+    "filter": {},
+    "gold_page": 24,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p24-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 24,
+        "section": "chuong_2",
+        "score": 0.7924396991729736,
+        "text": "- Phương pháp và tiêu chuẩn kiểm tra. - Theo dõi yêu cầu từ đầu đến cuối và thiết kế các trường hợp thử nghiệm. 2.4. Cách thực hiện kiểm thử End-To-End Dưới đây là sơ đồ cách thực hiện kiểm thử End-To-End Hình 2.2: Mô hình ki ểm thử End-To-End Khung thiết kế thử nghiệm từ đầu đến cuối bao gồm ba phần: - Xây dựng chức năng người dùng. - Xây dựng điều kiện. - Xây dựng các trường hợp thử nghiệm. 2.4.1. Xây dựng chức năng người dùng Các hoạt động sau nên được thực hiện như một phần của chức năng ngư",
+        "hit": true
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p23-c2",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 23,
+        "section": "chuong_2",
+        "score": 0.7781570553779602,
+        "text": "y về sản phẩm và dịch vụ. 2.3. Quá trình kiểm thử End-To-End Dưới đây cái nhìn tổng quan về quy trình kiểm thử End-To-End. Hình 2.1: Quy trình kiểm thử End-To-End Các hoạt động chính liên quan đ ến Kiểm thử đầu cuối là: - Nghiên cứu các yêu cầu thử nghiệm từ đầu đến cuối. - Thiết lập môi trường thử nghiệm và yêu cầu phần cứng/phần mềm. - Mô tả tất cả các hệ thống và các quy trình hệ thống con của nó. - Mô tả vai trò và trách nhiệm cho tất cả các hệ thống. 22",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p11-c2",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 11,
+        "section": "mo_dau",
+        "score": 0.7149139642715454,
+        "text": "n mềm, các cấp độ kiểm thử và các phương pháp của kiểm thử phần mềm. Chương 2. Tìm hiểu kĩ thuật kiểm thử End-To-End: Tổng quan về kỹ thuật kiểm thử End-to-end: khái niệm, quá trình và cách thức thực hiện, công cụ thực hiện kiểm thử End-To-End và cách thực hiện. Chương 3. Kết quả thực nghiệm: Phát biểu bài toán, xây dựng tài liệu đặc tả, Lịch trình công việc, kết quả thực hiện kiểm thử một số test case, test report. 10",
+        "hit": false
+      }
+    ],
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": null,
+    "strategy": "A"
+  },
+  {
+    "question_id": "q12",
+    "question": "Selenium là công cụ gì?",
+    "expected_answer": "Bộ công cụ kiểm thử tự động mã nguồn mở dành cho các ứng dụng web",
+    "split": "dev",
+    "filter": {},
+    "gold_page": 25,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p26-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 26,
+        "section": "chuong_2",
+        "score": 0.7469030022621155,
+        "text": "2.5.2.Đặc trưng Selenium là bộ kiểm thử tự động miễn phí (mã nguồn mở) dành cho các ứng dụng web trên các trình duy ệt và nền tảng khác nhau như: Firefox, Google Chrome, Microsoft edge. Selenium không ch ỉ là 1 công cụ độc lập mà là 1 bộ công cụ của phần mềm, mỗi bộ đều đáp ứng được nhu cầu kiểm thử khác nhau của 1 tổ chức. Hiện tại, phiên bản mới nhất của công cụ này là Selenium 4. Phiên bản này hỗ trợ nhiều loại kiểm thử trong quá trình phát triển và kiểm tra ứng dụng web như: Kiểm thử chức nă",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p27-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 27,
+        "section": "chuong_2",
+        "score": 0.6508415937423706,
+        "text": "2.6.Cài đặt và sử dụng công cụ Selenium 2.6.1.Cài đặt Bước 1: Vào trình duyệt Chrome và truy cập vào link: https://www.selenium.dev/selenium-ide/ Bước 2: Chọn CHROME DOWNLOAD Hình 2.3: Truy cập đường dẫn cài đặt Selenium IDE Bước 3: Nhấn thêm vào Chorme Hình 2.4 Cài đặt Selenium IDE 2.6.2.Cách sử dụng Bước 1: Sau khi nhấn vào biểu tượng Selenium IDE. Một cửa sổ được hiển thị lên. Bước 2: Chọn create a new Project 26",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p25-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 25,
+        "section": "chuong_2",
+        "score": 0.6313682198524475,
+        "text": "m cho từng kịch bản được xác định. Các trường hợp thử nghiệm có thể bao gồm từng điều kiện như một trường hợp thử nghiệm duy nhất. 2.5. Công cụ thực hiện kiểm thử End-To-End 2.5.1.Công cụ Selenium Selenium là một bộ công cụ kiểm thử tự động open source (open source test automation tool), dành cho các ứng dụng web, hỗ trợ hoạt động trên nhiều trình duyệt và nền tảng khác nhau như Windows, Mac, Linus… V ới Selenium, bạn có thể viết các testscript bằng các ngôn ngữ lập trình khác nhau như Java, PHP",
+        "hit": true
+      }
+    ],
+    "hit@1": false,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": null,
+    "strategy": "A"
+  },
+  {
+    "question_id": "q13",
+    "question": "Phiên bản mới nhất của công cụ Selenium là phiên bản nào?",
+    "expected_answer": "Selenium 4",
+    "split": "dev",
+    "filter": {},
+    "gold_page": 26,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p26-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 26,
+        "section": "chuong_2",
+        "score": 0.7121627330780029,
+        "text": "2.5.2.Đặc trưng Selenium là bộ kiểm thử tự động miễn phí (mã nguồn mở) dành cho các ứng dụng web trên các trình duy ệt và nền tảng khác nhau như: Firefox, Google Chrome, Microsoft edge. Selenium không ch ỉ là 1 công cụ độc lập mà là 1 bộ công cụ của phần mềm, mỗi bộ đều đáp ứng được nhu cầu kiểm thử khác nhau của 1 tổ chức. Hiện tại, phiên bản mới nhất của công cụ này là Selenium 4. Phiên bản này hỗ trợ nhiều loại kiểm thử trong quá trình phát triển và kiểm tra ứng dụng web như: Kiểm thử chức nă",
+        "hit": true
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p27-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 27,
+        "section": "chuong_2",
+        "score": 0.6740602850914001,
+        "text": "2.6.Cài đặt và sử dụng công cụ Selenium 2.6.1.Cài đặt Bước 1: Vào trình duyệt Chrome và truy cập vào link: https://www.selenium.dev/selenium-ide/ Bước 2: Chọn CHROME DOWNLOAD Hình 2.3: Truy cập đường dẫn cài đặt Selenium IDE Bước 3: Nhấn thêm vào Chorme Hình 2.4 Cài đặt Selenium IDE 2.6.2.Cách sử dụng Bước 1: Sau khi nhấn vào biểu tượng Selenium IDE. Một cửa sổ được hiển thị lên. Bước 2: Chọn create a new Project 26",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p28-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 28,
+        "section": "chuong_2",
+        "score": 0.6244351267814636,
+        "text": "Hình 2.5.Tạo project mới cho Selenium IDE Bước 3: Nhập tên dự án và nhấn OK 27",
+        "hit": false
+      }
+    ],
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": null,
+    "strategy": "A"
+  },
+  {
+    "question_id": "q14",
+    "question": "Website thời trang IVY moda được thành lập vào thời điểm nào?",
+    "expected_answer": "Tháng 10/2005",
+    "split": "dev",
+    "filter": {},
+    "gold_page": 33,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p33-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 33,
+        "section": "chuong_3",
+        "score": 0.7997501492500305,
+        "text": "CHƯƠNG 3: KẾT QUẢ THỰC NGHIỆM 3.1. Giới thiệu phần mềm website thời trang ivymoda.com IVY moda được thành lập vào tháng 10/2005, thuộc sở hữu của doanh nhân Vũ Anh. Ở xuất phát điểm IVY moda hướng đến dòng thời trang công sở cho nữ và đã gặt hái được nhiều thành công. Không dừng lại ở đó thương hiệu còn cho ra đời dòng sản phẩm dành cho nam và trẻ em nhằm đáp ứng đa dạng nhu cầu của khách hàng. IVY moda là thương hi ệu thời trang Việt Nam với mong muốn đem lại vẻ đẹp hiện đại và sự tự tin cho kh",
+        "hit": true
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p33-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 33,
+        "section": "chuong_3",
+        "score": 0.5969328284263611,
+        "text": "g muốn đem lại vẻ đẹp hiện đại và sự tự tin cho khách hàng, thông qua các dòng sản phẩm thời trang thể hiện cá tính và xu hướng. Một trong những “tôn chỉ” về thiết kế của IVY moda chính là sự đa dạng, với mong muốn mang đến cho người mặc những sản phẩm phù hợp nhất với ngoại hình và quan trọng hơn cả là cá tính của chính mình. 3.2.Phân tích và khởi tạo cơ sở dữ liệu Hình 3.1: Biểu đồ use case phía front-end 32",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p38-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 38,
+        "section": "chuong_3",
+        "score": 0.35073256492614746,
+        "text": "Bảng: Chi tiết Sản phẩm Bảng: Khuyến mãi 37",
+        "hit": false
+      }
+    ],
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": null,
+    "strategy": "A"
+  },
+  {
+    "question_id": "q15",
+    "question": "Trong use case đăng nhập, khi nhập sai tài khoản thì khách hàng chỉ được nhập lại tối đa bao nhiêu lần?",
+    "expected_answer": "Tối đa 5 lần",
+    "split": "test",
+    "filter": {},
+    "gold_page": 43,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p43-c3",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 43,
+        "section": "chuong_3",
+        "score": 0.6910269856452942,
+        "text": " hiển thị lên một thông báo “Lỗi kết nối”. Use case kết thúc. 4.Các yêu cầu đặc biệt: Nếu nhập sai chỉ được nhập lại tối đa 5 lần. 5.Tiền điều kiện: 42",
+        "hit": true
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p43-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 43,
+        "section": "chuong_3",
+        "score": 0.6414971351623535,
+        "text": "sau khi đăng nhập thành công lên màn hình. 3.2Luồng rẽ nhánh: 1)Sai Tên/Mật Khẩu: Tại bước 2 trong luồng cơ bản nếu khách hàng nhập thông tin tài khoản, mật khẩu sai thì hệ thống sẽ hiện thông báo “Lỗi! Tên đăng nhập hoặc mật khẩu không hợp lệ” lên màn hình. Khách hàng ph ải quay lại bước (2) trong luồng cơ bản để nhập lại đúng Email/SDT và mật khẩu. Use case kết thúc. 2) Bỏ trống thông tin: Tại bước 2 trong luồng cơ bản nếu khách hàng nhập thông tin tài kho ản, mật khẩu sai thì hệ thống sẽ hiện",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p44-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 44,
+        "section": "chuong_3",
+        "score": 0.6292693614959717,
+        "text": "Người dùng đã đăng ký tài khoản trước đó có thể đăng nhập. 6.Hậu điều kiện: Nếu use case thành công, người dùng sẽ được đăng nhập vào hệ thống. Nếu không trạng thái của hệ thống sẽ không thay đổi. 7.Điểm mở rộng Không có. 3.4.2. Mô tả use case “Sửa thông tin cá nhân” 1.Tên use case Sửa thông tin cá nhân. 2. Mô tả vắn tắt Use case này cho phép khách hàng thay đ ổi thông tin cá nhân cho tài kho ản 3.Luồng sự kiện. 3.1.Luồng cơ bản. 1) Use case này bắt đầu khi khách hàng nhấn vào biểu tượng trên th",
+        "hit": false
+      }
+    ],
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": null,
+    "strategy": "A"
+  },
+  {
+    "question_id": "q16",
+    "question": "Ai là người tạo test case kiểm thử chức năng \"Tìm kiếm sản phẩm\"?",
+    "expected_answer": "Phạm Quang Trường",
+    "split": "test",
+    "filter": {},
+    "gold_page": 56,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p70-c2",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 70,
+        "section": "ket_luan",
+        "score": 0.6891196966171265,
+        "text": "ở rộng kiểm thử End-To-End với quy mô lớn như các trang web lớn. - Tìm hiểu và lựa chọn các công cụ kiểm thử khác để so sánh và tìm ra công c ụ tốt nhất để phục vụ cho mục đích của cá nhân hay doanh nghiệp. - Nghiên cứu và áp dụng các phương pháp kiểm thử tự động nhằm tăng hiệu suất và độ chính xác của quá trình kiểm thử. 69",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p57-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 57,
+        "section": "chuong_3",
+        "score": 0.6597503423690796,
+        "text": "ử chức năng “Xem sản phẩm yêu thích” Bảng 3.5: Test case Xem sản phẩm yêu thích TÊN DỰ ÁN: XÂY DỰNG WEBSITE IVY MODA TEST CASE Module_name: Tìm kiếm sản phẩm Mô tả: Kiểm thử chức năng xem sản phẩm yêu thích 56",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p17-c2",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 17,
+        "section": "chuong_1",
+        "score": 0.6468508243560791,
+        "text": "m. Phương pháp: kiểm thử hộp đen Người thực hiện: kiểm thử viên - Khi nào có thể thực hiện kiểm thử hệ thống: + Hệ thống cần kiểm thử đã hoàn thiện + Kiểm thử tích hợp và đơn vị đã hoàn thành + Sản phẩm được tích hợp đúng thiết kế + Các tài liệu đặc tả đã là bản cuối cùng + Các tài liệu hỗ trợ kiểm thử như test plan, test case đã hoàn thành. 16",
+        "hit": false
+      }
+    ],
+    "hit@1": false,
+    "evidence_hit@3": false,
+    "filter_compliant_top3": null,
+    "strategy": "A"
+  },
+  {
+    "question_id": "q17",
+    "question": "Tỉ lệ test case đạt (passed) trong test report là bao nhiêu?",
+    "expected_answer": "81.25%",
+    "split": "test",
+    "filter": {},
+    "gold_page": 68,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p15-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 15,
+        "section": "chuong_1",
+        "score": 0.7604979276657104,
+        "text": " thử - Tổng kết kết quả kiểm thử và báo cáo về số lượng case pass/fail, pending, N/A, lỗi tìm thấy và các tiêu chí hoàn thành. - Đánh giá và rút ra bài h ọc kinh nghiệm từ quá trình kiểm thử. - Xuất bản các tài liệu báo cáo cuối cùng. 1.3. Các cấp độ kiểm thử phần mềm Hình 1.2: Mô hình chữ V 14",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p32-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 32,
+        "section": "chuong_2",
+        "score": 0.6791919469833374,
+        "text": "Hình 2.11 Kiểm tra kết quả Test case 31",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p68-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 68,
+        "section": "chuong_3",
+        "score": 0.6003718376159668,
+        "text": "Hình 3.18: Kết quả test xem sản phẩm đã xem khi có sản phẩm đã xem TH2: Xem sản phẩm đã xem khi không có sản phẩm đã xem trong tài khoản Hình 3.19: Kết quả test xem sản phẩm đã xem khi không có sản phẩm đã xem 3.5.5. Test Report − Tỉ lệ test case đạt (passed): 81.25% 67",
+        "hit": true
+      }
+    ],
+    "hit@1": false,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": null,
+    "strategy": "A"
+  },
+  {
+    "question_id": "q18",
+    "question": "Tỉ lệ test case không đạt (failed) trong test report là bao nhiêu?",
+    "expected_answer": "18.75%",
+    "split": "test",
+    "filter": {},
+    "gold_page": 69,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p15-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 15,
+        "section": "chuong_1",
+        "score": 0.7755786776542664,
+        "text": " thử - Tổng kết kết quả kiểm thử và báo cáo về số lượng case pass/fail, pending, N/A, lỗi tìm thấy và các tiêu chí hoàn thành. - Đánh giá và rút ra bài h ọc kinh nghiệm từ quá trình kiểm thử. - Xuất bản các tài liệu báo cáo cuối cùng. 1.3. Các cấp độ kiểm thử phần mềm Hình 1.2: Mô hình chữ V 14",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p32-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 32,
+        "section": "chuong_2",
+        "score": 0.7004290819168091,
+        "text": "Hình 2.11 Kiểm tra kết quả Test case 31",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p69-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 69,
+        "section": "chuong_3",
+        "score": 0.6493163108825684,
+        "text": "− Tỉ lệ test case không đạt (failed): 18.75% − Hệ thống chạy ổn định trên các trình duyệt web khác nhau (Google Chrome, Microsoft Edge) 68",
+        "hit": true
+      }
+    ],
+    "hit@1": false,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": null,
+    "strategy": "A"
+  },
+  {
+    "question_id": "q19",
+    "question": "Công cụ Selenium cho phép viết test script bằng những ngôn ngữ lập trình nào?",
+    "expected_answer": "Java, PHP, C#, Ruby, Python, Perl",
+    "split": "test",
+    "filter": {},
+    "gold_page": 25,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p25-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 25,
+        "section": "chuong_2",
+        "score": 0.782417893409729,
+        "text": "m cho từng kịch bản được xác định. Các trường hợp thử nghiệm có thể bao gồm từng điều kiện như một trường hợp thử nghiệm duy nhất. 2.5. Công cụ thực hiện kiểm thử End-To-End 2.5.1.Công cụ Selenium Selenium là một bộ công cụ kiểm thử tự động open source (open source test automation tool), dành cho các ứng dụng web, hỗ trợ hoạt động trên nhiều trình duyệt và nền tảng khác nhau như Windows, Mac, Linus… V ới Selenium, bạn có thể viết các testscript bằng các ngôn ngữ lập trình khác nhau như Java, PHP",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p26-c2",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 26,
+        "section": "chuong_2",
+        "score": 0.7753007411956787,
+        "text": "đ ể kiểm tra web, website phiên bản di động - Selenium IDE hỗ trợ tính năng playback giúp chúng ta có thể sử dụng các bài test của người khác và không cần phải biết ngôn ngữ script - Selenium là m ột nền tảng kiểm thử dựa trên cloud giúp tester có th ể lưu lại thao tác và xuất ra dưới dạng script đơn giản, dễ hiểu. - Selenium hỗ trợ nhiều hệ điều hành, ngôn ngữ và trình duyệt khác nhau. - Giúp chúng ta có th ể chạy cùng lúc nhiều bài test đ ể giảm thời gian và tăng hiệu quả - Quá trình ki ểm thử",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p26-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 26,
+        "section": "chuong_2",
+        "score": 0.6883342266082764,
+        "text": "2.5.2.Đặc trưng Selenium là bộ kiểm thử tự động miễn phí (mã nguồn mở) dành cho các ứng dụng web trên các trình duy ệt và nền tảng khác nhau như: Firefox, Google Chrome, Microsoft edge. Selenium không ch ỉ là 1 công cụ độc lập mà là 1 bộ công cụ của phần mềm, mỗi bộ đều đáp ứng được nhu cầu kiểm thử khác nhau của 1 tổ chức. Hiện tại, phiên bản mới nhất của công cụ này là Selenium 4. Phiên bản này hỗ trợ nhiều loại kiểm thử trong quá trình phát triển và kiểm tra ứng dụng web như: Kiểm thử chức nă",
+        "hit": false
+      }
+    ],
+    "hit@1": false,
+    "evidence_hit@3": false,
+    "filter_compliant_top3": null,
+    "strategy": "A"
+  },
+  {
+    "question_id": "q20",
+    "question": "Trong Chương 1, giai đoạn đầu tiên của quy trình kiểm thử phần mềm là gì?",
+    "expected_answer": "Phân tích yêu cầu (Requirement Analysis)",
+    "split": "dev",
+    "filter": {
+      "section": "chuong_1"
+    },
+    "gold_page": 14,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p13-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 13,
+        "section": "chuong_1",
+        "score": 0.731467604637146,
+        "text": "CHƯƠNG 1. TỔNG QUAN VỀ KIỂM THỬ PHẦN MỀM 1.1 Khái niệm về kiểm thử phần mềm 1.1.1. Khái niệm Kiểm thử phần mềm là một phương pháp để kiểm tra xem sản phẩm phần mềm thực tế có phù hợp với các yêu cầu mong đợi hay không và để đảm bảo rằng không có khiếm khuyết. Nó liên quan đến việc thực thi các thành phần phần mềm hệ thống bằng cách sử dụng thủ công hoặc tự động để đánh giá một hoặc nhiều thuộc tính quan trọng. 1.1.2. Vai trò - Đảm bảo chất lượng phần mềm và mang tính sống còn trong các dự án sản",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p14-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 14,
+        "section": "chuong_1",
+        "score": 0.6810181736946106,
+        "text": "Hình 1.1: Quy trình kiểm thử phần mềm 1.2.1. Phân tích yêu cầu (Requirement Analysis) - Giai đoạn này tập trung vào việc hiểu và phân tích yêu cầu của khách hàng đối với sản phẩm phần mềm. - Các tài liệu như tài liệu yêu cầu, tài liệu thiết kế hệ thống được nghiên cứu để hiểu rõ yêu cầu chức năng và phi chức năng. - Các vấn đề phát sinh hoặc không rõ ràng thường được thảo luận và làm rõ với các bên liên quan: BA (Business Analysis), PM (Project Manager), team leader, khách hàng 1.2.2. Lập kế hoạ",
+        "hit": true
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p23-c2",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 23,
+        "section": "chuong_2",
+        "score": 0.6476026177406311,
+        "text": "y về sản phẩm và dịch vụ. 2.3. Quá trình kiểm thử End-To-End Dưới đây cái nhìn tổng quan về quy trình kiểm thử End-To-End. Hình 2.1: Quy trình kiểm thử End-To-End Các hoạt động chính liên quan đ ến Kiểm thử đầu cuối là: - Nghiên cứu các yêu cầu thử nghiệm từ đầu đến cuối. - Thiết lập môi trường thử nghiệm và yêu cầu phần cứng/phần mềm. - Mô tả tất cả các hệ thống và các quy trình hệ thống con của nó. - Mô tả vai trò và trách nhiệm cho tất cả các hệ thống. 22",
+        "hit": false
+      }
+    ],
+    "hit@1": false,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": [
+      true,
+      true,
+      false
+    ],
+    "strategy": "A"
+  },
+  {
+    "question_id": "q21",
+    "question": "Trong Chương 2, Selenium WebDriver có yêu cầu phải cài đặt server hay không?",
+    "expected_answer": "Không yêu cầu cài đặt server",
+    "split": "dev",
+    "filter": {
+      "section": "chuong_2"
+    },
+    "gold_page": 26,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p26-c3",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 26,
+        "section": "chuong_2",
+        "score": 0.7239791750907898,
+        "text": "m thời gian và tăng hiệu quả - Quá trình ki ểm thử của Selenium hao t ốn ít tài nguyên và yêu c ầu cấu hình thiết bị thấp hơn các công cụ khác. - Selenium WebDriver không yêu cầu cài đặt server, test script của chúng ta sẽ trực tiếp tương tác với trình duyệt. 25",
+        "hit": true
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p27-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 27,
+        "section": "chuong_2",
+        "score": 0.5612932443618774,
+        "text": "2.6.Cài đặt và sử dụng công cụ Selenium 2.6.1.Cài đặt Bước 1: Vào trình duyệt Chrome và truy cập vào link: https://www.selenium.dev/selenium-ide/ Bước 2: Chọn CHROME DOWNLOAD Hình 2.3: Truy cập đường dẫn cài đặt Selenium IDE Bước 3: Nhấn thêm vào Chorme Hình 2.4 Cài đặt Selenium IDE 2.6.2.Cách sử dụng Bước 1: Sau khi nhấn vào biểu tượng Selenium IDE. Một cửa sổ được hiển thị lên. Bước 2: Chọn create a new Project 26",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p26-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 26,
+        "section": "chuong_2",
+        "score": 0.5110124349594116,
+        "text": "2.5.2.Đặc trưng Selenium là bộ kiểm thử tự động miễn phí (mã nguồn mở) dành cho các ứng dụng web trên các trình duy ệt và nền tảng khác nhau như: Firefox, Google Chrome, Microsoft edge. Selenium không ch ỉ là 1 công cụ độc lập mà là 1 bộ công cụ của phần mềm, mỗi bộ đều đáp ứng được nhu cầu kiểm thử khác nhau của 1 tổ chức. Hiện tại, phiên bản mới nhất của công cụ này là Selenium 4. Phiên bản này hỗ trợ nhiều loại kiểm thử trong quá trình phát triển và kiểm tra ứng dụng web như: Kiểm thử chức nă",
+        "hit": false
+      }
+    ],
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": [
+      true,
+      true,
+      true
+    ],
+    "strategy": "A"
+  },
+  {
+    "question_id": "q22",
+    "question": "Trong Chương 3, website IVY moda thuộc sở hữu của ai?",
+    "expected_answer": "Doanh nhân Vũ Anh",
+    "split": "test",
+    "filter": {
+      "section": "chuong_3"
+    },
+    "gold_page": 33,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p33-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 33,
+        "section": "chuong_3",
+        "score": 0.5411802530288696,
+        "text": "CHƯƠNG 3: KẾT QUẢ THỰC NGHIỆM 3.1. Giới thiệu phần mềm website thời trang ivymoda.com IVY moda được thành lập vào tháng 10/2005, thuộc sở hữu của doanh nhân Vũ Anh. Ở xuất phát điểm IVY moda hướng đến dòng thời trang công sở cho nữ và đã gặt hái được nhiều thành công. Không dừng lại ở đó thương hiệu còn cho ra đời dòng sản phẩm dành cho nam và trẻ em nhằm đáp ứng đa dạng nhu cầu của khách hàng. IVY moda là thương hi ệu thời trang Việt Nam với mong muốn đem lại vẻ đẹp hiện đại và sự tự tin cho kh",
+        "hit": true
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p60-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 60,
+        "section": "chuong_3",
+        "score": 0.43009448051452637,
+        "text": "trong tài 3 Nhấn chuột vào hiển thị khoản “Sản phẩm đã danh sách xem” sản phẩm đã xem trong tài khoản SPDX_ Xem sản 1 Truy cập trang Hệ thống Giống PASS 02 phẩm đã xem https://ivymoda chuyển đến với đầu khi không có .com/ màn hình ra kỳ sản phẩm đã 2 nhấn vào biểu “Sản phẩm vọng xem trong tài đã xem” khoản tượng 3 Nhấn chuột vào “Sản phẩm yêu thích” 3.5.4. Tiến hành kiểm thử 3.5.4.1. Chức năng đăng nhập TH1: Đăng nhập thành công với số điện thoại, mật khẩu đúng 59",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p33-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 33,
+        "section": "chuong_3",
+        "score": 0.3753023147583008,
+        "text": "g muốn đem lại vẻ đẹp hiện đại và sự tự tin cho khách hàng, thông qua các dòng sản phẩm thời trang thể hiện cá tính và xu hướng. Một trong những “tôn chỉ” về thiết kế của IVY moda chính là sự đa dạng, với mong muốn mang đến cho người mặc những sản phẩm phù hợp nhất với ngoại hình và quan trọng hơn cả là cá tính của chính mình. 3.2.Phân tích và khởi tạo cơ sở dữ liệu Hình 3.1: Biểu đồ use case phía front-end 32",
+        "hit": false
+      }
+    ],
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": [
+      true,
+      true,
+      true
+    ],
+    "strategy": "A"
+  },
+  {
+    "question_id": "q01",
+    "question": "Kiểm thử phần mềm được định nghĩa như thế nào?",
+    "expected_answer": "Là một phương pháp để kiểm tra xem sản phẩm phần mềm thực tế có phù hợp với các yêu cầu mong đợi hay không và để đảm bảo rằng không có khiếm khuyết",
+    "split": "dev",
+    "filter": {},
+    "gold_page": 13,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p13-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 13,
+        "section": "chuong_1",
+        "score": 0.8852409720420837,
+        "text": "1.1 Khái niệm về kiểm thử phần mềm 1.1.1. Khái niệm Kiểm thử phần mềm là một phương pháp để kiểm tra xem sản phẩm phần mềm thực tế có phù hợp với các yêu cầu mong đợi hay không và để đảm bảo rằng không có khiếm khuyết. Nó liên quan đến việc thực thi các thành phần phần mềm hệ thống bằng cách sử dụng thủ công hoặc tự động để đánh giá một hoặc nhiều thuộc tính quan trọng. 1.1.2. Vai trò - Đảm bảo chất lượng phần mềm và mang tính sống còn trong các dự án sản xuất phần mềm. Vì vậy nó đã trở thành quy trình bắt buộc trong các dự án phần mềm hiện nay. - Tránh những rủi ro, lỗi phát sinh trong su ốt quá trình tạo ra sản phẩm. Phát hiện sớm và sửa chữa, giảm chi phí, tiết kiệm thời gian và nguồn lực",
+        "hit": true
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p10-c2",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 10,
+        "section": "mo_dau",
+        "score": 0.7253202795982361,
+        "text": "mềm để kiểm tra phần mềm có đúng với đặc tả và thiết kế hệ thống không, có đáp ứng yêu cầu người dùng không, có lỗi lập trình không, có hoạt động hiệu quả không, … Như vậy, kiểm thử phần mềm là để đáp ứng yêu cầu người dùng, phát hiện lỗi để từ đó nâng cao chất lượng phần mềm. Vậy làm thế nào để có thể kiểm tra dự án phần mềm chạy ổn định, đạt được tính hiệu quả cao, nhưng lại tiết kiệm được thời gian cũng như kinh phí trong quá trình kiểm thử là một điều thiết yếu với các nhà kiểm thử. Với mong muốn có cái nhìn xác thực, rõ ràng hơn về quy trình kiểm thử phần mềm, đảm bảo chất lượng phần mềm và tiếp cận với các công cụ hỗ trợ kiểm thử, giải quyết phần nào vấn đề tiết kiệm thời gian, kinh ph",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p22-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 22,
+        "section": "chuong_2",
+        "score": 0.7081964612007141,
+        "text": "2.1. Khái niệm End-To-End Testing là một loại kiểm thử phần mềm được thực hiện để đảm bảo tính ho ạt động chính xác c ủa một hệ thống hoặc ứng dụng trong môi trường thực tế, từ đầu vào người dùng đến đầu ra người dùng. Phương pháp này nh ằm mô phỏng một quy trình hoàn chỉnh của hệ thống từ đầu đến cuối, kiểm tra tích hợp giữa các thành phần và xác nhận rằng hệ thống hoạt động như dự định. 2.2. Tại sao phải kiểm thử End-To-End End-To-End Testing xác minh luồng hệ thống hoàn chỉnh và tăng độ tin cậy bằng cách phát hiện các sự cố và tăng phạm vi kiểm tra của các hệ thống con. Các hệ thống phần mềm hiện đại rất phức tạp và được kết nối với nhau bằng nhiều hệ thống con có thể khác với các hệ thốn",
+        "hit": false
+      }
+    ],
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": null,
+    "strategy": "B"
+  },
+  {
+    "question_id": "q02",
+    "question": "Quy trình kiểm thử phần mềm gồm bao nhiêu giai đoạn?",
+    "expected_answer": "6 giai đoạn",
+    "split": "dev",
+    "filter": {},
+    "gold_page": 13,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p13-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 13,
+        "section": "chuong_1",
+        "score": 0.7234781384468079,
+        "text": "1.1 Khái niệm về kiểm thử phần mềm 1.1.1. Khái niệm Kiểm thử phần mềm là một phương pháp để kiểm tra xem sản phẩm phần mềm thực tế có phù hợp với các yêu cầu mong đợi hay không và để đảm bảo rằng không có khiếm khuyết. Nó liên quan đến việc thực thi các thành phần phần mềm hệ thống bằng cách sử dụng thủ công hoặc tự động để đánh giá một hoặc nhiều thuộc tính quan trọng. 1.1.2. Vai trò - Đảm bảo chất lượng phần mềm và mang tính sống còn trong các dự án sản xuất phần mềm. Vì vậy nó đã trở thành quy trình bắt buộc trong các dự án phần mềm hiện nay. - Tránh những rủi ro, lỗi phát sinh trong su ốt quá trình tạo ra sản phẩm. Phát hiện sớm và sửa chữa, giảm chi phí, tiết kiệm thời gian và nguồn lực",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p19-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 19,
+        "section": "chuong_1",
+        "score": 0.6851462125778198,
+        "text": "ao về lập trình. - Tốn khá nhiều thời gian để kiểm tra được chi tiết cấu trúc, thuật toán bên trong sản phẩm. Các ứng dụng có cấu trúc hệ thống càng lớn càng cần rất nhiều thời gian để kiểm tra đầy đủ. - Kiểm thử diễn ra khi sản phẩm chưa được hoàn thiện nên các công cụ phục vụ cho mọi loại triển khai/nền tảng thường không sẵn có. - Kiểm tra hộp trắng được đánh giá khá phức tạp và tốn kém. Developers không kiểm tra hộp trắng chi tiết có thể dẫn đến lỗi sản xuất. 18",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p11-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 11,
+        "section": "mo_dau",
+        "score": 0.6819279193878174,
+        "text": "h thực hiện kiểm thử, khung thiết kế kiểm thử End-To-End. 4.Bố cục đề tài (Nội dung đề tài được chia làm 3 chương) Chương 1. Tổng quan về đề tài: Tổng quan về kiểm thử phần mềm, quy trình kiểm thử phần mềm, các cấp độ kiểm thử và các phương pháp của kiểm thử phần mềm. Chương 2. Tìm hiểu kĩ thuật kiểm thử End-To-End: Tổng quan về kỹ thuật kiểm thử End-to-end: khái niệm, quá trình và cách thức thực hiện, công cụ thực hiện kiểm thử End-To-End và cách thực hiện. Chương 3. Kết quả thực nghiệm: Phát biểu bài toán, xây dựng tài liệu đặc tả, Lịch trình công việc, kết quả thực hiện kiểm thử một số test case, test report. 10",
+        "hit": false
+      }
+    ],
+    "hit@1": false,
+    "evidence_hit@3": false,
+    "filter_compliant_top3": null,
+    "strategy": "B"
+  },
+  {
+    "question_id": "q03",
+    "question": "Ai là người chịu trách nhiệm tiến hành kiểm thử đơn vị?",
+    "expected_answer": "Lập trình viên cùng nhóm của mình",
+    "split": "dev",
+    "filter": {},
+    "gold_page": 16,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p32-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 32,
+        "section": "chuong_2",
+        "score": 0.598946750164032,
+        "text": "Hình 2.11 Kiểm tra kết quả Test case 31",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p49-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 49,
+        "section": "chuong_3",
+        "score": 0.5903098583221436,
+        "text": "ững tài liệu được lập sau khi hoàn thành việc kiểm thử. - Phạm vi: Tài liệu kế hoạch kiểm thử này được áp dụng cho việc kiểm thử chức năng trang web. 3.5.3.Thiết kế test case kiểm thử chức năng một số use case. 3.5.3.1.Kiểm thử chức năng đăng nhập Bảng 3.2. Test case đăng nhập TÊN DỰ ÁN: XÂY DỰNG WEBSITE IVY MODA TEST CASE Module_name: Đăng nhập Mô tả: Kiểm thử chức năng đăng nhập Người tạo: Nguyễn Ba Duy 48",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p16-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 16,
+        "section": "chuong_1",
+        "score": 0.5641988515853882,
+        "text": "1.3.1. Kiểm thử đơn vị Kiểm thử đơn vị nhằm kiểm tra đơn vị thiết kế nhỏ nhất - một module phần mềm. Một module hoạt động thường có trao đổi thông tin với module mức dưới và mức trên nó, do đó phạm vi phát hiện lỗi liên quan chặt chẽ tới module này. Người tiến hành kiểm thử đơn vị: lập trình viên cùng nhóm của mình. Kỹ thuật kiểm thử đơn vị: chủ yếu là hộp trắng, trong các trường hợp cần thiết có thể sử dụng thêm kỹ thuật kiểm thử hộp đen. Nội dung kiểm thử đơn vị: - Kiểm thử giao diện (các tham số vào/ra qua giao diện) - Kiểm thử vào/ra (các file, bộ đệm và các lệnh đóng mở) - Kiểm thử cấu trúc dữ liệu cục bộ (khai báo và sử dụng biến) - Kiểm thử xử lý (các phép toán và tính đúng đắn của kế",
+        "hit": true
+      }
+    ],
+    "hit@1": false,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": null,
+    "strategy": "B"
+  },
+  {
+    "question_id": "q04",
+    "question": "Kỹ thuật chủ yếu được dùng trong kiểm thử đơn vị là gì?",
+    "expected_answer": "Kỹ thuật kiểm thử hộp trắng",
+    "split": "dev",
+    "filter": {},
+    "gold_page": 16,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p12-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 12,
+        "section": "mo_dau",
+        "score": 0.6448287963867188,
+        "text": "5. Phương pháp thực hiện Phương pháp nghiên cứu tài liệu - Thu thập dữ liệu, nghiên cứu và chọn lọc các tài liệu có liên quan đến đề tài. - Đánh giá, lựa chọn kĩ thuật, công cụ thực hiện phù hợp. - Áp dụng các phương pháp, kỹ thuật kiểm thử đã nghiên cứu vào việc kiểm thử sản phẩm thực tế. Phương pháp thực nghiệm - Tiến hành thực nghiệm để đánh giá hiệu quả của công cụ, kĩ thuật kiểm thử End- To-End với bài toán/ chức năng…., đánh giá độ hoàn thiện chức năng của một sản phẩm phần mềm thực tế. 11",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p16-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 16,
+        "section": "chuong_1",
+        "score": 0.6353429555892944,
+        "text": "1.3.1. Kiểm thử đơn vị Kiểm thử đơn vị nhằm kiểm tra đơn vị thiết kế nhỏ nhất - một module phần mềm. Một module hoạt động thường có trao đổi thông tin với module mức dưới và mức trên nó, do đó phạm vi phát hiện lỗi liên quan chặt chẽ tới module này. Người tiến hành kiểm thử đơn vị: lập trình viên cùng nhóm của mình. Kỹ thuật kiểm thử đơn vị: chủ yếu là hộp trắng, trong các trường hợp cần thiết có thể sử dụng thêm kỹ thuật kiểm thử hộp đen. Nội dung kiểm thử đơn vị: - Kiểm thử giao diện (các tham số vào/ra qua giao diện) - Kiểm thử vào/ra (các file, bộ đệm và các lệnh đóng mở) - Kiểm thử cấu trúc dữ liệu cục bộ (khai báo và sử dụng biến) - Kiểm thử xử lý (các phép toán và tính đúng đắn của kế",
+        "hit": true
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p20-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 20,
+        "section": "chuong_1",
+        "score": 0.6333597898483276,
+        "text": "1.4.2. Kiểm thử hộp đen 1.4.2.1. Tổng quan về kiểm thử hộp đen Kiểm thử hộp đen (Black – Box Testing) hay còn gọi là một phương pháp kiểm thử phần mềm được thực hiện mà không biết được cấu tạo bên trong của phần mềm. Ngoài ra kiểm thử hộp đen còn được hiểu là kiểm thử hướng dữ liệu (data – driven) hay kiểm thử hướng vào ra (input/output driven). Người kiểm thử nên xây dựng các nhóm giá trị đầu vào mà sẽ thực thi đầy đủ tất cả các yêu cầu chức năng của chương trình. Cách tiếp cận của các tester đối với hệ thống là không dùng bất kỳ một kiến thức về cấu trúc lập trình bên trong hệ thống, xem hệ thống là một cấu trúc hoàn chỉnh, không thể can thiệp vào bên trong.",
+        "hit": false
+      }
+    ],
+    "hit@1": false,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": null,
+    "strategy": "B"
+  },
+  {
+    "question_id": "q05",
+    "question": "Kiểm thử tích hợp có bao nhiêu cách tích hợp?",
+    "expected_answer": "Hai cách (tích hợp từng bước và tích hợp đồng thời)",
+    "split": "dev",
+    "filter": {},
+    "gold_page": 16,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p24-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 24,
+        "section": "chuong_2",
+        "score": 0.6658342480659485,
+        "text": "- Phương pháp và tiêu chuẩn kiểm tra. - Theo dõi yêu cầu từ đầu đến cuối và thiết kế các trường hợp thử nghiệm. 2.4. Cách thực hiện kiểm thử End-To-End Dưới đây là sơ đồ cách thực hiện kiểm thử End-To-End Hình 2.2: Mô hình ki ểm thử End-To-End Khung thiết kế thử nghiệm từ đầu đến cuối bao gồm ba phần: - Xây dựng chức năng người dùng. - Xây dựng điều kiện. - Xây dựng các trường hợp thử nghiệm. 2.4.1. Xây dựng chức năng người dùng Các hoạt động sau nên được thực hiện như một phần của chức năng người dùng xây dựng: - Liệt kê các tính năng của hệ thống và các thành phần được kết nối với nhau của chúng. - Liệt kê dữ liệu đầu vào, hành động và dữ liệu đầu ra cho từng tính năng hoặc chức năng. 23",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p16-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 16,
+        "section": "chuong_1",
+        "score": 0.6642470359802246,
+        "text": "t quả) - Kiểm thử điều kiện logic - Kiểm thử sai tiềm ẩn (về ngoại lệ, mô tả) - Kiểm thử các giá trị biên 1.3.2.Kiểm thử tích hợp Kiểm thử tích hợp nhằm nhận được một bộ phận chức năng hay một hệ con tốt Là một kỹ thuật có tính hệ thống để xây dựng cấu trúc của chương trình Từ các module đã qua ki ểm thử đơn vị, xây dựng cấu trúc chương trình đ ảm bảo tuân theo thi ết kế - Có hai cách tích h ợp: + Tích hợp từng bước. Theo cách này có 3 chiến lược: • Tích hợp từ dưới lên (bottom-up testing) • Tích hợp từ trên xuống (top-down testing) • Kết hợp 2 chiến lược trên (sandwich testing) 15",
+        "hit": true
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p12-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 12,
+        "section": "mo_dau",
+        "score": 0.657677173614502,
+        "text": "5. Phương pháp thực hiện Phương pháp nghiên cứu tài liệu - Thu thập dữ liệu, nghiên cứu và chọn lọc các tài liệu có liên quan đến đề tài. - Đánh giá, lựa chọn kĩ thuật, công cụ thực hiện phù hợp. - Áp dụng các phương pháp, kỹ thuật kiểm thử đã nghiên cứu vào việc kiểm thử sản phẩm thực tế. Phương pháp thực nghiệm - Tiến hành thực nghiệm để đánh giá hiệu quả của công cụ, kĩ thuật kiểm thử End- To-End với bài toán/ chức năng…., đánh giá độ hoàn thiện chức năng của một sản phẩm phần mềm thực tế. 11",
+        "hit": false
+      }
+    ],
+    "hit@1": false,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": null,
+    "strategy": "B"
+  },
+  {
+    "question_id": "q06",
+    "question": "Kiểm thử hệ thống sử dụng phương pháp kiểm thử nào?",
+    "expected_answer": "Phương pháp kiểm thử hộp đen",
+    "split": "dev",
+    "filter": {},
+    "gold_page": 17,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p22-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 22,
+        "section": "chuong_2",
+        "score": 0.7435245513916016,
+        "text": "2.1. Khái niệm End-To-End Testing là một loại kiểm thử phần mềm được thực hiện để đảm bảo tính ho ạt động chính xác c ủa một hệ thống hoặc ứng dụng trong môi trường thực tế, từ đầu vào người dùng đến đầu ra người dùng. Phương pháp này nh ằm mô phỏng một quy trình hoàn chỉnh của hệ thống từ đầu đến cuối, kiểm tra tích hợp giữa các thành phần và xác nhận rằng hệ thống hoạt động như dự định. 2.2. Tại sao phải kiểm thử End-To-End End-To-End Testing xác minh luồng hệ thống hoàn chỉnh và tăng độ tin cậy bằng cách phát hiện các sự cố và tăng phạm vi kiểm tra của các hệ thống con. Các hệ thống phần mềm hiện đại rất phức tạp và được kết nối với nhau bằng nhiều hệ thống con có thể khác với các hệ thốn",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p49-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 49,
+        "section": "chuong_3",
+        "score": 0.741020679473877,
+        "text": "ững tài liệu được lập sau khi hoàn thành việc kiểm thử. - Phạm vi: Tài liệu kế hoạch kiểm thử này được áp dụng cho việc kiểm thử chức năng trang web. 3.5.3.Thiết kế test case kiểm thử chức năng một số use case. 3.5.3.1.Kiểm thử chức năng đăng nhập Bảng 3.2. Test case đăng nhập TÊN DỰ ÁN: XÂY DỰNG WEBSITE IVY MODA TEST CASE Module_name: Đăng nhập Mô tả: Kiểm thử chức năng đăng nhập Người tạo: Nguyễn Ba Duy 48",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p16-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 16,
+        "section": "chuong_1",
+        "score": 0.732317328453064,
+        "text": "t quả) - Kiểm thử điều kiện logic - Kiểm thử sai tiềm ẩn (về ngoại lệ, mô tả) - Kiểm thử các giá trị biên 1.3.2.Kiểm thử tích hợp Kiểm thử tích hợp nhằm nhận được một bộ phận chức năng hay một hệ con tốt Là một kỹ thuật có tính hệ thống để xây dựng cấu trúc của chương trình Từ các module đã qua ki ểm thử đơn vị, xây dựng cấu trúc chương trình đ ảm bảo tuân theo thi ết kế - Có hai cách tích h ợp: + Tích hợp từng bước. Theo cách này có 3 chiến lược: • Tích hợp từ dưới lên (bottom-up testing) • Tích hợp từ trên xuống (top-down testing) • Kết hợp 2 chiến lược trên (sandwich testing) 15",
+        "hit": false
+      }
+    ],
+    "hit@1": false,
+    "evidence_hit@3": false,
+    "filter_compliant_top3": null,
+    "strategy": "B"
+  },
+  {
+    "question_id": "q07",
+    "question": "Kiểm thử alpha được người dùng thực hiện với loại số liệu nào?",
+    "expected_answer": "Số liệu giả lập, trong môi trường phát triển",
+    "split": "dev",
+    "filter": {},
+    "gold_page": 18,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p18-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 18,
+        "section": "chuong_1",
+        "score": 0.6287409067153931,
+        "text": "1.3.4.Kiểm thử chấp nhận Kiểm thử chấp nhận (Acceptance Testing): v ận hành hệ thống trong môi trường của người sử dụng Kiểm thử alpha (Alpha Testing): - Người dùng thực hiện với số liệu giả lập - Trong môi trường phát triển Kiểm thử beta (Beta Testing): - Người dùng thực hiện với số liệu thực - Trong môi trường ứng dụng thực 1.4. Các phương pháp kiểm thử 1.4.1. Kiểm thử hộp trắng 1.4.1.1. Tổng quan về kiểm thử hộp trắng Kiểm thử hộp trắng (White box testing) là phương pháp kiểm thử phần mềm nhằm kiểm tra thuật toán, cấu trúc code bên trong của sản phẩm. Hộp trắng tượng trưng cho khả năng nhìn xuyên qua lớp vỏ bên ngoài của phần mềm để thấy được hoạt động bên trong của chúng.",
+        "hit": true
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p32-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 32,
+        "section": "chuong_2",
+        "score": 0.6279752850532532,
+        "text": "Hình 2.11 Kiểm tra kết quả Test case 31",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p68-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 68,
+        "section": "chuong_3",
+        "score": 0.5380331873893738,
+        "text": "Hình 3.18: Kết quả test xem sản phẩm đã xem khi có sản phẩm đã xem TH2: Xem sản phẩm đã xem khi không có sản phẩm đã xem trong tài khoản Hình 3.19: Kết quả test xem sản phẩm đã xem khi không có sản phẩm đã xem 3.5.5. Test Report − Tỉ lệ test case đạt (passed): 81.25% 67",
+        "hit": false
+      }
+    ],
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": null,
+    "strategy": "B"
+  },
+  {
+    "question_id": "q08",
+    "question": "Phương pháp kiểm thử hộp trắng nhằm kiểm tra điều gì?",
+    "expected_answer": "Kiểm tra thuật toán, cấu trúc code bên trong của sản phẩm",
+    "split": "dev",
+    "filter": {},
+    "gold_page": 18,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p18-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 18,
+        "section": "chuong_1",
+        "score": 0.7847269177436829,
+        "text": "Hình 1.3: White box Mục đích của White box testing là đảm bảo tất cả các câu lệnh và điều kiện sẽ được thực hiện đúng, kết quả đầu ra như mong đợi. Tester sẽ xác minh luồng hoạt động cho ứng dụng bằng cách kiểm tra một loạt đầu vào (Input) đã được xác định từ 17",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p20-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 20,
+        "section": "chuong_1",
+        "score": 0.7671321630477905,
+        "text": "Tuy nhiên, kiểm thử hộp đen không phải là một kỹ thuật thay thế cho kỹ thuật kiểm thử hộp trắng mà là một phương pháp bổ sung giúp phát hiện các loại lỗi khác nhau của phương pháp kiểm thử hộp trắng. Kiểm thử hộp đen nhằm tìm ra các loại sai: - Chức năng thiếu hoặc không đúng đắn. - Sai về giao diện. - Sai trong cấu trúc hoặc trong truy cập dữ liệu ngoài. - Sai thực thi chức năng. - Sai khởi đầu hoặc kết thúc mô đun 19",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p18-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 18,
+        "section": "chuong_1",
+        "score": 0.7153598666191101,
+        "text": "1.3.4.Kiểm thử chấp nhận Kiểm thử chấp nhận (Acceptance Testing): v ận hành hệ thống trong môi trường của người sử dụng Kiểm thử alpha (Alpha Testing): - Người dùng thực hiện với số liệu giả lập - Trong môi trường phát triển Kiểm thử beta (Beta Testing): - Người dùng thực hiện với số liệu thực - Trong môi trường ứng dụng thực 1.4. Các phương pháp kiểm thử 1.4.1. Kiểm thử hộp trắng 1.4.1.1. Tổng quan về kiểm thử hộp trắng Kiểm thử hộp trắng (White box testing) là phương pháp kiểm thử phần mềm nhằm kiểm tra thuật toán, cấu trúc code bên trong của sản phẩm. Hộp trắng tượng trưng cho khả năng nhìn xuyên qua lớp vỏ bên ngoài của phần mềm để thấy được hoạt động bên trong của chúng.",
+        "hit": true
+      }
+    ],
+    "hit@1": false,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": null,
+    "strategy": "B"
+  },
+  {
+    "question_id": "q09",
+    "question": "Kiểm thử hộp đen được thực hiện mà không biết điều gì?",
+    "expected_answer": "Không biết cấu tạo bên trong của phần mềm",
+    "split": "dev",
+    "filter": {},
+    "gold_page": 20,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p20-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 20,
+        "section": "chuong_1",
+        "score": 0.7917935252189636,
+        "text": "Tuy nhiên, kiểm thử hộp đen không phải là một kỹ thuật thay thế cho kỹ thuật kiểm thử hộp trắng mà là một phương pháp bổ sung giúp phát hiện các loại lỗi khác nhau của phương pháp kiểm thử hộp trắng. Kiểm thử hộp đen nhằm tìm ra các loại sai: - Chức năng thiếu hoặc không đúng đắn. - Sai về giao diện. - Sai trong cấu trúc hoặc trong truy cập dữ liệu ngoài. - Sai thực thi chức năng. - Sai khởi đầu hoặc kết thúc mô đun 19",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p20-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 20,
+        "section": "chuong_1",
+        "score": 0.7740374803543091,
+        "text": "1.4.2. Kiểm thử hộp đen 1.4.2.1. Tổng quan về kiểm thử hộp đen Kiểm thử hộp đen (Black – Box Testing) hay còn gọi là một phương pháp kiểm thử phần mềm được thực hiện mà không biết được cấu tạo bên trong của phần mềm. Ngoài ra kiểm thử hộp đen còn được hiểu là kiểm thử hướng dữ liệu (data – driven) hay kiểm thử hướng vào ra (input/output driven). Người kiểm thử nên xây dựng các nhóm giá trị đầu vào mà sẽ thực thi đầy đủ tất cả các yêu cầu chức năng của chương trình. Cách tiếp cận của các tester đối với hệ thống là không dùng bất kỳ một kiến thức về cấu trúc lập trình bên trong hệ thống, xem hệ thống là một cấu trúc hoàn chỉnh, không thể can thiệp vào bên trong.",
+        "hit": true
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p21-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 21,
+        "section": "chuong_1",
+        "score": 0.7130029201507568,
+        "text": "Hình 1.4: Black box Testing Các kỹ thuật kiểm thử hộp đen phổ biến: - Phân hoạch tương đương - Phân tích giá trị biên - Sử dụng bảng quyết định 1.4.2.2. Ưu nhược điểm Ưu điểm: - Phù hợp với hệ thống với chức năng lớn, có sự phân mã rõ ràng. - Người thực hiện không cần hiểu quá nhiều về code cũng như ngôn ngữ lập trình. - Tester tiếp cận hệ thống như một chiếc hộp đen, không cần biết bên trong nó ho ạt động như thế nào. Nhược điểm: - Thông thường phương pháp này chỉ có thể thực hiện được 1 phần kế hoạch kiểm thử do sự hạn chế của độ bao phủ. - Độ hiệu quả của kiểm thử chưa cao bởi người thực hiện không hiểu về code bên trong của phần mềm. 20",
+        "hit": false
+      }
+    ],
+    "hit@1": false,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": null,
+    "strategy": "B"
+  },
+  {
+    "question_id": "q10",
+    "question": "End-To-End Testing được định nghĩa như thế nào?",
+    "expected_answer": "Là loại kiểm thử phần mềm đảm bảo tính hoạt động chính xác của hệ thống trong môi trường thực tế, từ đầu vào đến đầu ra người dùng",
+    "split": "dev",
+    "filter": {},
+    "gold_page": 22,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p22-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 22,
+        "section": "chuong_2",
+        "score": 0.8912085294723511,
+        "text": "2.1. Khái niệm End-To-End Testing là một loại kiểm thử phần mềm được thực hiện để đảm bảo tính ho ạt động chính xác c ủa một hệ thống hoặc ứng dụng trong môi trường thực tế, từ đầu vào người dùng đến đầu ra người dùng. Phương pháp này nh ằm mô phỏng một quy trình hoàn chỉnh của hệ thống từ đầu đến cuối, kiểm tra tích hợp giữa các thành phần và xác nhận rằng hệ thống hoạt động như dự định. 2.2. Tại sao phải kiểm thử End-To-End End-To-End Testing xác minh luồng hệ thống hoàn chỉnh và tăng độ tin cậy bằng cách phát hiện các sự cố và tăng phạm vi kiểm tra của các hệ thống con. Các hệ thống phần mềm hiện đại rất phức tạp và được kết nối với nhau bằng nhiều hệ thống con có thể khác với các hệ thốn",
+        "hit": true
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p23-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 23,
+        "section": "chuong_2",
+        "score": 0.7225521802902222,
+        "text": "ừ người dùng: End-To-End Testing đảm bảo tính hoạt động chính xác và đáp ứng mong đợi của hệ thống. Điều này tạo ra niềm tin và sự tin cậy từ phía người dùng, giúp xây dựng hình ảnh tốt và đáng tin cậy về sản phẩm và dịch vụ. 2.3. Quá trình kiểm thử End-To-End Dưới đây cái nhìn tổng quan về quy trình kiểm thử End-To-End. Hình 2.1: Quy trình kiểm thử End-To-End Các hoạt động chính liên quan đ ến Kiểm thử đầu cuối là: - Nghiên cứu các yêu cầu thử nghiệm từ đầu đến cuối. - Thiết lập môi trường thử nghiệm và yêu cầu phần cứng/phần mềm. - Mô tả tất cả các hệ thống và các quy trình hệ thống con của nó. - Mô tả vai trò và trách nhiệm cho tất cả các hệ thống. 22",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p24-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 24,
+        "section": "chuong_2",
+        "score": 0.7111573815345764,
+        "text": "- Phương pháp và tiêu chuẩn kiểm tra. - Theo dõi yêu cầu từ đầu đến cuối và thiết kế các trường hợp thử nghiệm. 2.4. Cách thực hiện kiểm thử End-To-End Dưới đây là sơ đồ cách thực hiện kiểm thử End-To-End Hình 2.2: Mô hình ki ểm thử End-To-End Khung thiết kế thử nghiệm từ đầu đến cuối bao gồm ba phần: - Xây dựng chức năng người dùng. - Xây dựng điều kiện. - Xây dựng các trường hợp thử nghiệm. 2.4.1. Xây dựng chức năng người dùng Các hoạt động sau nên được thực hiện như một phần của chức năng người dùng xây dựng: - Liệt kê các tính năng của hệ thống và các thành phần được kết nối với nhau của chúng. - Liệt kê dữ liệu đầu vào, hành động và dữ liệu đầu ra cho từng tính năng hoặc chức năng. 23",
+        "hit": false
+      }
+    ],
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": null,
+    "strategy": "B"
+  },
+  {
+    "question_id": "q11",
+    "question": "Khung thiết kế thử nghiệm End-To-End từ đầu đến cuối bao gồm bao nhiêu phần?",
+    "expected_answer": "Ba phần",
+    "split": "dev",
+    "filter": {},
+    "gold_page": 24,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p24-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 24,
+        "section": "chuong_2",
+        "score": 0.7924396991729736,
+        "text": "- Phương pháp và tiêu chuẩn kiểm tra. - Theo dõi yêu cầu từ đầu đến cuối và thiết kế các trường hợp thử nghiệm. 2.4. Cách thực hiện kiểm thử End-To-End Dưới đây là sơ đồ cách thực hiện kiểm thử End-To-End Hình 2.2: Mô hình ki ểm thử End-To-End Khung thiết kế thử nghiệm từ đầu đến cuối bao gồm ba phần: - Xây dựng chức năng người dùng. - Xây dựng điều kiện. - Xây dựng các trường hợp thử nghiệm. 2.4.1. Xây dựng chức năng người dùng Các hoạt động sau nên được thực hiện như một phần của chức năng người dùng xây dựng: - Liệt kê các tính năng của hệ thống và các thành phần được kết nối với nhau của chúng. - Liệt kê dữ liệu đầu vào, hành động và dữ liệu đầu ra cho từng tính năng hoặc chức năng. 23",
+        "hit": true
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p11-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 11,
+        "section": "mo_dau",
+        "score": 0.7040555477142334,
+        "text": "h thực hiện kiểm thử, khung thiết kế kiểm thử End-To-End. 4.Bố cục đề tài (Nội dung đề tài được chia làm 3 chương) Chương 1. Tổng quan về đề tài: Tổng quan về kiểm thử phần mềm, quy trình kiểm thử phần mềm, các cấp độ kiểm thử và các phương pháp của kiểm thử phần mềm. Chương 2. Tìm hiểu kĩ thuật kiểm thử End-To-End: Tổng quan về kỹ thuật kiểm thử End-to-end: khái niệm, quá trình và cách thức thực hiện, công cụ thực hiện kiểm thử End-To-End và cách thực hiện. Chương 3. Kết quả thực nghiệm: Phát biểu bài toán, xây dựng tài liệu đặc tả, Lịch trình công việc, kết quả thực hiện kiểm thử một số test case, test report. 10",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p48-c2",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 48,
+        "section": "chuong_3",
+        "score": 0.6537856459617615,
+        "text": "ng lịch trình công việc Mốc công việc Sản phẩm Thời gian Bắt đầu Kết thúc Lập kế hoạch kiểm thử Test plan 2 ngày 22/05/2025 24/05/2025 Xem lại các tài liệu Test plan 1 ngày 24/05/2025 25/05/2025 47",
+        "hit": false
+      }
+    ],
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": null,
+    "strategy": "B"
+  },
+  {
+    "question_id": "q12",
+    "question": "Selenium là công cụ gì?",
+    "expected_answer": "Bộ công cụ kiểm thử tự động mã nguồn mở dành cho các ứng dụng web",
+    "split": "dev",
+    "filter": {},
+    "gold_page": 25,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p26-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 26,
+        "section": "chuong_2",
+        "score": 0.7469030022621155,
+        "text": "2.5.2.Đặc trưng Selenium là bộ kiểm thử tự động miễn phí (mã nguồn mở) dành cho các ứng dụng web trên các trình duy ệt và nền tảng khác nhau như: Firefox, Google Chrome, Microsoft edge. Selenium không ch ỉ là 1 công cụ độc lập mà là 1 bộ công cụ của phần mềm, mỗi bộ đều đáp ứng được nhu cầu kiểm thử khác nhau của 1 tổ chức. Hiện tại, phiên bản mới nhất của công cụ này là Selenium 4. Phiên bản này hỗ trợ nhiều loại kiểm thử trong quá trình phát triển và kiểm tra ứng dụng web như: Kiểm thử chức năng (Functional Testing), Kiểm thử giao diện người dùng (User Interface Testing), Kiểm thử tích hợp (Integration Testing), Kiểm thử hiệu năng (Performance Testing), Kiểm thử đa trình duyệt và đa nền tả",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p26-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 26,
+        "section": "chuong_2",
+        "score": 0.7209728956222534,
+        "text": "ng (Cross-Browser & Cross-Platform Testing), Kiểm thử độc lập và liên tục (Headless & Continuous Testing). Một vài đặc điểm nổi trội của Selenium: - Selenium là m ột công c ụ mã ngu ồn m ở/ framework đ ể kiểm tra web, website phiên bản di động - Selenium IDE hỗ trợ tính năng playback giúp chúng ta có thể sử dụng các bài test của người khác và không cần phải biết ngôn ngữ script - Selenium là m ột nền tảng kiểm thử dựa trên cloud giúp tester có th ể lưu lại thao tác và xuất ra dưới dạng script đơn giản, dễ hiểu. - Selenium hỗ trợ nhiều hệ điều hành, ngôn ngữ và trình duyệt khác nhau. - Giúp chúng ta có th ể chạy cùng lúc nhiều bài test đ ể giảm thời gian và tăng hiệu quả - Quá trình ki ểm thử",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p27-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 27,
+        "section": "chuong_2",
+        "score": 0.6508415937423706,
+        "text": "2.6.Cài đặt và sử dụng công cụ Selenium 2.6.1.Cài đặt Bước 1: Vào trình duyệt Chrome và truy cập vào link: https://www.selenium.dev/selenium-ide/ Bước 2: Chọn CHROME DOWNLOAD Hình 2.3: Truy cập đường dẫn cài đặt Selenium IDE Bước 3: Nhấn thêm vào Chorme Hình 2.4 Cài đặt Selenium IDE 2.6.2.Cách sử dụng Bước 1: Sau khi nhấn vào biểu tượng Selenium IDE. Một cửa sổ được hiển thị lên. Bước 2: Chọn create a new Project 26",
+        "hit": false
+      }
+    ],
+    "hit@1": false,
+    "evidence_hit@3": false,
+    "filter_compliant_top3": null,
+    "strategy": "B"
+  },
+  {
+    "question_id": "q13",
+    "question": "Phiên bản mới nhất của công cụ Selenium là phiên bản nào?",
+    "expected_answer": "Selenium 4",
+    "split": "dev",
+    "filter": {},
+    "gold_page": 26,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p26-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 26,
+        "section": "chuong_2",
+        "score": 0.7121627330780029,
+        "text": "2.5.2.Đặc trưng Selenium là bộ kiểm thử tự động miễn phí (mã nguồn mở) dành cho các ứng dụng web trên các trình duy ệt và nền tảng khác nhau như: Firefox, Google Chrome, Microsoft edge. Selenium không ch ỉ là 1 công cụ độc lập mà là 1 bộ công cụ của phần mềm, mỗi bộ đều đáp ứng được nhu cầu kiểm thử khác nhau của 1 tổ chức. Hiện tại, phiên bản mới nhất của công cụ này là Selenium 4. Phiên bản này hỗ trợ nhiều loại kiểm thử trong quá trình phát triển và kiểm tra ứng dụng web như: Kiểm thử chức năng (Functional Testing), Kiểm thử giao diện người dùng (User Interface Testing), Kiểm thử tích hợp (Integration Testing), Kiểm thử hiệu năng (Performance Testing), Kiểm thử đa trình duyệt và đa nền tả",
+        "hit": true
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p26-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 26,
+        "section": "chuong_2",
+        "score": 0.6818323135375977,
+        "text": "ng (Cross-Browser & Cross-Platform Testing), Kiểm thử độc lập và liên tục (Headless & Continuous Testing). Một vài đặc điểm nổi trội của Selenium: - Selenium là m ột công c ụ mã ngu ồn m ở/ framework đ ể kiểm tra web, website phiên bản di động - Selenium IDE hỗ trợ tính năng playback giúp chúng ta có thể sử dụng các bài test của người khác và không cần phải biết ngôn ngữ script - Selenium là m ột nền tảng kiểm thử dựa trên cloud giúp tester có th ể lưu lại thao tác và xuất ra dưới dạng script đơn giản, dễ hiểu. - Selenium hỗ trợ nhiều hệ điều hành, ngôn ngữ và trình duyệt khác nhau. - Giúp chúng ta có th ể chạy cùng lúc nhiều bài test đ ể giảm thời gian và tăng hiệu quả - Quá trình ki ểm thử",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p27-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 27,
+        "section": "chuong_2",
+        "score": 0.6740602850914001,
+        "text": "2.6.Cài đặt và sử dụng công cụ Selenium 2.6.1.Cài đặt Bước 1: Vào trình duyệt Chrome và truy cập vào link: https://www.selenium.dev/selenium-ide/ Bước 2: Chọn CHROME DOWNLOAD Hình 2.3: Truy cập đường dẫn cài đặt Selenium IDE Bước 3: Nhấn thêm vào Chorme Hình 2.4 Cài đặt Selenium IDE 2.6.2.Cách sử dụng Bước 1: Sau khi nhấn vào biểu tượng Selenium IDE. Một cửa sổ được hiển thị lên. Bước 2: Chọn create a new Project 26",
+        "hit": false
+      }
+    ],
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": null,
+    "strategy": "B"
+  },
+  {
+    "question_id": "q14",
+    "question": "Website thời trang IVY moda được thành lập vào thời điểm nào?",
+    "expected_answer": "Tháng 10/2005",
+    "split": "dev",
+    "filter": {},
+    "gold_page": 33,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p33-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 33,
+        "section": "chuong_3",
+        "score": 0.79172682762146,
+        "text": "3.1. Giới thiệu phần mềm website thời trang ivymoda.com IVY moda được thành lập vào tháng 10/2005, thuộc sở hữu của doanh nhân Vũ Anh. Ở xuất phát điểm IVY moda hướng đến dòng thời trang công sở cho nữ và đã gặt hái được nhiều thành công. Không dừng lại ở đó thương hiệu còn cho ra đời dòng sản phẩm dành cho nam và trẻ em nhằm đáp ứng đa dạng nhu cầu của khách hàng. IVY moda là thương hi ệu thời trang Việt Nam với mong muốn đem lại vẻ đẹp hiện đại và sự tự tin cho khách hàng, thông qua các dòng sản phẩm thời trang thể hiện cá tính và xu hướng. Một trong những “tôn chỉ” về thiết kế của IVY moda chính là sự đa dạng, với mong muốn mang đến cho người mặc những sản phẩm phù hợp nhất với ngoại hình",
+        "hit": true
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p38-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 38,
+        "section": "chuong_3",
+        "score": 0.35073256492614746,
+        "text": "Bảng: Chi tiết Sản phẩm Bảng: Khuyến mãi 37",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p40-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 40,
+        "section": "chuong_3",
+        "score": 0.3433924913406372,
+        "text": "Bảng: Nhân viên Bảng: Cửa hàng 39",
+        "hit": false
+      }
+    ],
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": null,
+    "strategy": "B"
+  },
+  {
+    "question_id": "q15",
+    "question": "Trong use case đăng nhập, khi nhập sai tài khoản thì khách hàng chỉ được nhập lại tối đa bao nhiêu lần?",
+    "expected_answer": "Tối đa 5 lần",
+    "split": "test",
+    "filter": {},
+    "gold_page": 43,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p44-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 44,
+        "section": "chuong_3",
+        "score": 0.6292693614959717,
+        "text": "Người dùng đã đăng ký tài khoản trước đó có thể đăng nhập. 6.Hậu điều kiện: Nếu use case thành công, người dùng sẽ được đăng nhập vào hệ thống. Nếu không trạng thái của hệ thống sẽ không thay đổi. 7.Điểm mở rộng Không có. 3.4.2. Mô tả use case “Sửa thông tin cá nhân” 1.Tên use case Sửa thông tin cá nhân. 2. Mô tả vắn tắt Use case này cho phép khách hàng thay đ ổi thông tin cá nhân cho tài kho ản 3.Luồng sự kiện. 3.1.Luồng cơ bản.",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p43-c2",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 43,
+        "section": "chuong_3",
+        "score": 0.6265920400619507,
+        "text": "e kết thúc. 4.Các yêu cầu đặc biệt: Nếu nhập sai chỉ được nhập lại tối đa 5 lần. 5.Tiền điều kiện: 42",
+        "hit": true
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p43-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 43,
+        "section": "chuong_3",
+        "score": 0.619540810585022,
+        "text": "àn hình. Khách hàng ph ải quay lại bước (2) trong luồng cơ bản để nhập lại đúng Email/SDT và mật khẩu. Use case kết thúc. 2) Bỏ trống thông tin: Tại bước 2 trong luồng cơ bản nếu khách hàng nhập thông tin tài kho ản, mật khẩu sai thì hệ thống sẽ hiện thông báo “Lỗi! Vui lòng nhập đầy đủ thông tin đăng nhập” lên màn hình. Khách hàng phải quay lại bước (2) trong luồng cơ bản để nhập lại Email/SDT và mật khẩu. Use case kết thúc. 3)Bỏ qua: Tại bước 2 trong luồng cơ bản nếu khách hàng kích vào nút quay lại thì use case kết thúc. 4) Tại bất kỳ thời điểm nào trong quá trình t hực hiện use case nếu không kết nối được với cơ sở dữ liệu thì hệ thông sẽ hiển thị lên một thông báo “Lỗi kết nối”. Use cas",
+        "hit": false
+      }
+    ],
+    "hit@1": false,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": null,
+    "strategy": "B"
+  },
+  {
+    "question_id": "q16",
+    "question": "Ai là người tạo test case kiểm thử chức năng \"Tìm kiếm sản phẩm\"?",
+    "expected_answer": "Phạm Quang Trường",
+    "split": "test",
+    "filter": {},
+    "gold_page": 56,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p49-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 49,
+        "section": "chuong_3",
+        "score": 0.6679388284683228,
+        "text": "ững tài liệu được lập sau khi hoàn thành việc kiểm thử. - Phạm vi: Tài liệu kế hoạch kiểm thử này được áp dụng cho việc kiểm thử chức năng trang web. 3.5.3.Thiết kế test case kiểm thử chức năng một số use case. 3.5.3.1.Kiểm thử chức năng đăng nhập Bảng 3.2. Test case đăng nhập TÊN DỰ ÁN: XÂY DỰNG WEBSITE IVY MODA TEST CASE Module_name: Đăng nhập Mô tả: Kiểm thử chức năng đăng nhập Người tạo: Nguyễn Ba Duy 48",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p13-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 13,
+        "section": "chuong_1",
+        "score": 0.6431834101676941,
+        "text": "1.1 Khái niệm về kiểm thử phần mềm 1.1.1. Khái niệm Kiểm thử phần mềm là một phương pháp để kiểm tra xem sản phẩm phần mềm thực tế có phù hợp với các yêu cầu mong đợi hay không và để đảm bảo rằng không có khiếm khuyết. Nó liên quan đến việc thực thi các thành phần phần mềm hệ thống bằng cách sử dụng thủ công hoặc tự động để đánh giá một hoặc nhiều thuộc tính quan trọng. 1.1.2. Vai trò - Đảm bảo chất lượng phần mềm và mang tính sống còn trong các dự án sản xuất phần mềm. Vì vậy nó đã trở thành quy trình bắt buộc trong các dự án phần mềm hiện nay. - Tránh những rủi ro, lỗi phát sinh trong su ốt quá trình tạo ra sản phẩm. Phát hiện sớm và sửa chữa, giảm chi phí, tiết kiệm thời gian và nguồn lực",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p59-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 59,
+        "section": "chuong_3",
+        "score": 0.6423705816268921,
+        "text": "thích trong tài 3 Nhấn chuột vào khoản “Sản phẩm yêu thích” 3.5.3.5. Kiểm thử chức năng “Xem sản phẩm đã xem” Bảng 3.6: Test case Xem sản phẩm đã xem TÊN DỰ ÁN: XÂY DỰNG WEBSITE IVY MODA TEST CASE Module_name: Tìm kiếm sản phẩm Mô tả: Kiểm thử chức năng xem sản phẩm đã xem Người tạo: Nguyễn Thiện Thật Ngày tạo: 27/05/2026 Ngày review: 30/05/2026 Điều kiện tiên quyết Không có Môi trường: OS: Windows/Linux/Mac System: Laptop/Desktop",
+        "hit": false
+      }
+    ],
+    "hit@1": false,
+    "evidence_hit@3": false,
+    "filter_compliant_top3": null,
+    "strategy": "B"
+  },
+  {
+    "question_id": "q17",
+    "question": "Tỉ lệ test case đạt (passed) trong test report là bao nhiêu?",
+    "expected_answer": "81.25%",
+    "split": "test",
+    "filter": {},
+    "gold_page": 68,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p32-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 32,
+        "section": "chuong_2",
+        "score": 0.6791919469833374,
+        "text": "Hình 2.11 Kiểm tra kết quả Test case 31",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p68-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 68,
+        "section": "chuong_3",
+        "score": 0.6003718376159668,
+        "text": "Hình 3.18: Kết quả test xem sản phẩm đã xem khi có sản phẩm đã xem TH2: Xem sản phẩm đã xem khi không có sản phẩm đã xem trong tài khoản Hình 3.19: Kết quả test xem sản phẩm đã xem khi không có sản phẩm đã xem 3.5.5. Test Report − Tỉ lệ test case đạt (passed): 81.25% 67",
+        "hit": true
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p14-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 14,
+        "section": "chuong_1",
+        "score": 0.5660465955734253,
+        "text": "ử. 1.2.3. Thiết kế kiểm thử (Test Case Development) - Thấu hiểu yêu cầu - Thiết kế các kịch bản kiểm thử chi tiết. - Chuẩn bị dữ liệu kiểm thử và viết các script kiểm thử nếu cần. - Review test case để bổ sung và tránh rủi ro 13",
+        "hit": false
+      }
+    ],
+    "hit@1": false,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": null,
+    "strategy": "B"
+  },
+  {
+    "question_id": "q18",
+    "question": "Tỉ lệ test case không đạt (failed) trong test report là bao nhiêu?",
+    "expected_answer": "18.75%",
+    "split": "test",
+    "filter": {},
+    "gold_page": 69,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p32-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 32,
+        "section": "chuong_2",
+        "score": 0.7004290819168091,
+        "text": "Hình 2.11 Kiểm tra kết quả Test case 31",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p69-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 69,
+        "section": "chuong_3",
+        "score": 0.6493163108825684,
+        "text": "− Tỉ lệ test case không đạt (failed): 18.75% − Hệ thống chạy ổn định trên các trình duyệt web khác nhau (Google Chrome, Microsoft Edge) 68",
+        "hit": true
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p68-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 68,
+        "section": "chuong_3",
+        "score": 0.6289582252502441,
+        "text": "Hình 3.18: Kết quả test xem sản phẩm đã xem khi có sản phẩm đã xem TH2: Xem sản phẩm đã xem khi không có sản phẩm đã xem trong tài khoản Hình 3.19: Kết quả test xem sản phẩm đã xem khi không có sản phẩm đã xem 3.5.5. Test Report − Tỉ lệ test case đạt (passed): 81.25% 67",
+        "hit": false
+      }
+    ],
+    "hit@1": false,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": null,
+    "strategy": "B"
+  },
+  {
+    "question_id": "q19",
+    "question": "Công cụ Selenium cho phép viết test script bằng những ngôn ngữ lập trình nào?",
+    "expected_answer": "Java, PHP, C#, Ruby, Python, Perl",
+    "split": "test",
+    "filter": {},
+    "gold_page": 25,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p26-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 26,
+        "section": "chuong_2",
+        "score": 0.7597828507423401,
+        "text": "ng (Cross-Browser & Cross-Platform Testing), Kiểm thử độc lập và liên tục (Headless & Continuous Testing). Một vài đặc điểm nổi trội của Selenium: - Selenium là m ột công c ụ mã ngu ồn m ở/ framework đ ể kiểm tra web, website phiên bản di động - Selenium IDE hỗ trợ tính năng playback giúp chúng ta có thể sử dụng các bài test của người khác và không cần phải biết ngôn ngữ script - Selenium là m ột nền tảng kiểm thử dựa trên cloud giúp tester có th ể lưu lại thao tác và xuất ra dưới dạng script đơn giản, dễ hiểu. - Selenium hỗ trợ nhiều hệ điều hành, ngôn ngữ và trình duyệt khác nhau. - Giúp chúng ta có th ể chạy cùng lúc nhiều bài test đ ể giảm thời gian và tăng hiệu quả - Quá trình ki ểm thử",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p25-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 25,
+        "section": "chuong_2",
+        "score": 0.7345041632652283,
+        "text": "ce (open source test automation tool), dành cho các ứng dụng web, hỗ trợ hoạt động trên nhiều trình duyệt và nền tảng khác nhau như Windows, Mac, Linus… V ới Selenium, bạn có thể viết các testscript bằng các ngôn ngữ lập trình khác nhau như Java, PHP, C#, Ruby hay Python hay thậm chí là Perl… Selenium được sử dụng để automate các thao tác với trình duyệt, hay dễ hiểu hơn là nó giúp giả lập lại các tương tác trên trình duy ệt như một người dùng thực sự. Ví dụ bạn có thể lập trình để tự động bật trình duyệt, open một link, input dữ liệu, hay get infor page, upload, download dữ liệu từ trên web page. Với selenium bạn có thể làm đc rất nhiều thứ. Hơn thế nữa, bạn có thể sử dụng, tùy biến để tận",
+        "hit": true
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p26-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 26,
+        "section": "chuong_2",
+        "score": 0.6883342266082764,
+        "text": "2.5.2.Đặc trưng Selenium là bộ kiểm thử tự động miễn phí (mã nguồn mở) dành cho các ứng dụng web trên các trình duy ệt và nền tảng khác nhau như: Firefox, Google Chrome, Microsoft edge. Selenium không ch ỉ là 1 công cụ độc lập mà là 1 bộ công cụ của phần mềm, mỗi bộ đều đáp ứng được nhu cầu kiểm thử khác nhau của 1 tổ chức. Hiện tại, phiên bản mới nhất của công cụ này là Selenium 4. Phiên bản này hỗ trợ nhiều loại kiểm thử trong quá trình phát triển và kiểm tra ứng dụng web như: Kiểm thử chức năng (Functional Testing), Kiểm thử giao diện người dùng (User Interface Testing), Kiểm thử tích hợp (Integration Testing), Kiểm thử hiệu năng (Performance Testing), Kiểm thử đa trình duyệt và đa nền tả",
+        "hit": false
+      }
+    ],
+    "hit@1": false,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": null,
+    "strategy": "B"
+  },
+  {
+    "question_id": "q20",
+    "question": "Trong Chương 1, giai đoạn đầu tiên của quy trình kiểm thử phần mềm là gì?",
+    "expected_answer": "Phân tích yêu cầu (Requirement Analysis)",
+    "split": "dev",
+    "filter": {
+      "section": "chuong_1"
+    },
+    "gold_page": 14,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p11-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 11,
+        "section": "mo_dau",
+        "score": 0.7312636375427246,
+        "text": "h thực hiện kiểm thử, khung thiết kế kiểm thử End-To-End. 4.Bố cục đề tài (Nội dung đề tài được chia làm 3 chương) Chương 1. Tổng quan về đề tài: Tổng quan về kiểm thử phần mềm, quy trình kiểm thử phần mềm, các cấp độ kiểm thử và các phương pháp của kiểm thử phần mềm. Chương 2. Tìm hiểu kĩ thuật kiểm thử End-To-End: Tổng quan về kỹ thuật kiểm thử End-to-end: khái niệm, quá trình và cách thức thực hiện, công cụ thực hiện kiểm thử End-To-End và cách thực hiện. Chương 3. Kết quả thực nghiệm: Phát biểu bài toán, xây dựng tài liệu đặc tả, Lịch trình công việc, kết quả thực hiện kiểm thử một số test case, test report. 10",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p13-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 13,
+        "section": "chuong_1",
+        "score": 0.713250994682312,
+        "text": "1.1 Khái niệm về kiểm thử phần mềm 1.1.1. Khái niệm Kiểm thử phần mềm là một phương pháp để kiểm tra xem sản phẩm phần mềm thực tế có phù hợp với các yêu cầu mong đợi hay không và để đảm bảo rằng không có khiếm khuyết. Nó liên quan đến việc thực thi các thành phần phần mềm hệ thống bằng cách sử dụng thủ công hoặc tự động để đánh giá một hoặc nhiều thuộc tính quan trọng. 1.1.2. Vai trò - Đảm bảo chất lượng phần mềm và mang tính sống còn trong các dự án sản xuất phần mềm. Vì vậy nó đã trở thành quy trình bắt buộc trong các dự án phần mềm hiện nay. - Tránh những rủi ro, lỗi phát sinh trong su ốt quá trình tạo ra sản phẩm. Phát hiện sớm và sửa chữa, giảm chi phí, tiết kiệm thời gian và nguồn lực",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p14-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 14,
+        "section": "chuong_1",
+        "score": 0.6852702498435974,
+        "text": "Hình 1.1: Quy trình kiểm thử phần mềm 1.2.1. Phân tích yêu cầu (Requirement Analysis) - Giai đoạn này tập trung vào việc hiểu và phân tích yêu cầu của khách hàng đối với sản phẩm phần mềm. - Các tài liệu như tài liệu yêu cầu, tài liệu thiết kế hệ thống được nghiên cứu để hiểu rõ yêu cầu chức năng và phi chức năng. - Các vấn đề phát sinh hoặc không rõ ràng thường được thảo luận và làm rõ với các bên liên quan: BA (Business Analysis), PM (Project Manager), team leader, khách hàng 1.2.2. Lập kế hoạch kiểm thử(Test planning) - Xác định phạm vi, hướng tiếp cận, quy trình, tài nguyên, và l ịch trình kiểm thử. - Lập kế hoạch cho các module, công cụ và môi trường, phân công và sắp xếp thứ tự kiểm th",
+        "hit": true
+      }
+    ],
+    "hit@1": false,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": [
+      false,
+      true,
+      true
+    ],
+    "strategy": "B"
+  },
+  {
+    "question_id": "q21",
+    "question": "Trong Chương 2, Selenium WebDriver có yêu cầu phải cài đặt server hay không?",
+    "expected_answer": "Không yêu cầu cài đặt server",
+    "split": "dev",
+    "filter": {
+      "section": "chuong_2"
+    },
+    "gold_page": 26,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p26-c2",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 26,
+        "section": "chuong_2",
+        "score": 0.7755253314971924,
+        "text": "của Selenium hao t ốn ít tài nguyên và yêu c ầu cấu hình thiết bị thấp hơn các công cụ khác. - Selenium WebDriver không yêu cầu cài đặt server, test script của chúng ta sẽ trực tiếp tương tác với trình duyệt. 25",
+        "hit": true
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p27-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 27,
+        "section": "chuong_2",
+        "score": 0.5612932443618774,
+        "text": "2.6.Cài đặt và sử dụng công cụ Selenium 2.6.1.Cài đặt Bước 1: Vào trình duyệt Chrome và truy cập vào link: https://www.selenium.dev/selenium-ide/ Bước 2: Chọn CHROME DOWNLOAD Hình 2.3: Truy cập đường dẫn cài đặt Selenium IDE Bước 3: Nhấn thêm vào Chorme Hình 2.4 Cài đặt Selenium IDE 2.6.2.Cách sử dụng Bước 1: Sau khi nhấn vào biểu tượng Selenium IDE. Một cửa sổ được hiển thị lên. Bước 2: Chọn create a new Project 26",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p26-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 26,
+        "section": "chuong_2",
+        "score": 0.5110124349594116,
+        "text": "2.5.2.Đặc trưng Selenium là bộ kiểm thử tự động miễn phí (mã nguồn mở) dành cho các ứng dụng web trên các trình duy ệt và nền tảng khác nhau như: Firefox, Google Chrome, Microsoft edge. Selenium không ch ỉ là 1 công cụ độc lập mà là 1 bộ công cụ của phần mềm, mỗi bộ đều đáp ứng được nhu cầu kiểm thử khác nhau của 1 tổ chức. Hiện tại, phiên bản mới nhất của công cụ này là Selenium 4. Phiên bản này hỗ trợ nhiều loại kiểm thử trong quá trình phát triển và kiểm tra ứng dụng web như: Kiểm thử chức năng (Functional Testing), Kiểm thử giao diện người dùng (User Interface Testing), Kiểm thử tích hợp (Integration Testing), Kiểm thử hiệu năng (Performance Testing), Kiểm thử đa trình duyệt và đa nền tả",
+        "hit": false
+      }
+    ],
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": [
+      true,
+      true,
+      true
+    ],
+    "strategy": "B"
+  },
+  {
+    "question_id": "q22",
+    "question": "Trong Chương 3, website IVY moda thuộc sở hữu của ai?",
+    "expected_answer": "Doanh nhân Vũ Anh",
+    "split": "test",
+    "filter": {
+      "section": "chuong_3"
+    },
+    "gold_page": 33,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p33-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 33,
+        "section": "chuong_3",
+        "score": 0.5268504619598389,
+        "text": "3.1. Giới thiệu phần mềm website thời trang ivymoda.com IVY moda được thành lập vào tháng 10/2005, thuộc sở hữu của doanh nhân Vũ Anh. Ở xuất phát điểm IVY moda hướng đến dòng thời trang công sở cho nữ và đã gặt hái được nhiều thành công. Không dừng lại ở đó thương hiệu còn cho ra đời dòng sản phẩm dành cho nam và trẻ em nhằm đáp ứng đa dạng nhu cầu của khách hàng. IVY moda là thương hi ệu thời trang Việt Nam với mong muốn đem lại vẻ đẹp hiện đại và sự tự tin cho khách hàng, thông qua các dòng sản phẩm thời trang thể hiện cá tính và xu hướng. Một trong những “tôn chỉ” về thiết kế của IVY moda chính là sự đa dạng, với mong muốn mang đến cho người mặc những sản phẩm phù hợp nhất với ngoại hình",
+        "hit": true
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p60-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 60,
+        "section": "chuong_3",
+        "score": 0.43009448051452637,
+        "text": "trong tài 3 Nhấn chuột vào hiển thị khoản “Sản phẩm đã danh sách xem” sản phẩm đã xem trong tài khoản SPDX_ Xem sản 1 Truy cập trang Hệ thống Giống PASS 02 phẩm đã xem https://ivymoda chuyển đến với đầu khi không có .com/ màn hình ra kỳ sản phẩm đã 2 nhấn vào biểu “Sản phẩm vọng xem trong tài đã xem” khoản tượng 3 Nhấn chuột vào “Sản phẩm yêu thích” 3.5.4. Tiến hành kiểm thử 3.5.4.1. Chức năng đăng nhập TH1: Đăng nhập thành công với số điện thoại, mật khẩu đúng 59",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p10-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 10,
+        "section": "mo_dau",
+        "score": 0.39372432231903076,
+        "text": "PHẦN I. MỞ ĐẦU",
+        "hit": false
+      }
+    ],
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": [
+      true,
+      true,
+      false
+    ],
+    "strategy": "B"
+  },
+  {
+    "question_id": "q01",
+    "question": "Kiểm thử phần mềm được định nghĩa như thế nào?",
+    "expected_answer": "Là một phương pháp để kiểm tra xem sản phẩm phần mềm thực tế có phù hợp với các yêu cầu mong đợi hay không và để đảm bảo rằng không có khiếm khuyết",
+    "split": "dev",
+    "filter": {},
+    "gold_page": 13,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p13-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 13,
+        "section": "chuong_1",
+        "score": 0.8852409720420837,
+        "text": "1.1 Khái niệm về kiểm thử phần mềm 1.1.1. Khái niệm Kiểm thử phần mềm là một phương pháp để kiểm tra xem sản phẩm phần mềm thực tế có phù hợp với các yêu cầu mong đợi hay không và để đảm bảo rằng không có khiếm khuyết. Nó liên quan đến việc thực thi các thành phần phần mềm hệ thống bằng cách sử dụng thủ công hoặc tự động để đánh giá một hoặc nhiều thuộc tính quan trọng. 1.1.2. Vai trò - Đảm bảo chất lượng phần mềm và mang tính sống còn trong các dự án sản xuất phần mềm. Vì vậy nó đã trở thành quy trình bắt buộc trong các dự án phần mềm hiện nay. - Tránh những rủi ro, lỗi phát sinh trong su ốt quá trình tạo ra sản phẩm. Phát hiện sớm và sửa chữa, giảm chi phí, tiết kiệm thời gian và nguồn lực",
+        "hit": true
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p10-c2",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 10,
+        "section": "mo_dau",
+        "score": 0.7253202795982361,
+        "text": "mềm để kiểm tra phần mềm có đúng với đặc tả và thiết kế hệ thống không, có đáp ứng yêu cầu người dùng không, có lỗi lập trình không, có hoạt động hiệu quả không, … Như vậy, kiểm thử phần mềm là để đáp ứng yêu cầu người dùng, phát hiện lỗi để từ đó nâng cao chất lượng phần mềm. Vậy làm thế nào để có thể kiểm tra dự án phần mềm chạy ổn định, đạt được tính hiệu quả cao, nhưng lại tiết kiệm được thời gian cũng như kinh phí trong quá trình kiểm thử là một điều thiết yếu với các nhà kiểm thử. Với mong muốn có cái nhìn xác thực, rõ ràng hơn về quy trình kiểm thử phần mềm, đảm bảo chất lượng phần mềm và tiếp cận với các công cụ hỗ trợ kiểm thử, giải quyết phần nào vấn đề tiết kiệm thời gian, kinh ph",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p22-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 22,
+        "section": "chuong_2",
+        "score": 0.7081964612007141,
+        "text": "2.1. Khái niệm End-To-End Testing là một loại kiểm thử phần mềm được thực hiện để đảm bảo tính ho ạt động chính xác c ủa một hệ thống hoặc ứng dụng trong môi trường thực tế, từ đầu vào người dùng đến đầu ra người dùng. Phương pháp này nh ằm mô phỏng một quy trình hoàn chỉnh của hệ thống từ đầu đến cuối, kiểm tra tích hợp giữa các thành phần và xác nhận rằng hệ thống hoạt động như dự định. 2.2. Tại sao phải kiểm thử End-To-End End-To-End Testing xác minh luồng hệ thống hoàn chỉnh và tăng độ tin cậy bằng cách phát hiện các sự cố và tăng phạm vi kiểm tra của các hệ thống con. Các hệ thống phần mềm hiện đại rất phức tạp và được kết nối với nhau bằng nhiều hệ thống con có thể khác với các hệ thốn",
+        "hit": false
+      }
+    ],
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": null,
+    "strategy": "C"
+  },
+  {
+    "question_id": "q02",
+    "question": "Quy trình kiểm thử phần mềm gồm bao nhiêu giai đoạn?",
+    "expected_answer": "6 giai đoạn",
+    "split": "dev",
+    "filter": {},
+    "gold_page": 13,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p13-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 13,
+        "section": "chuong_1",
+        "score": 0.7234781384468079,
+        "text": "1.1 Khái niệm về kiểm thử phần mềm 1.1.1. Khái niệm Kiểm thử phần mềm là một phương pháp để kiểm tra xem sản phẩm phần mềm thực tế có phù hợp với các yêu cầu mong đợi hay không và để đảm bảo rằng không có khiếm khuyết. Nó liên quan đến việc thực thi các thành phần phần mềm hệ thống bằng cách sử dụng thủ công hoặc tự động để đánh giá một hoặc nhiều thuộc tính quan trọng. 1.1.2. Vai trò - Đảm bảo chất lượng phần mềm và mang tính sống còn trong các dự án sản xuất phần mềm. Vì vậy nó đã trở thành quy trình bắt buộc trong các dự án phần mềm hiện nay. - Tránh những rủi ro, lỗi phát sinh trong su ốt quá trình tạo ra sản phẩm. Phát hiện sớm và sửa chữa, giảm chi phí, tiết kiệm thời gian và nguồn lực",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p19-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 19,
+        "section": "chuong_1",
+        "score": 0.6851462125778198,
+        "text": "ao về lập trình. - Tốn khá nhiều thời gian để kiểm tra được chi tiết cấu trúc, thuật toán bên trong sản phẩm. Các ứng dụng có cấu trúc hệ thống càng lớn càng cần rất nhiều thời gian để kiểm tra đầy đủ. - Kiểm thử diễn ra khi sản phẩm chưa được hoàn thiện nên các công cụ phục vụ cho mọi loại triển khai/nền tảng thường không sẵn có. - Kiểm tra hộp trắng được đánh giá khá phức tạp và tốn kém. Developers không kiểm tra hộp trắng chi tiết có thể dẫn đến lỗi sản xuất. 18",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p11-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 11,
+        "section": "mo_dau",
+        "score": 0.6819279193878174,
+        "text": "h thực hiện kiểm thử, khung thiết kế kiểm thử End-To-End. 4.Bố cục đề tài (Nội dung đề tài được chia làm 3 chương) Chương 1. Tổng quan về đề tài: Tổng quan về kiểm thử phần mềm, quy trình kiểm thử phần mềm, các cấp độ kiểm thử và các phương pháp của kiểm thử phần mềm. Chương 2. Tìm hiểu kĩ thuật kiểm thử End-To-End: Tổng quan về kỹ thuật kiểm thử End-to-end: khái niệm, quá trình và cách thức thực hiện, công cụ thực hiện kiểm thử End-To-End và cách thực hiện. Chương 3. Kết quả thực nghiệm: Phát biểu bài toán, xây dựng tài liệu đặc tả, Lịch trình công việc, kết quả thực hiện kiểm thử một số test case, test report. 10",
+        "hit": false
+      }
+    ],
+    "hit@1": false,
+    "evidence_hit@3": false,
+    "filter_compliant_top3": null,
+    "strategy": "C"
+  },
+  {
+    "question_id": "q03",
+    "question": "Ai là người chịu trách nhiệm tiến hành kiểm thử đơn vị?",
+    "expected_answer": "Lập trình viên cùng nhóm của mình",
+    "split": "dev",
+    "filter": {},
+    "gold_page": 16,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p32-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 32,
+        "section": "chuong_2",
+        "score": 0.598946750164032,
+        "text": "Hình 2.11 Kiểm tra kết quả Test case 31",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p49-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 49,
+        "section": "chuong_3",
+        "score": 0.5903098583221436,
+        "text": "ững tài liệu được lập sau khi hoàn thành việc kiểm thử. - Phạm vi: Tài liệu kế hoạch kiểm thử này được áp dụng cho việc kiểm thử chức năng trang web. 3.5.3.Thiết kế test case kiểm thử chức năng một số use case. 3.5.3.1.Kiểm thử chức năng đăng nhập Bảng 3.2. Test case đăng nhập TÊN DỰ ÁN: XÂY DỰNG WEBSITE IVY MODA TEST CASE Module_name: Đăng nhập Mô tả: Kiểm thử chức năng đăng nhập Người tạo: Nguyễn Ba Duy 48",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p16-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 16,
+        "section": "chuong_1",
+        "score": 0.5641988515853882,
+        "text": "1.3.1. Kiểm thử đơn vị Kiểm thử đơn vị nhằm kiểm tra đơn vị thiết kế nhỏ nhất - một module phần mềm. Một module hoạt động thường có trao đổi thông tin với module mức dưới và mức trên nó, do đó phạm vi phát hiện lỗi liên quan chặt chẽ tới module này. Người tiến hành kiểm thử đơn vị: lập trình viên cùng nhóm của mình. Kỹ thuật kiểm thử đơn vị: chủ yếu là hộp trắng, trong các trường hợp cần thiết có thể sử dụng thêm kỹ thuật kiểm thử hộp đen. Nội dung kiểm thử đơn vị: - Kiểm thử giao diện (các tham số vào/ra qua giao diện) - Kiểm thử vào/ra (các file, bộ đệm và các lệnh đóng mở) - Kiểm thử cấu trúc dữ liệu cục bộ (khai báo và sử dụng biến) - Kiểm thử xử lý (các phép toán và tính đúng đắn của kế",
+        "hit": true
+      }
+    ],
+    "hit@1": false,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": null,
+    "strategy": "C"
+  },
+  {
+    "question_id": "q04",
+    "question": "Kỹ thuật chủ yếu được dùng trong kiểm thử đơn vị là gì?",
+    "expected_answer": "Kỹ thuật kiểm thử hộp trắng",
+    "split": "dev",
+    "filter": {},
+    "gold_page": 16,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p12-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 12,
+        "section": "mo_dau",
+        "score": 0.6448287963867188,
+        "text": "5. Phương pháp thực hiện Phương pháp nghiên cứu tài liệu - Thu thập dữ liệu, nghiên cứu và chọn lọc các tài liệu có liên quan đến đề tài. - Đánh giá, lựa chọn kĩ thuật, công cụ thực hiện phù hợp. - Áp dụng các phương pháp, kỹ thuật kiểm thử đã nghiên cứu vào việc kiểm thử sản phẩm thực tế. Phương pháp thực nghiệm - Tiến hành thực nghiệm để đánh giá hiệu quả của công cụ, kĩ thuật kiểm thử End- To-End với bài toán/ chức năng…., đánh giá độ hoàn thiện chức năng của một sản phẩm phần mềm thực tế. 11",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p16-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 16,
+        "section": "chuong_1",
+        "score": 0.6353429555892944,
+        "text": "1.3.1. Kiểm thử đơn vị Kiểm thử đơn vị nhằm kiểm tra đơn vị thiết kế nhỏ nhất - một module phần mềm. Một module hoạt động thường có trao đổi thông tin với module mức dưới và mức trên nó, do đó phạm vi phát hiện lỗi liên quan chặt chẽ tới module này. Người tiến hành kiểm thử đơn vị: lập trình viên cùng nhóm của mình. Kỹ thuật kiểm thử đơn vị: chủ yếu là hộp trắng, trong các trường hợp cần thiết có thể sử dụng thêm kỹ thuật kiểm thử hộp đen. Nội dung kiểm thử đơn vị: - Kiểm thử giao diện (các tham số vào/ra qua giao diện) - Kiểm thử vào/ra (các file, bộ đệm và các lệnh đóng mở) - Kiểm thử cấu trúc dữ liệu cục bộ (khai báo và sử dụng biến) - Kiểm thử xử lý (các phép toán và tính đúng đắn của kế",
+        "hit": true
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p20-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 20,
+        "section": "chuong_1",
+        "score": 0.6333597898483276,
+        "text": "1.4.2. Kiểm thử hộp đen 1.4.2.1. Tổng quan về kiểm thử hộp đen Kiểm thử hộp đen (Black – Box Testing) hay còn gọi là một phương pháp kiểm thử phần mềm được thực hiện mà không biết được cấu tạo bên trong của phần mềm. Ngoài ra kiểm thử hộp đen còn được hiểu là kiểm thử hướng dữ liệu (data – driven) hay kiểm thử hướng vào ra (input/output driven). Người kiểm thử nên xây dựng các nhóm giá trị đầu vào mà sẽ thực thi đầy đủ tất cả các yêu cầu chức năng của chương trình. Cách tiếp cận của các tester đối với hệ thống là không dùng bất kỳ một kiến thức về cấu trúc lập trình bên trong hệ thống, xem hệ thống là một cấu trúc hoàn chỉnh, không thể can thiệp vào bên trong.",
+        "hit": false
+      }
+    ],
+    "hit@1": false,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": null,
+    "strategy": "C"
+  },
+  {
+    "question_id": "q05",
+    "question": "Kiểm thử tích hợp có bao nhiêu cách tích hợp?",
+    "expected_answer": "Hai cách (tích hợp từng bước và tích hợp đồng thời)",
+    "split": "dev",
+    "filter": {},
+    "gold_page": 16,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p24-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 24,
+        "section": "chuong_2",
+        "score": 0.6658342480659485,
+        "text": "- Phương pháp và tiêu chuẩn kiểm tra. - Theo dõi yêu cầu từ đầu đến cuối và thiết kế các trường hợp thử nghiệm. 2.4. Cách thực hiện kiểm thử End-To-End Dưới đây là sơ đồ cách thực hiện kiểm thử End-To-End Hình 2.2: Mô hình ki ểm thử End-To-End Khung thiết kế thử nghiệm từ đầu đến cuối bao gồm ba phần: - Xây dựng chức năng người dùng. - Xây dựng điều kiện. - Xây dựng các trường hợp thử nghiệm. 2.4.1. Xây dựng chức năng người dùng Các hoạt động sau nên được thực hiện như một phần của chức năng người dùng xây dựng: - Liệt kê các tính năng của hệ thống và các thành phần được kết nối với nhau của chúng. - Liệt kê dữ liệu đầu vào, hành động và dữ liệu đầu ra cho từng tính năng hoặc chức năng. 23",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p16-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 16,
+        "section": "chuong_1",
+        "score": 0.6642470359802246,
+        "text": "t quả) - Kiểm thử điều kiện logic - Kiểm thử sai tiềm ẩn (về ngoại lệ, mô tả) - Kiểm thử các giá trị biên 1.3.2.Kiểm thử tích hợp Kiểm thử tích hợp nhằm nhận được một bộ phận chức năng hay một hệ con tốt Là một kỹ thuật có tính hệ thống để xây dựng cấu trúc của chương trình Từ các module đã qua ki ểm thử đơn vị, xây dựng cấu trúc chương trình đ ảm bảo tuân theo thi ết kế - Có hai cách tích h ợp: + Tích hợp từng bước. Theo cách này có 3 chiến lược: • Tích hợp từ dưới lên (bottom-up testing) • Tích hợp từ trên xuống (top-down testing) • Kết hợp 2 chiến lược trên (sandwich testing) 15",
+        "hit": true
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p12-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 12,
+        "section": "mo_dau",
+        "score": 0.657677173614502,
+        "text": "5. Phương pháp thực hiện Phương pháp nghiên cứu tài liệu - Thu thập dữ liệu, nghiên cứu và chọn lọc các tài liệu có liên quan đến đề tài. - Đánh giá, lựa chọn kĩ thuật, công cụ thực hiện phù hợp. - Áp dụng các phương pháp, kỹ thuật kiểm thử đã nghiên cứu vào việc kiểm thử sản phẩm thực tế. Phương pháp thực nghiệm - Tiến hành thực nghiệm để đánh giá hiệu quả của công cụ, kĩ thuật kiểm thử End- To-End với bài toán/ chức năng…., đánh giá độ hoàn thiện chức năng của một sản phẩm phần mềm thực tế. 11",
+        "hit": false
+      }
+    ],
+    "hit@1": false,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": null,
+    "strategy": "C"
+  },
+  {
+    "question_id": "q06",
+    "question": "Kiểm thử hệ thống sử dụng phương pháp kiểm thử nào?",
+    "expected_answer": "Phương pháp kiểm thử hộp đen",
+    "split": "dev",
+    "filter": {},
+    "gold_page": 17,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p22-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 22,
+        "section": "chuong_2",
+        "score": 0.7435245513916016,
+        "text": "2.1. Khái niệm End-To-End Testing là một loại kiểm thử phần mềm được thực hiện để đảm bảo tính ho ạt động chính xác c ủa một hệ thống hoặc ứng dụng trong môi trường thực tế, từ đầu vào người dùng đến đầu ra người dùng. Phương pháp này nh ằm mô phỏng một quy trình hoàn chỉnh của hệ thống từ đầu đến cuối, kiểm tra tích hợp giữa các thành phần và xác nhận rằng hệ thống hoạt động như dự định. 2.2. Tại sao phải kiểm thử End-To-End End-To-End Testing xác minh luồng hệ thống hoàn chỉnh và tăng độ tin cậy bằng cách phát hiện các sự cố và tăng phạm vi kiểm tra của các hệ thống con. Các hệ thống phần mềm hiện đại rất phức tạp và được kết nối với nhau bằng nhiều hệ thống con có thể khác với các hệ thốn",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p49-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 49,
+        "section": "chuong_3",
+        "score": 0.741020679473877,
+        "text": "ững tài liệu được lập sau khi hoàn thành việc kiểm thử. - Phạm vi: Tài liệu kế hoạch kiểm thử này được áp dụng cho việc kiểm thử chức năng trang web. 3.5.3.Thiết kế test case kiểm thử chức năng một số use case. 3.5.3.1.Kiểm thử chức năng đăng nhập Bảng 3.2. Test case đăng nhập TÊN DỰ ÁN: XÂY DỰNG WEBSITE IVY MODA TEST CASE Module_name: Đăng nhập Mô tả: Kiểm thử chức năng đăng nhập Người tạo: Nguyễn Ba Duy 48",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p16-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 16,
+        "section": "chuong_1",
+        "score": 0.732317328453064,
+        "text": "t quả) - Kiểm thử điều kiện logic - Kiểm thử sai tiềm ẩn (về ngoại lệ, mô tả) - Kiểm thử các giá trị biên 1.3.2.Kiểm thử tích hợp Kiểm thử tích hợp nhằm nhận được một bộ phận chức năng hay một hệ con tốt Là một kỹ thuật có tính hệ thống để xây dựng cấu trúc của chương trình Từ các module đã qua ki ểm thử đơn vị, xây dựng cấu trúc chương trình đ ảm bảo tuân theo thi ết kế - Có hai cách tích h ợp: + Tích hợp từng bước. Theo cách này có 3 chiến lược: • Tích hợp từ dưới lên (bottom-up testing) • Tích hợp từ trên xuống (top-down testing) • Kết hợp 2 chiến lược trên (sandwich testing) 15",
+        "hit": false
+      }
+    ],
+    "hit@1": false,
+    "evidence_hit@3": false,
+    "filter_compliant_top3": null,
+    "strategy": "C"
+  },
+  {
+    "question_id": "q07",
+    "question": "Kiểm thử alpha được người dùng thực hiện với loại số liệu nào?",
+    "expected_answer": "Số liệu giả lập, trong môi trường phát triển",
+    "split": "dev",
+    "filter": {},
+    "gold_page": 18,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p18-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 18,
+        "section": "chuong_1",
+        "score": 0.6287409067153931,
+        "text": "1.3.4.Kiểm thử chấp nhận Kiểm thử chấp nhận (Acceptance Testing): v ận hành hệ thống trong môi trường của người sử dụng Kiểm thử alpha (Alpha Testing): - Người dùng thực hiện với số liệu giả lập - Trong môi trường phát triển Kiểm thử beta (Beta Testing): - Người dùng thực hiện với số liệu thực - Trong môi trường ứng dụng thực 1.4. Các phương pháp kiểm thử 1.4.1. Kiểm thử hộp trắng 1.4.1.1. Tổng quan về kiểm thử hộp trắng Kiểm thử hộp trắng (White box testing) là phương pháp kiểm thử phần mềm nhằm kiểm tra thuật toán, cấu trúc code bên trong của sản phẩm. Hộp trắng tượng trưng cho khả năng nhìn xuyên qua lớp vỏ bên ngoài của phần mềm để thấy được hoạt động bên trong của chúng.",
+        "hit": true
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p32-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 32,
+        "section": "chuong_2",
+        "score": 0.6279752850532532,
+        "text": "Hình 2.11 Kiểm tra kết quả Test case 31",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p68-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 68,
+        "section": "chuong_3",
+        "score": 0.5380331873893738,
+        "text": "Hình 3.18: Kết quả test xem sản phẩm đã xem khi có sản phẩm đã xem TH2: Xem sản phẩm đã xem khi không có sản phẩm đã xem trong tài khoản Hình 3.19: Kết quả test xem sản phẩm đã xem khi không có sản phẩm đã xem 3.5.5. Test Report − Tỉ lệ test case đạt (passed): 81.25% 67",
+        "hit": false
+      }
+    ],
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": null,
+    "strategy": "C"
+  },
+  {
+    "question_id": "q08",
+    "question": "Phương pháp kiểm thử hộp trắng nhằm kiểm tra điều gì?",
+    "expected_answer": "Kiểm tra thuật toán, cấu trúc code bên trong của sản phẩm",
+    "split": "dev",
+    "filter": {},
+    "gold_page": 18,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p18-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 18,
+        "section": "chuong_1",
+        "score": 0.7847269177436829,
+        "text": "Hình 1.3: White box Mục đích của White box testing là đảm bảo tất cả các câu lệnh và điều kiện sẽ được thực hiện đúng, kết quả đầu ra như mong đợi. Tester sẽ xác minh luồng hoạt động cho ứng dụng bằng cách kiểm tra một loạt đầu vào (Input) đã được xác định từ 17",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p20-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 20,
+        "section": "chuong_1",
+        "score": 0.7671321630477905,
+        "text": "Tuy nhiên, kiểm thử hộp đen không phải là một kỹ thuật thay thế cho kỹ thuật kiểm thử hộp trắng mà là một phương pháp bổ sung giúp phát hiện các loại lỗi khác nhau của phương pháp kiểm thử hộp trắng. Kiểm thử hộp đen nhằm tìm ra các loại sai: - Chức năng thiếu hoặc không đúng đắn. - Sai về giao diện. - Sai trong cấu trúc hoặc trong truy cập dữ liệu ngoài. - Sai thực thi chức năng. - Sai khởi đầu hoặc kết thúc mô đun 19",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p18-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 18,
+        "section": "chuong_1",
+        "score": 0.7153598666191101,
+        "text": "1.3.4.Kiểm thử chấp nhận Kiểm thử chấp nhận (Acceptance Testing): v ận hành hệ thống trong môi trường của người sử dụng Kiểm thử alpha (Alpha Testing): - Người dùng thực hiện với số liệu giả lập - Trong môi trường phát triển Kiểm thử beta (Beta Testing): - Người dùng thực hiện với số liệu thực - Trong môi trường ứng dụng thực 1.4. Các phương pháp kiểm thử 1.4.1. Kiểm thử hộp trắng 1.4.1.1. Tổng quan về kiểm thử hộp trắng Kiểm thử hộp trắng (White box testing) là phương pháp kiểm thử phần mềm nhằm kiểm tra thuật toán, cấu trúc code bên trong của sản phẩm. Hộp trắng tượng trưng cho khả năng nhìn xuyên qua lớp vỏ bên ngoài của phần mềm để thấy được hoạt động bên trong của chúng.",
+        "hit": true
+      }
+    ],
+    "hit@1": false,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": null,
+    "strategy": "C"
+  },
+  {
+    "question_id": "q09",
+    "question": "Kiểm thử hộp đen được thực hiện mà không biết điều gì?",
+    "expected_answer": "Không biết cấu tạo bên trong của phần mềm",
+    "split": "dev",
+    "filter": {},
+    "gold_page": 20,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p20-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 20,
+        "section": "chuong_1",
+        "score": 0.7917935252189636,
+        "text": "Tuy nhiên, kiểm thử hộp đen không phải là một kỹ thuật thay thế cho kỹ thuật kiểm thử hộp trắng mà là một phương pháp bổ sung giúp phát hiện các loại lỗi khác nhau của phương pháp kiểm thử hộp trắng. Kiểm thử hộp đen nhằm tìm ra các loại sai: - Chức năng thiếu hoặc không đúng đắn. - Sai về giao diện. - Sai trong cấu trúc hoặc trong truy cập dữ liệu ngoài. - Sai thực thi chức năng. - Sai khởi đầu hoặc kết thúc mô đun 19",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p20-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 20,
+        "section": "chuong_1",
+        "score": 0.7740374803543091,
+        "text": "1.4.2. Kiểm thử hộp đen 1.4.2.1. Tổng quan về kiểm thử hộp đen Kiểm thử hộp đen (Black – Box Testing) hay còn gọi là một phương pháp kiểm thử phần mềm được thực hiện mà không biết được cấu tạo bên trong của phần mềm. Ngoài ra kiểm thử hộp đen còn được hiểu là kiểm thử hướng dữ liệu (data – driven) hay kiểm thử hướng vào ra (input/output driven). Người kiểm thử nên xây dựng các nhóm giá trị đầu vào mà sẽ thực thi đầy đủ tất cả các yêu cầu chức năng của chương trình. Cách tiếp cận của các tester đối với hệ thống là không dùng bất kỳ một kiến thức về cấu trúc lập trình bên trong hệ thống, xem hệ thống là một cấu trúc hoàn chỉnh, không thể can thiệp vào bên trong.",
+        "hit": true
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p21-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 21,
+        "section": "chuong_1",
+        "score": 0.7130029201507568,
+        "text": "Hình 1.4: Black box Testing Các kỹ thuật kiểm thử hộp đen phổ biến: - Phân hoạch tương đương - Phân tích giá trị biên - Sử dụng bảng quyết định 1.4.2.2. Ưu nhược điểm Ưu điểm: - Phù hợp với hệ thống với chức năng lớn, có sự phân mã rõ ràng. - Người thực hiện không cần hiểu quá nhiều về code cũng như ngôn ngữ lập trình. - Tester tiếp cận hệ thống như một chiếc hộp đen, không cần biết bên trong nó ho ạt động như thế nào. Nhược điểm: - Thông thường phương pháp này chỉ có thể thực hiện được 1 phần kế hoạch kiểm thử do sự hạn chế của độ bao phủ. - Độ hiệu quả của kiểm thử chưa cao bởi người thực hiện không hiểu về code bên trong của phần mềm. 20",
+        "hit": false
+      }
+    ],
+    "hit@1": false,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": null,
+    "strategy": "C"
+  },
+  {
+    "question_id": "q10",
+    "question": "End-To-End Testing được định nghĩa như thế nào?",
+    "expected_answer": "Là loại kiểm thử phần mềm đảm bảo tính hoạt động chính xác của hệ thống trong môi trường thực tế, từ đầu vào đến đầu ra người dùng",
+    "split": "dev",
+    "filter": {},
+    "gold_page": 22,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p22-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 22,
+        "section": "chuong_2",
+        "score": 0.8912085294723511,
+        "text": "2.1. Khái niệm End-To-End Testing là một loại kiểm thử phần mềm được thực hiện để đảm bảo tính ho ạt động chính xác c ủa một hệ thống hoặc ứng dụng trong môi trường thực tế, từ đầu vào người dùng đến đầu ra người dùng. Phương pháp này nh ằm mô phỏng một quy trình hoàn chỉnh của hệ thống từ đầu đến cuối, kiểm tra tích hợp giữa các thành phần và xác nhận rằng hệ thống hoạt động như dự định. 2.2. Tại sao phải kiểm thử End-To-End End-To-End Testing xác minh luồng hệ thống hoàn chỉnh và tăng độ tin cậy bằng cách phát hiện các sự cố và tăng phạm vi kiểm tra của các hệ thống con. Các hệ thống phần mềm hiện đại rất phức tạp và được kết nối với nhau bằng nhiều hệ thống con có thể khác với các hệ thốn",
+        "hit": true
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p23-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 23,
+        "section": "chuong_2",
+        "score": 0.7225521802902222,
+        "text": "ừ người dùng: End-To-End Testing đảm bảo tính hoạt động chính xác và đáp ứng mong đợi của hệ thống. Điều này tạo ra niềm tin và sự tin cậy từ phía người dùng, giúp xây dựng hình ảnh tốt và đáng tin cậy về sản phẩm và dịch vụ. 2.3. Quá trình kiểm thử End-To-End Dưới đây cái nhìn tổng quan về quy trình kiểm thử End-To-End. Hình 2.1: Quy trình kiểm thử End-To-End Các hoạt động chính liên quan đ ến Kiểm thử đầu cuối là: - Nghiên cứu các yêu cầu thử nghiệm từ đầu đến cuối. - Thiết lập môi trường thử nghiệm và yêu cầu phần cứng/phần mềm. - Mô tả tất cả các hệ thống và các quy trình hệ thống con của nó. - Mô tả vai trò và trách nhiệm cho tất cả các hệ thống. 22",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p24-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 24,
+        "section": "chuong_2",
+        "score": 0.7111573815345764,
+        "text": "- Phương pháp và tiêu chuẩn kiểm tra. - Theo dõi yêu cầu từ đầu đến cuối và thiết kế các trường hợp thử nghiệm. 2.4. Cách thực hiện kiểm thử End-To-End Dưới đây là sơ đồ cách thực hiện kiểm thử End-To-End Hình 2.2: Mô hình ki ểm thử End-To-End Khung thiết kế thử nghiệm từ đầu đến cuối bao gồm ba phần: - Xây dựng chức năng người dùng. - Xây dựng điều kiện. - Xây dựng các trường hợp thử nghiệm. 2.4.1. Xây dựng chức năng người dùng Các hoạt động sau nên được thực hiện như một phần của chức năng người dùng xây dựng: - Liệt kê các tính năng của hệ thống và các thành phần được kết nối với nhau của chúng. - Liệt kê dữ liệu đầu vào, hành động và dữ liệu đầu ra cho từng tính năng hoặc chức năng. 23",
+        "hit": false
+      }
+    ],
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": null,
+    "strategy": "C"
+  },
+  {
+    "question_id": "q11",
+    "question": "Khung thiết kế thử nghiệm End-To-End từ đầu đến cuối bao gồm bao nhiêu phần?",
+    "expected_answer": "Ba phần",
+    "split": "dev",
+    "filter": {},
+    "gold_page": 24,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p24-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 24,
+        "section": "chuong_2",
+        "score": 0.7924396991729736,
+        "text": "- Phương pháp và tiêu chuẩn kiểm tra. - Theo dõi yêu cầu từ đầu đến cuối và thiết kế các trường hợp thử nghiệm. 2.4. Cách thực hiện kiểm thử End-To-End Dưới đây là sơ đồ cách thực hiện kiểm thử End-To-End Hình 2.2: Mô hình ki ểm thử End-To-End Khung thiết kế thử nghiệm từ đầu đến cuối bao gồm ba phần: - Xây dựng chức năng người dùng. - Xây dựng điều kiện. - Xây dựng các trường hợp thử nghiệm. 2.4.1. Xây dựng chức năng người dùng Các hoạt động sau nên được thực hiện như một phần của chức năng người dùng xây dựng: - Liệt kê các tính năng của hệ thống và các thành phần được kết nối với nhau của chúng. - Liệt kê dữ liệu đầu vào, hành động và dữ liệu đầu ra cho từng tính năng hoặc chức năng. 23",
+        "hit": true
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p11-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 11,
+        "section": "mo_dau",
+        "score": 0.7040555477142334,
+        "text": "h thực hiện kiểm thử, khung thiết kế kiểm thử End-To-End. 4.Bố cục đề tài (Nội dung đề tài được chia làm 3 chương) Chương 1. Tổng quan về đề tài: Tổng quan về kiểm thử phần mềm, quy trình kiểm thử phần mềm, các cấp độ kiểm thử và các phương pháp của kiểm thử phần mềm. Chương 2. Tìm hiểu kĩ thuật kiểm thử End-To-End: Tổng quan về kỹ thuật kiểm thử End-to-end: khái niệm, quá trình và cách thức thực hiện, công cụ thực hiện kiểm thử End-To-End và cách thực hiện. Chương 3. Kết quả thực nghiệm: Phát biểu bài toán, xây dựng tài liệu đặc tả, Lịch trình công việc, kết quả thực hiện kiểm thử một số test case, test report. 10",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p48-c2",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 48,
+        "section": "chuong_3",
+        "score": 0.6537856459617615,
+        "text": "ng lịch trình công việc Mốc công việc Sản phẩm Thời gian Bắt đầu Kết thúc Lập kế hoạch kiểm thử Test plan 2 ngày 22/05/2025 24/05/2025 Xem lại các tài liệu Test plan 1 ngày 24/05/2025 25/05/2025 47",
+        "hit": false
+      }
+    ],
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": null,
+    "strategy": "C"
+  },
+  {
+    "question_id": "q12",
+    "question": "Selenium là công cụ gì?",
+    "expected_answer": "Bộ công cụ kiểm thử tự động mã nguồn mở dành cho các ứng dụng web",
+    "split": "dev",
+    "filter": {},
+    "gold_page": 25,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p26-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 26,
+        "section": "chuong_2",
+        "score": 0.7469030022621155,
+        "text": "2.5.2.Đặc trưng Selenium là bộ kiểm thử tự động miễn phí (mã nguồn mở) dành cho các ứng dụng web trên các trình duy ệt và nền tảng khác nhau như: Firefox, Google Chrome, Microsoft edge. Selenium không ch ỉ là 1 công cụ độc lập mà là 1 bộ công cụ của phần mềm, mỗi bộ đều đáp ứng được nhu cầu kiểm thử khác nhau của 1 tổ chức. Hiện tại, phiên bản mới nhất của công cụ này là Selenium 4. Phiên bản này hỗ trợ nhiều loại kiểm thử trong quá trình phát triển và kiểm tra ứng dụng web như: Kiểm thử chức năng (Functional Testing), Kiểm thử giao diện người dùng (User Interface Testing), Kiểm thử tích hợp (Integration Testing), Kiểm thử hiệu năng (Performance Testing), Kiểm thử đa trình duyệt và đa nền tả",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p26-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 26,
+        "section": "chuong_2",
+        "score": 0.7209728956222534,
+        "text": "ng (Cross-Browser & Cross-Platform Testing), Kiểm thử độc lập và liên tục (Headless & Continuous Testing). Một vài đặc điểm nổi trội của Selenium: - Selenium là m ột công c ụ mã ngu ồn m ở/ framework đ ể kiểm tra web, website phiên bản di động - Selenium IDE hỗ trợ tính năng playback giúp chúng ta có thể sử dụng các bài test của người khác và không cần phải biết ngôn ngữ script - Selenium là m ột nền tảng kiểm thử dựa trên cloud giúp tester có th ể lưu lại thao tác và xuất ra dưới dạng script đơn giản, dễ hiểu. - Selenium hỗ trợ nhiều hệ điều hành, ngôn ngữ và trình duyệt khác nhau. - Giúp chúng ta có th ể chạy cùng lúc nhiều bài test đ ể giảm thời gian và tăng hiệu quả - Quá trình ki ểm thử",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p27-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 27,
+        "section": "chuong_2",
+        "score": 0.6508415937423706,
+        "text": "2.6.Cài đặt và sử dụng công cụ Selenium 2.6.1.Cài đặt Bước 1: Vào trình duyệt Chrome và truy cập vào link: https://www.selenium.dev/selenium-ide/ Bước 2: Chọn CHROME DOWNLOAD Hình 2.3: Truy cập đường dẫn cài đặt Selenium IDE Bước 3: Nhấn thêm vào Chorme Hình 2.4 Cài đặt Selenium IDE 2.6.2.Cách sử dụng Bước 1: Sau khi nhấn vào biểu tượng Selenium IDE. Một cửa sổ được hiển thị lên. Bước 2: Chọn create a new Project 26",
+        "hit": false
+      }
+    ],
+    "hit@1": false,
+    "evidence_hit@3": false,
+    "filter_compliant_top3": null,
+    "strategy": "C"
+  },
+  {
+    "question_id": "q13",
+    "question": "Phiên bản mới nhất của công cụ Selenium là phiên bản nào?",
+    "expected_answer": "Selenium 4",
+    "split": "dev",
+    "filter": {},
+    "gold_page": 26,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p26-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 26,
+        "section": "chuong_2",
+        "score": 0.7121627330780029,
+        "text": "2.5.2.Đặc trưng Selenium là bộ kiểm thử tự động miễn phí (mã nguồn mở) dành cho các ứng dụng web trên các trình duy ệt và nền tảng khác nhau như: Firefox, Google Chrome, Microsoft edge. Selenium không ch ỉ là 1 công cụ độc lập mà là 1 bộ công cụ của phần mềm, mỗi bộ đều đáp ứng được nhu cầu kiểm thử khác nhau của 1 tổ chức. Hiện tại, phiên bản mới nhất của công cụ này là Selenium 4. Phiên bản này hỗ trợ nhiều loại kiểm thử trong quá trình phát triển và kiểm tra ứng dụng web như: Kiểm thử chức năng (Functional Testing), Kiểm thử giao diện người dùng (User Interface Testing), Kiểm thử tích hợp (Integration Testing), Kiểm thử hiệu năng (Performance Testing), Kiểm thử đa trình duyệt và đa nền tả",
+        "hit": true
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p26-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 26,
+        "section": "chuong_2",
+        "score": 0.6818323135375977,
+        "text": "ng (Cross-Browser & Cross-Platform Testing), Kiểm thử độc lập và liên tục (Headless & Continuous Testing). Một vài đặc điểm nổi trội của Selenium: - Selenium là m ột công c ụ mã ngu ồn m ở/ framework đ ể kiểm tra web, website phiên bản di động - Selenium IDE hỗ trợ tính năng playback giúp chúng ta có thể sử dụng các bài test của người khác và không cần phải biết ngôn ngữ script - Selenium là m ột nền tảng kiểm thử dựa trên cloud giúp tester có th ể lưu lại thao tác và xuất ra dưới dạng script đơn giản, dễ hiểu. - Selenium hỗ trợ nhiều hệ điều hành, ngôn ngữ và trình duyệt khác nhau. - Giúp chúng ta có th ể chạy cùng lúc nhiều bài test đ ể giảm thời gian và tăng hiệu quả - Quá trình ki ểm thử",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p27-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 27,
+        "section": "chuong_2",
+        "score": 0.6740602850914001,
+        "text": "2.6.Cài đặt và sử dụng công cụ Selenium 2.6.1.Cài đặt Bước 1: Vào trình duyệt Chrome và truy cập vào link: https://www.selenium.dev/selenium-ide/ Bước 2: Chọn CHROME DOWNLOAD Hình 2.3: Truy cập đường dẫn cài đặt Selenium IDE Bước 3: Nhấn thêm vào Chorme Hình 2.4 Cài đặt Selenium IDE 2.6.2.Cách sử dụng Bước 1: Sau khi nhấn vào biểu tượng Selenium IDE. Một cửa sổ được hiển thị lên. Bước 2: Chọn create a new Project 26",
+        "hit": false
+      }
+    ],
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": null,
+    "strategy": "C"
+  },
+  {
+    "question_id": "q14",
+    "question": "Website thời trang IVY moda được thành lập vào thời điểm nào?",
+    "expected_answer": "Tháng 10/2005",
+    "split": "dev",
+    "filter": {},
+    "gold_page": 33,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p33-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 33,
+        "section": "chuong_3",
+        "score": 0.79172682762146,
+        "text": "3.1. Giới thiệu phần mềm website thời trang ivymoda.com IVY moda được thành lập vào tháng 10/2005, thuộc sở hữu của doanh nhân Vũ Anh. Ở xuất phát điểm IVY moda hướng đến dòng thời trang công sở cho nữ và đã gặt hái được nhiều thành công. Không dừng lại ở đó thương hiệu còn cho ra đời dòng sản phẩm dành cho nam và trẻ em nhằm đáp ứng đa dạng nhu cầu của khách hàng. IVY moda là thương hi ệu thời trang Việt Nam với mong muốn đem lại vẻ đẹp hiện đại và sự tự tin cho khách hàng, thông qua các dòng sản phẩm thời trang thể hiện cá tính và xu hướng. Một trong những “tôn chỉ” về thiết kế của IVY moda chính là sự đa dạng, với mong muốn mang đến cho người mặc những sản phẩm phù hợp nhất với ngoại hình",
+        "hit": true
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p38-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 38,
+        "section": "chuong_3",
+        "score": 0.35073256492614746,
+        "text": "Bảng: Chi tiết Sản phẩm Bảng: Khuyến mãi 37",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p40-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 40,
+        "section": "chuong_3",
+        "score": 0.3433924913406372,
+        "text": "Bảng: Nhân viên Bảng: Cửa hàng 39",
+        "hit": false
+      }
+    ],
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": null,
+    "strategy": "C"
+  },
+  {
+    "question_id": "q15",
+    "question": "Trong use case đăng nhập, khi nhập sai tài khoản thì khách hàng chỉ được nhập lại tối đa bao nhiêu lần?",
+    "expected_answer": "Tối đa 5 lần",
+    "split": "test",
+    "filter": {},
+    "gold_page": 43,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p44-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 44,
+        "section": "chuong_3",
+        "score": 0.6292693614959717,
+        "text": "Người dùng đã đăng ký tài khoản trước đó có thể đăng nhập. 6.Hậu điều kiện: Nếu use case thành công, người dùng sẽ được đăng nhập vào hệ thống. Nếu không trạng thái của hệ thống sẽ không thay đổi. 7.Điểm mở rộng Không có. 3.4.2. Mô tả use case “Sửa thông tin cá nhân” 1.Tên use case Sửa thông tin cá nhân. 2. Mô tả vắn tắt Use case này cho phép khách hàng thay đ ổi thông tin cá nhân cho tài kho ản 3.Luồng sự kiện. 3.1.Luồng cơ bản.",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p43-c2",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 43,
+        "section": "chuong_3",
+        "score": 0.6265920400619507,
+        "text": "e kết thúc. 4.Các yêu cầu đặc biệt: Nếu nhập sai chỉ được nhập lại tối đa 5 lần. 5.Tiền điều kiện: 42",
+        "hit": true
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p43-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 43,
+        "section": "chuong_3",
+        "score": 0.619540810585022,
+        "text": "àn hình. Khách hàng ph ải quay lại bước (2) trong luồng cơ bản để nhập lại đúng Email/SDT và mật khẩu. Use case kết thúc. 2) Bỏ trống thông tin: Tại bước 2 trong luồng cơ bản nếu khách hàng nhập thông tin tài kho ản, mật khẩu sai thì hệ thống sẽ hiện thông báo “Lỗi! Vui lòng nhập đầy đủ thông tin đăng nhập” lên màn hình. Khách hàng phải quay lại bước (2) trong luồng cơ bản để nhập lại Email/SDT và mật khẩu. Use case kết thúc. 3)Bỏ qua: Tại bước 2 trong luồng cơ bản nếu khách hàng kích vào nút quay lại thì use case kết thúc. 4) Tại bất kỳ thời điểm nào trong quá trình t hực hiện use case nếu không kết nối được với cơ sở dữ liệu thì hệ thông sẽ hiển thị lên một thông báo “Lỗi kết nối”. Use cas",
+        "hit": false
+      }
+    ],
+    "hit@1": false,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": null,
+    "strategy": "C"
+  },
+  {
+    "question_id": "q16",
+    "question": "Ai là người tạo test case kiểm thử chức năng \"Tìm kiếm sản phẩm\"?",
+    "expected_answer": "Phạm Quang Trường",
+    "split": "test",
+    "filter": {},
+    "gold_page": 56,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p49-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 49,
+        "section": "chuong_3",
+        "score": 0.6679388284683228,
+        "text": "ững tài liệu được lập sau khi hoàn thành việc kiểm thử. - Phạm vi: Tài liệu kế hoạch kiểm thử này được áp dụng cho việc kiểm thử chức năng trang web. 3.5.3.Thiết kế test case kiểm thử chức năng một số use case. 3.5.3.1.Kiểm thử chức năng đăng nhập Bảng 3.2. Test case đăng nhập TÊN DỰ ÁN: XÂY DỰNG WEBSITE IVY MODA TEST CASE Module_name: Đăng nhập Mô tả: Kiểm thử chức năng đăng nhập Người tạo: Nguyễn Ba Duy 48",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p13-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 13,
+        "section": "chuong_1",
+        "score": 0.6431834101676941,
+        "text": "1.1 Khái niệm về kiểm thử phần mềm 1.1.1. Khái niệm Kiểm thử phần mềm là một phương pháp để kiểm tra xem sản phẩm phần mềm thực tế có phù hợp với các yêu cầu mong đợi hay không và để đảm bảo rằng không có khiếm khuyết. Nó liên quan đến việc thực thi các thành phần phần mềm hệ thống bằng cách sử dụng thủ công hoặc tự động để đánh giá một hoặc nhiều thuộc tính quan trọng. 1.1.2. Vai trò - Đảm bảo chất lượng phần mềm và mang tính sống còn trong các dự án sản xuất phần mềm. Vì vậy nó đã trở thành quy trình bắt buộc trong các dự án phần mềm hiện nay. - Tránh những rủi ro, lỗi phát sinh trong su ốt quá trình tạo ra sản phẩm. Phát hiện sớm và sửa chữa, giảm chi phí, tiết kiệm thời gian và nguồn lực",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p59-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 59,
+        "section": "chuong_3",
+        "score": 0.6423705816268921,
+        "text": "thích trong tài 3 Nhấn chuột vào khoản “Sản phẩm yêu thích” 3.5.3.5. Kiểm thử chức năng “Xem sản phẩm đã xem” Bảng 3.6: Test case Xem sản phẩm đã xem TÊN DỰ ÁN: XÂY DỰNG WEBSITE IVY MODA TEST CASE Module_name: Tìm kiếm sản phẩm Mô tả: Kiểm thử chức năng xem sản phẩm đã xem Người tạo: Nguyễn Thiện Thật Ngày tạo: 27/05/2026 Ngày review: 30/05/2026 Điều kiện tiên quyết Không có Môi trường: OS: Windows/Linux/Mac System: Laptop/Desktop",
+        "hit": false
+      }
+    ],
+    "hit@1": false,
+    "evidence_hit@3": false,
+    "filter_compliant_top3": null,
+    "strategy": "C"
+  },
+  {
+    "question_id": "q17",
+    "question": "Tỉ lệ test case đạt (passed) trong test report là bao nhiêu?",
+    "expected_answer": "81.25%",
+    "split": "test",
+    "filter": {},
+    "gold_page": 68,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p32-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 32,
+        "section": "chuong_2",
+        "score": 0.6791919469833374,
+        "text": "Hình 2.11 Kiểm tra kết quả Test case 31",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p68-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 68,
+        "section": "chuong_3",
+        "score": 0.6003718376159668,
+        "text": "Hình 3.18: Kết quả test xem sản phẩm đã xem khi có sản phẩm đã xem TH2: Xem sản phẩm đã xem khi không có sản phẩm đã xem trong tài khoản Hình 3.19: Kết quả test xem sản phẩm đã xem khi không có sản phẩm đã xem 3.5.5. Test Report − Tỉ lệ test case đạt (passed): 81.25% 67",
+        "hit": true
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p14-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 14,
+        "section": "chuong_1",
+        "score": 0.5660465955734253,
+        "text": "ử. 1.2.3. Thiết kế kiểm thử (Test Case Development) - Thấu hiểu yêu cầu - Thiết kế các kịch bản kiểm thử chi tiết. - Chuẩn bị dữ liệu kiểm thử và viết các script kiểm thử nếu cần. - Review test case để bổ sung và tránh rủi ro 13",
+        "hit": false
+      }
+    ],
+    "hit@1": false,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": null,
+    "strategy": "C"
+  },
+  {
+    "question_id": "q18",
+    "question": "Tỉ lệ test case không đạt (failed) trong test report là bao nhiêu?",
+    "expected_answer": "18.75%",
+    "split": "test",
+    "filter": {},
+    "gold_page": 69,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p32-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 32,
+        "section": "chuong_2",
+        "score": 0.7004290819168091,
+        "text": "Hình 2.11 Kiểm tra kết quả Test case 31",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p69-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 69,
+        "section": "chuong_3",
+        "score": 0.6493163108825684,
+        "text": "− Tỉ lệ test case không đạt (failed): 18.75% − Hệ thống chạy ổn định trên các trình duyệt web khác nhau (Google Chrome, Microsoft Edge) 68",
+        "hit": true
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p68-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 68,
+        "section": "chuong_3",
+        "score": 0.6289582252502441,
+        "text": "Hình 3.18: Kết quả test xem sản phẩm đã xem khi có sản phẩm đã xem TH2: Xem sản phẩm đã xem khi không có sản phẩm đã xem trong tài khoản Hình 3.19: Kết quả test xem sản phẩm đã xem khi không có sản phẩm đã xem 3.5.5. Test Report − Tỉ lệ test case đạt (passed): 81.25% 67",
+        "hit": false
+      }
+    ],
+    "hit@1": false,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": null,
+    "strategy": "C"
+  },
+  {
+    "question_id": "q19",
+    "question": "Công cụ Selenium cho phép viết test script bằng những ngôn ngữ lập trình nào?",
+    "expected_answer": "Java, PHP, C#, Ruby, Python, Perl",
+    "split": "test",
+    "filter": {},
+    "gold_page": 25,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p26-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 26,
+        "section": "chuong_2",
+        "score": 0.7597828507423401,
+        "text": "ng (Cross-Browser & Cross-Platform Testing), Kiểm thử độc lập và liên tục (Headless & Continuous Testing). Một vài đặc điểm nổi trội của Selenium: - Selenium là m ột công c ụ mã ngu ồn m ở/ framework đ ể kiểm tra web, website phiên bản di động - Selenium IDE hỗ trợ tính năng playback giúp chúng ta có thể sử dụng các bài test của người khác và không cần phải biết ngôn ngữ script - Selenium là m ột nền tảng kiểm thử dựa trên cloud giúp tester có th ể lưu lại thao tác và xuất ra dưới dạng script đơn giản, dễ hiểu. - Selenium hỗ trợ nhiều hệ điều hành, ngôn ngữ và trình duyệt khác nhau. - Giúp chúng ta có th ể chạy cùng lúc nhiều bài test đ ể giảm thời gian và tăng hiệu quả - Quá trình ki ểm thử",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p25-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 25,
+        "section": "chuong_2",
+        "score": 0.7345041632652283,
+        "text": "ce (open source test automation tool), dành cho các ứng dụng web, hỗ trợ hoạt động trên nhiều trình duyệt và nền tảng khác nhau như Windows, Mac, Linus… V ới Selenium, bạn có thể viết các testscript bằng các ngôn ngữ lập trình khác nhau như Java, PHP, C#, Ruby hay Python hay thậm chí là Perl… Selenium được sử dụng để automate các thao tác với trình duyệt, hay dễ hiểu hơn là nó giúp giả lập lại các tương tác trên trình duy ệt như một người dùng thực sự. Ví dụ bạn có thể lập trình để tự động bật trình duyệt, open một link, input dữ liệu, hay get infor page, upload, download dữ liệu từ trên web page. Với selenium bạn có thể làm đc rất nhiều thứ. Hơn thế nữa, bạn có thể sử dụng, tùy biến để tận",
+        "hit": true
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p26-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 26,
+        "section": "chuong_2",
+        "score": 0.6883342266082764,
+        "text": "2.5.2.Đặc trưng Selenium là bộ kiểm thử tự động miễn phí (mã nguồn mở) dành cho các ứng dụng web trên các trình duy ệt và nền tảng khác nhau như: Firefox, Google Chrome, Microsoft edge. Selenium không ch ỉ là 1 công cụ độc lập mà là 1 bộ công cụ của phần mềm, mỗi bộ đều đáp ứng được nhu cầu kiểm thử khác nhau của 1 tổ chức. Hiện tại, phiên bản mới nhất của công cụ này là Selenium 4. Phiên bản này hỗ trợ nhiều loại kiểm thử trong quá trình phát triển và kiểm tra ứng dụng web như: Kiểm thử chức năng (Functional Testing), Kiểm thử giao diện người dùng (User Interface Testing), Kiểm thử tích hợp (Integration Testing), Kiểm thử hiệu năng (Performance Testing), Kiểm thử đa trình duyệt và đa nền tả",
+        "hit": false
+      }
+    ],
+    "hit@1": false,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": null,
+    "strategy": "C"
+  },
+  {
+    "question_id": "q20",
+    "question": "Trong Chương 1, giai đoạn đầu tiên của quy trình kiểm thử phần mềm là gì?",
+    "expected_answer": "Phân tích yêu cầu (Requirement Analysis)",
+    "split": "dev",
+    "filter": {
+      "section": "chuong_1"
+    },
+    "gold_page": 14,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p13-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 13,
+        "section": "chuong_1",
+        "score": 0.713250994682312,
+        "text": "1.1 Khái niệm về kiểm thử phần mềm 1.1.1. Khái niệm Kiểm thử phần mềm là một phương pháp để kiểm tra xem sản phẩm phần mềm thực tế có phù hợp với các yêu cầu mong đợi hay không và để đảm bảo rằng không có khiếm khuyết. Nó liên quan đến việc thực thi các thành phần phần mềm hệ thống bằng cách sử dụng thủ công hoặc tự động để đánh giá một hoặc nhiều thuộc tính quan trọng. 1.1.2. Vai trò - Đảm bảo chất lượng phần mềm và mang tính sống còn trong các dự án sản xuất phần mềm. Vì vậy nó đã trở thành quy trình bắt buộc trong các dự án phần mềm hiện nay. - Tránh những rủi ro, lỗi phát sinh trong su ốt quá trình tạo ra sản phẩm. Phát hiện sớm và sửa chữa, giảm chi phí, tiết kiệm thời gian và nguồn lực",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p14-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 14,
+        "section": "chuong_1",
+        "score": 0.6852702498435974,
+        "text": "Hình 1.1: Quy trình kiểm thử phần mềm 1.2.1. Phân tích yêu cầu (Requirement Analysis) - Giai đoạn này tập trung vào việc hiểu và phân tích yêu cầu của khách hàng đối với sản phẩm phần mềm. - Các tài liệu như tài liệu yêu cầu, tài liệu thiết kế hệ thống được nghiên cứu để hiểu rõ yêu cầu chức năng và phi chức năng. - Các vấn đề phát sinh hoặc không rõ ràng thường được thảo luận và làm rõ với các bên liên quan: BA (Business Analysis), PM (Project Manager), team leader, khách hàng 1.2.2. Lập kế hoạch kiểm thử(Test planning) - Xác định phạm vi, hướng tiếp cận, quy trình, tài nguyên, và l ịch trình kiểm thử. - Lập kế hoạch cho các module, công cụ và môi trường, phân công và sắp xếp thứ tự kiểm th",
+        "hit": true
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p15-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 15,
+        "section": "chuong_1",
+        "score": 0.6024430990219116,
+        "text": "kiểm thử phần mềm Hình 1.2: Mô hình chữ V 14",
+        "hit": false
+      }
+    ],
+    "hit@1": false,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": [
+      true,
+      true,
+      true
+    ],
+    "strategy": "C"
+  },
+  {
+    "question_id": "q21",
+    "question": "Trong Chương 2, Selenium WebDriver có yêu cầu phải cài đặt server hay không?",
+    "expected_answer": "Không yêu cầu cài đặt server",
+    "split": "dev",
+    "filter": {
+      "section": "chuong_2"
+    },
+    "gold_page": 26,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p26-c2",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 26,
+        "section": "chuong_2",
+        "score": 0.7755253314971924,
+        "text": "của Selenium hao t ốn ít tài nguyên và yêu c ầu cấu hình thiết bị thấp hơn các công cụ khác. - Selenium WebDriver không yêu cầu cài đặt server, test script của chúng ta sẽ trực tiếp tương tác với trình duyệt. 25",
+        "hit": true
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p27-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 27,
+        "section": "chuong_2",
+        "score": 0.5612932443618774,
+        "text": "2.6.Cài đặt và sử dụng công cụ Selenium 2.6.1.Cài đặt Bước 1: Vào trình duyệt Chrome và truy cập vào link: https://www.selenium.dev/selenium-ide/ Bước 2: Chọn CHROME DOWNLOAD Hình 2.3: Truy cập đường dẫn cài đặt Selenium IDE Bước 3: Nhấn thêm vào Chorme Hình 2.4 Cài đặt Selenium IDE 2.6.2.Cách sử dụng Bước 1: Sau khi nhấn vào biểu tượng Selenium IDE. Một cửa sổ được hiển thị lên. Bước 2: Chọn create a new Project 26",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p26-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 26,
+        "section": "chuong_2",
+        "score": 0.5110124349594116,
+        "text": "2.5.2.Đặc trưng Selenium là bộ kiểm thử tự động miễn phí (mã nguồn mở) dành cho các ứng dụng web trên các trình duy ệt và nền tảng khác nhau như: Firefox, Google Chrome, Microsoft edge. Selenium không ch ỉ là 1 công cụ độc lập mà là 1 bộ công cụ của phần mềm, mỗi bộ đều đáp ứng được nhu cầu kiểm thử khác nhau của 1 tổ chức. Hiện tại, phiên bản mới nhất của công cụ này là Selenium 4. Phiên bản này hỗ trợ nhiều loại kiểm thử trong quá trình phát triển và kiểm tra ứng dụng web như: Kiểm thử chức năng (Functional Testing), Kiểm thử giao diện người dùng (User Interface Testing), Kiểm thử tích hợp (Integration Testing), Kiểm thử hiệu năng (Performance Testing), Kiểm thử đa trình duyệt và đa nền tả",
+        "hit": false
+      }
+    ],
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": [
+      true,
+      true,
+      true
+    ],
+    "strategy": "C"
+  },
+  {
+    "question_id": "q22",
+    "question": "Trong Chương 3, website IVY moda thuộc sở hữu của ai?",
+    "expected_answer": "Doanh nhân Vũ Anh",
+    "split": "test",
+    "filter": {
+      "section": "chuong_3"
+    },
+    "gold_page": 33,
+    "hits": [
+      {
+        "chunk_id": "ktpm_e2e_selenium-p33-c1",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 33,
+        "section": "chuong_3",
+        "score": 0.5268504619598389,
+        "text": "3.1. Giới thiệu phần mềm website thời trang ivymoda.com IVY moda được thành lập vào tháng 10/2005, thuộc sở hữu của doanh nhân Vũ Anh. Ở xuất phát điểm IVY moda hướng đến dòng thời trang công sở cho nữ và đã gặt hái được nhiều thành công. Không dừng lại ở đó thương hiệu còn cho ra đời dòng sản phẩm dành cho nam và trẻ em nhằm đáp ứng đa dạng nhu cầu của khách hàng. IVY moda là thương hi ệu thời trang Việt Nam với mong muốn đem lại vẻ đẹp hiện đại và sự tự tin cho khách hàng, thông qua các dòng sản phẩm thời trang thể hiện cá tính và xu hướng. Một trong những “tôn chỉ” về thiết kế của IVY moda chính là sự đa dạng, với mong muốn mang đến cho người mặc những sản phẩm phù hợp nhất với ngoại hình",
+        "hit": true
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p60-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 60,
+        "section": "chuong_3",
+        "score": 0.43009448051452637,
+        "text": "trong tài 3 Nhấn chuột vào hiển thị khoản “Sản phẩm đã danh sách xem” sản phẩm đã xem trong tài khoản SPDX_ Xem sản 1 Truy cập trang Hệ thống Giống PASS 02 phẩm đã xem https://ivymoda chuyển đến với đầu khi không có .com/ màn hình ra kỳ sản phẩm đã 2 nhấn vào biểu “Sản phẩm vọng xem trong tài đã xem” khoản tượng 3 Nhấn chuột vào “Sản phẩm yêu thích” 3.5.4. Tiến hành kiểm thử 3.5.4.1. Chức năng đăng nhập TH1: Đăng nhập thành công với số điện thoại, mật khẩu đúng 59",
+        "hit": false
+      },
+      {
+        "chunk_id": "ktpm_e2e_selenium-p36-c0",
+        "document_id": "ktpm_e2e_selenium",
+        "source": "data/KTPM_N11.pdf",
+        "page": 36,
+        "section": "chuong_3",
+        "score": 0.3643990159034729,
+        "text": "3. Bảo trì danh mục con: Cho phép người quản trị xem, thêm, sửa, xóa thông tin trong bảng DANHMUCCON. 4. Bảo trì tin tức: Cho phép người quản trị xem, thêm, sửa, xóa thông tin trong bảng TINTUC. 5. Bảo trì khuyến mãi: Cho phép người quản trị xem, thêm, sửa, xóa thông tin trong bảng KHUYENMAI và CHITIETKHUYENMAI. 6. Bảo trì thông tin khách hàng: Cho phép người quản trị xem, thêm, sửa, xóa thông tin trong bảng KHACHHANG. 7. Bảo trì sản phẩm: Cho phép người quản trị xem, thêm, sửa, xóa thông tin trong bảng SANPHAM. 8. Quản lý cửa hàng: Cho phép người quản trị xem, thêm, sửa, xóa thông tin trong bảng CUAHANG. 9. Quản lý nhân viên: Cho phép người quản trị xem, thêm, sửa, xóa thông tin trong bảng",
+        "hit": false
+      }
+    ],
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "filter_compliant_top3": [
+      true,
+      true,
+      true
+    ],
+    "strategy": "C"
+  }
+]

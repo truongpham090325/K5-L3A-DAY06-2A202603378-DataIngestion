@@ -1,0 +1,105 @@
+{
+  "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "dimensions": 384,
+  "strategies": {
+    "A": {
+      "count": 120,
+      "total_chars": 46923,
+      "min_chars": 33,
+      "max_chars": 500,
+      "mean_chars": 391.0,
+      "strategy": "A",
+      "config": {
+        "chunking": "fixed_size",
+        "size": 500,
+        "overlap": 50,
+        "use_filter": false
+      },
+      "ingest_seconds": 2.885,
+      "estimated_tokens": 11730,
+      "estimated_cost_usd": 0.0
+    },
+    "B": {
+      "count": 103,
+      "total_chars": 43949,
+      "min_chars": 8,
+      "max_chars": 700,
+      "mean_chars": 426.7,
+      "strategy": "B",
+      "config": {
+        "chunking": "by_paragraph",
+        "max_size": 700,
+        "use_filter": false
+      },
+      "ingest_seconds": 2.301,
+      "estimated_tokens": 10987,
+      "estimated_cost_usd": 0.0
+    },
+    "C": {
+      "count": 103,
+      "total_chars": 43949,
+      "min_chars": 8,
+      "max_chars": 700,
+      "mean_chars": 426.7,
+      "strategy": "C",
+      "config": {
+        "chunking": "by_paragraph",
+        "max_size": 700,
+        "use_filter": true
+      },
+      "ingest_seconds": 2.455,
+      "estimated_tokens": 10987,
+      "estimated_cost_usd": 0.0
+    }
+  },
+  "metrics": {
+    "A": {
+      "dev": {
+        "n": 16,
+        "hit@1": "8/16",
+        "hit@1_rate": 0.5,
+        "evidence_hit@3": "10/16",
+        "evidence_hit@3_rate": 0.625
+      },
+      "test": {
+        "n": 6,
+        "hit@1": "2/6",
+        "hit@1_rate": 0.3333,
+        "evidence_hit@3": "4/6",
+        "evidence_hit@3_rate": 0.6667
+      }
+    },
+    "B": {
+      "dev": {
+        "n": 16,
+        "hit@1": "7/16",
+        "hit@1_rate": 0.4375,
+        "evidence_hit@3": "13/16",
+        "evidence_hit@3_rate": 0.8125
+      },
+      "test": {
+        "n": 6,
+        "hit@1": "1/6",
+        "hit@1_rate": 0.1667,
+        "evidence_hit@3": "5/6",
+        "evidence_hit@3_rate": 0.8333
+      }
+    },
+    "C": {
+      "dev": {
+        "n": 16,
+        "hit@1": "7/16",
+        "hit@1_rate": 0.4375,
+        "evidence_hit@3": "13/16",
+        "evidence_hit@3_rate": 0.8125
+      },
+      "test": {
+        "n": 6,
+        "hit@1": "1/6",
+        "hit@1_rate": 0.1667,
+        "evidence_hit@3": "5/6",
+        "evidence_hit@3_rate": 0.8333
+      }
+    }
+  }
+}

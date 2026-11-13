@@ -17,11 +17,11 @@ from typing import Any
 from dotenv import load_dotenv
 
 from .chunking import by_paragraph, fixed_size
-from .embeddings import MyEmbedder
+from .embeddings import LocalEmbedder, MyEmbedder
 from .evaluation import evaluate_query, summarize
 from .ingestion import load_pdf
 from .models import Chunk, DocumentPage
-from .store import PgVectorStore
+from .store import ChromaStore, PgVectorStore
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 log = logging.getLogger("day06")
@@ -92,6 +92,9 @@ def load_config() -> dict[str, Any]:
             os.getenv("MANIFEST_PATH", str(REPO_ROOT / "data" / "manifest.json"))
         ),
         "results_dir": Path(os.getenv("RESULTS_DIR", str(STARTER_DIR / "results"))),
+        "embedding_backend": os.getenv("EMBEDDING_BACKEND", "openai"),
+        "store_backend": os.getenv("STORE_BACKEND", "pgvector"),
+        "chroma_dir": Path(os.getenv("CHROMA_DIR", str(STARTER_DIR / "chroma_data"))),
     }
 
 
@@ -183,12 +186,22 @@ def main() -> None:
     questions = load_benchmark(cfg["benchmark_path"])
 
     # 2) One real embedding model + one persistent store for all strategies.
-    embedder = MyEmbedder(model_name=cfg["embedding_model"])
+    if cfg["embedding_backend"] == "local":
+        embedder = LocalEmbedder(model_name=cfg["embedding_model"])
+    else:
+        embedder = MyEmbedder(model_name=cfg["embedding_model"])
     log.info(
-        "Embedding model: %s (%d dims).", embedder.model_name, embedder.dimensions
+        "Embedding model: %s (%d dims, backend=%s).",
+        embedder.model_name, embedder.dimensions, cfg["embedding_backend"],
     )
-    store = PgVectorStore(cfg["database_url"], embedder.dimensions)
+
+    if cfg["store_backend"] == "chroma":
+        cfg["chroma_dir"].mkdir(parents=True, exist_ok=True)
+        store = ChromaStore(str(cfg["chroma_dir"]), embedder.dimensions)
+    else:
+        store = PgVectorStore(cfg["database_url"], embedder.dimensions)
     store.create_schema()
+    log.info("Vector store backend: %s.", cfg["store_backend"])
 
     all_traces: list[dict[str, Any]] = []
     strategy_stats: dict[str, dict[str, Any]] = {}
@@ -212,7 +225,10 @@ def main() -> None:
 
         total_chars = stats["total_chars"]
         est_tokens = max(1, total_chars // 4)
-        est_cost_usd = est_tokens * EMBED_COST_PER_1M_TOKENS / 1_000_000
+        if cfg["embedding_backend"] == "local":
+            est_cost_usd = 0.0  # local model: no paid API calls
+        else:
+            est_cost_usd = est_tokens * EMBED_COST_PER_1M_TOKENS / 1_000_000
         stats.update(
             {
                 "ingest_seconds": round(ingest_seconds, 3),

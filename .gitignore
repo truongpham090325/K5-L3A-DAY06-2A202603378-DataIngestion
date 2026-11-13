@@ -2,6 +2,7 @@ __pycache__/
 .venv/
 .env
 *.pyc
+chroma_data/
 
 .env.*
 !.env.example

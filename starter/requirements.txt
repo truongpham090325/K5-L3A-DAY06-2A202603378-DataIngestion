@@ -4,3 +4,5 @@ pypdf>=5,<7
 python-dotenv>=1,<2
 # OpenAI SDK for the chosen embedding provider (text-embedding-3-small).
 openai>=1,<4
+# Local (no API key/Docker) backend — install only if using EMBEDDING_BACKEND=local + STORE_BACKEND=chroma:
+#   sentence-transformers  chromadb

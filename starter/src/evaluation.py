@@ -53,12 +53,16 @@ def evaluate_query(question: dict[str, Any], hits: list[dict[str, Any]]) -> dict
 
     return {
         "question_id": question["id"],
+        "question": question.get("question", ""),
+        "expected_answer": question.get("expected_answer", ""),
         "split": question.get("split"),
         "filter": qfilter,
         "gold_page": question["gold_page"],
         "hits": [
             {
                 "chunk_id": h.get("chunk_id"),
+                "document_id": h.get("document_id"),
+                "source": h.get("source"),
                 "page": h.get("page"),
                 "section": h.get("section"),
                 "score": h.get("score"),
